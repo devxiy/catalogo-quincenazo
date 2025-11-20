@@ -40,8 +40,8 @@ const ProductCard = ({ product, className = '' }: { product: GridProduct; classN
         <Image
           src={product.imagen}
           alt={product.nombre}
-          width={160}
-          height={160}
+          width={240}
+          height={240}
           className="object-contain max-h-[140px] drop-shadow-[0_8px_16px_rgba(0,0,0,0.15)]"
         />
         {/* Botón Tipti - posición absoluta abajo derecha */}
@@ -49,8 +49,8 @@ const ProductCard = ({ product, className = '' }: { product: GridProduct; classN
         <Image
           src="/assets/btn-tipti.png"
           alt="Pídelo por Tipti"
-          width={80}
-          height={80}
+          width={60}
+          height={79}
           className="object-contain drop-shadow-lg"
         />
       </div>
@@ -73,9 +73,15 @@ const ProductCard = ({ product, className = '' }: { product: GridProduct; classN
 
         {/* Columna derecha: precios */}
         <div className="flex flex-col items-end justify-center text-right">
+          <p className="text-[16px] text-gray-400 uppercase tracking-wider mt-1 text-[#FFFFFF]">
+            Precio Akí
+          </p>
           <span className="text-[#FFDE00] text-2xl font-black whitespace-nowrap">
             ${parseFloat(product.precio_oferta).toFixed(2)}
           </span>
+          <p className="text-[12px] text-gray-400 uppercase tracking-wider mt-1 text-[#FFFFFF]">
+            Precio normal unitario
+          </p>
           <p className="text-sm text-gray-300 line-through mt-1">
             ${parseFloat(product.precio_normal).toFixed(2)}
           </p>
@@ -92,8 +98,8 @@ const FeaturedBigProduct = ({ product, categoryId }: { product: GridProduct; cat
       <Image
         src="/assets/icono-diasnegros.png"
         alt="Días Negros"
-        width={80}
-        height={80}
+        width={120}
+        height={120}
         className="object-contain"
       />
     </div>
