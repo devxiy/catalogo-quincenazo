@@ -62,7 +62,7 @@ const ProductCard = ({ product, className = '' }: { product: GridProduct; classN
       {/* Info del producto - 2 columnas */}
       <div className="bg-black rounded-t-[20px] px-5 py-5 flex-1 flex gap-3">
         {/* Columna izquierda: nombre y código */}
-        <div className="flex-1 pr-2">
+        <div className="flex-1 pr-2 justify-center">
           <p className="text-white font-bold text-base leading-tight line-clamp-3">
             {product.nombre}
           </p>
@@ -72,17 +72,17 @@ const ProductCard = ({ product, className = '' }: { product: GridProduct; classN
         </div>
 
         {/* Columna derecha: precios */}
-        <div className="flex flex-col items-end justify-center text-right">
-          <p className="text-[14px] text-gray-400 tracking-wider mt-1 text-[#FFFFFF]">
+        <div className="flex-2 flex-col items-end justify-center text-right">
+          <p className="text-[14px] text-gray-400 tracking-wider text-[#FFFFFF]">
             Precio Akí
           </p>
           <span className="text-[#FFDE00] text-3xl font-black whitespace-nowrap">
             ${parseFloat(product.precio_oferta).toFixed(2)}
           </span>
-          <p className="text-[10px] text-gray-400 tracking-wider mt-1 text-[#FFFFFF]">
+          <p className="text-[10px] text-gray-400 tracking-wider text-[#FFFFFF]">
             Precio normal unitario
           </p>
-          <p className="text-base text-gray-300 line-through mt-1">
+          <p className="text-base text-gray-300 line-through">
             ${parseFloat(product.precio_normal).toFixed(2)}
           </p>
         </div>
@@ -119,7 +119,7 @@ const FeaturedBigProduct = ({ product, categoryId }: { product: GridProduct; cat
       {/* Textos encima de la imagen - 2 columnas */}
       <div className="absolute top-6 left-6 z-10 bg-black/90 backdrop-blur-sm rounded-2xl px-6 py-4 max-w-[320px] flex gap-4">
         {/* Columna izquierda: nombre y código */}
-        <div className="flex-1">
+        <div className="flex-1 justify-center">
           <p className="text-white font-black text-lg leading-tight line-clamp-2 mb-2">
             {product.nombre}
           </p>
@@ -129,11 +129,11 @@ const FeaturedBigProduct = ({ product, categoryId }: { product: GridProduct; cat
         </div>
 
         {/* Columna derecha: precios */}
-        <div className="flex flex-col items-end justify-center text-right">
+        <div className="flex-2 flex-col items-end justify-center text-right">
           <span className="text-[#FFDE00] text-3xl font-black whitespace-nowrap">
             ${parseFloat(product.precio_oferta).toFixed(2)}
           </span>
-          <p className="text-sm text-gray-400 line-through mt-1">
+          <p className="text-sm text-gray-400 line-through">
             ${parseFloat(product.precio_normal).toFixed(2)}
           </p>
         </div>
