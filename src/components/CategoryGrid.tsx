@@ -73,13 +73,13 @@ const ProductCard = ({ product, className = '' }: { product: GridProduct; classN
 
         {/* Columna derecha: precios */}
         <div className="flex flex-col items-end justify-center text-right">
-          <p className="text-[16px] text-gray-400 uppercase tracking-wider mt-1 text-[#FFFFFF]">
+          <p className="text-[14px] text-gray-400 tracking-wider mt-1 text-[#FFFFFF]">
             Precio Akí
           </p>
           <span className="text-[#FFDE00] text-3xl font-black whitespace-nowrap">
             ${parseFloat(product.precio_oferta).toFixed(2)}
           </span>
-          <p className="text-[12px] text-gray-400 uppercase tracking-wider mt-1 text-[#FFFFFF]">
+          <p className="text-[10px] text-gray-400 tracking-wider mt-1 text-[#FFFFFF]">
             Precio normal unitario
           </p>
           <p className="text-base text-gray-300 line-through mt-1">
