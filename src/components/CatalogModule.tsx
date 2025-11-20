@@ -47,7 +47,7 @@ const CatalogModule = () => {
         <HeroSplit items={heroPromos} />
 
         {/* Sección intro */}
-        <section className="text-center space-y-4 py-8">
+        <section className="text-center space-y-4 py-8 hidden">
           <p className="text-sm uppercase tracking-[0.5em] text-white/60">
             DÍAS MÁS BLACK QUE NUNCA
           </p>
