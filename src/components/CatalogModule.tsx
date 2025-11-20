@@ -7,23 +7,27 @@ import SiteFooter from './SiteFooter';
 import { heroPromos } from '../data/catalog';
 import dinamicos from '../data/dinamicos.json';
 
-// Mapeo de categorías del CSV a IDs
+// Mapeo de categorías del CSV a IDs y colores
 const categoryConfig = {
   Alimentos: {
     id: 'alimentos',
     name: 'Alimentos y Bebidas',
+    accentColor: '#FF70C4', // Rosa
   },
   Higiene: {
     id: 'higiene',
     name: 'Productos de Higiene',
+    accentColor: '#5DECFF', // Cyan
   },
   Limpieza: {
     id: 'limpieza',
     name: 'Productos de Limpieza',
+    accentColor: '#25FF87', // Verde
   },
   Hogar: {
     id: 'hogar',
     name: 'Hogar y Electrodomésticos',
+    accentColor: '#FFB23E', // Naranja
   },
 };
 
@@ -66,6 +70,7 @@ const CatalogModule = () => {
               key={config.id}
               categoryId={config.id}
               categoryName={config.name}
+              accentColor={config.accentColor}
               products={products}
             />
           );

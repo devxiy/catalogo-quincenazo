@@ -18,11 +18,17 @@ export type GridProduct = {
 export type CategoryGridProps = {
   categoryId: string;
   categoryName: string;
+  accentColor: string;
   products: GridProduct[];
 };
 
-const ProductCard = ({ product, className = '' }: { product: GridProduct; className?: string }) => (
-  <div className={`relative rounded-[24px] overflow-hidden bg-gradient-to-b from-[#1B001B] to-[#050105] p-[2px] shadow-[0_8px_24px_rgba(0,0,0,0.4)] ${className}`}>
+const ProductCard = ({ product, accentColor, className = '' }: { product: GridProduct; accentColor: string; className?: string }) => (
+  <div 
+    className={`relative rounded-[24px] overflow-hidden p-[3px] shadow-[0_8px_24px_rgba(0,0,0,0.4)] ${className}`}
+    style={{ 
+      background: `linear-gradient(135deg, ${accentColor}40 0%, ${accentColor}20 100%)`
+    }}
+  >
     {/* Badge Días Negros - arriba derecha */}
     <div className="absolute top-0 right-0 z-10 w-14 h-14">
       <Image
@@ -91,8 +97,13 @@ const ProductCard = ({ product, className = '' }: { product: GridProduct; classN
   </div>
 );
 
-const FeaturedBigProduct = ({ product, categoryId }: { product: GridProduct; categoryId: string }) => (
-  <div className="relative rounded-[32px] overflow-hidden bg-gradient-to-b from-[#1B001B] to-[#050105] p-[3px] shadow-[0_15px_45px_rgba(0,0,0,0.5)] col-span-2 row-span-2">
+const FeaturedBigProduct = ({ product, categoryId, accentColor }: { product: GridProduct; categoryId: string; accentColor: string }) => (
+  <div 
+    className="relative rounded-[32px] overflow-hidden p-[4px] shadow-[0_15px_45px_rgba(0,0,0,0.5)] col-span-2 row-span-2"
+    style={{
+      background: `linear-gradient(135deg, ${accentColor}60 0%, ${accentColor}30 100%)`
+    }}
+  >
     {/* Badge Días Negros - arriba derecha */}
     <div className="absolute top-4 right-4 z-10 w-20 h-20">
       <Image
@@ -153,7 +164,7 @@ const FeaturedBigProduct = ({ product, categoryId }: { product: GridProduct; cat
   </div>
 );
 
-const CategoryGrid = ({ categoryId, categoryName, products }: CategoryGridProps) => {
+const CategoryGrid = ({ categoryId, categoryName, accentColor, products }: CategoryGridProps) => {
   // Dividir productos según la estructura
   const producto1 = products[0]; // Debajo del banner izquierdo (fila 1)
   const producto2 = products[1]; // Debajo del banner izquierdo (fila 2)
@@ -179,26 +190,26 @@ const CategoryGrid = ({ categoryId, categoryName, products }: CategoryGridProps)
         </div>
 
         {/* FILA 1-2: Producto grande derecho (2 cols x 2 filas) */}
-        {productoBig && <FeaturedBigProduct product={productoBig} categoryId={categoryId} />}
+        {productoBig && <FeaturedBigProduct product={productoBig} categoryId={categoryId} accentColor={accentColor} />}
 
         {/* FILA 2: Producto 1 debajo del banner (1 col) */}
-        {producto1 && <ProductCard product={producto1} />}
+        {producto1 && <ProductCard product={producto1} accentColor={accentColor} />}
 
         {/* FILA 2: Producto 2 debajo del banner (1 col) */}
-        {producto2 && <ProductCard product={producto2} />}
+        {producto2 && <ProductCard product={producto2} accentColor={accentColor} />}
 
         {/* FILA 3: Producto destacado izquierda (2 cols) */}
-        {producto3 && <ProductCard product={producto3} className="col-span-2" />}
+        {producto3 && <ProductCard product={producto3} accentColor={accentColor} className="col-span-2" />}
 
         {/* FILA 3: Producto 4 derecha superior (1 col) */}
-        {producto4 && <ProductCard product={producto4} />}
+        {producto4 && <ProductCard product={producto4} accentColor={accentColor} />}
 
         {/* FILA 3: Producto 5 derecha inferior (1 col) */}
-        {producto5 && <ProductCard product={producto5} />}
+        {producto5 && <ProductCard product={producto5} accentColor={accentColor} />}
 
         {/* FILA 4+: Productos restantes (4 columnas normales) */}
         {productosRestantes.map((product) => (
-          <ProductCard key={product.codigo} product={product} />
+          <ProductCard key={product.codigo} product={product} accentColor={accentColor} />
         ))}
       </div>
     </section>
