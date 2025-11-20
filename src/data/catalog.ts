@@ -206,5 +206,30 @@ export const categories: CategoryBlock[] = [
     },
     products: placeholderProducts('Limpieza'),
   },
+  {
+    id: 'hogar',
+    title: 'Hogar',
+    accent: '#F22921',
+    discountLabel: 'HASTA CON EL 40% DTO.',
+    gradient: 'linear-gradient(180deg, #0b4024 0%, #042015 70%, #010805 100%)',
+    image: '/assets/producto.png',
+    reverseLayout: true,
+    highlight: {
+      image: '/assets/producto-big.png',
+      product: 'Combo limpieza profunda',
+      description: 'Mantén cada rincón impecable con descuentos 4x3.',
+      price: 1.29,
+      regularPrice: 3.9,
+    },
+    featured: {
+      id: 'ultra-clean',
+      name: 'Jabón Ultra Clean 3 kg',
+      code: 'Cod. 7861001300932',
+      price: 1.29,
+      regularPrice: 4.08,
+      image: '/assets/producto.png',
+    },
+    products: placeholderProducts('Limpieza'),
+  },
 ];
 
