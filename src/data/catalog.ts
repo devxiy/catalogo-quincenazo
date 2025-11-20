@@ -107,7 +107,7 @@ type CategoryConfig = Omit<CategoryBlock, 'featured' | 'products'> & {
 const categoryConfig: CategoryConfig[] = [
   {
     id: 'alimentos',
-    title: 'Alimentos y Bebidas',
+    title: 'Alimentos',
     accent: '#FF70C4',
     discountLabel: 'HASTA CON EL 40% DTO.',
     gradient: 'linear-gradient(180deg, #52004F 0%, #1a001b 60%, #090009 100%)',
@@ -124,7 +124,7 @@ const categoryConfig: CategoryConfig[] = [
   },
   {
     id: 'higiene',
-    title: 'Productos de Higiene',
+    title: 'Higiene',
     accent: '#FFB23E',
     discountLabel: 'HASTA CON EL 40% DTO.',
     gradient: 'linear-gradient(180deg, #613000 0%, #2c1200 70%, #090100 100%)',
@@ -140,7 +140,7 @@ const categoryConfig: CategoryConfig[] = [
   },
   {
     id: 'limpieza',
-    title: 'Productos de Limpieza',
+    title: 'Limpieza',
     accent: '#25FF87',
     discountLabel: 'HASTA CON EL 40% DTO.',
     gradient: 'linear-gradient(180deg, #0b4024 0%, #042015 70%, #010805 100%)',
@@ -157,7 +157,7 @@ const categoryConfig: CategoryConfig[] = [
   },
   {
     id: 'hogar',
-    title: 'Hogar y Electrodomésticos',
+    title: 'Hogar',
     accent: '#F22921',
     discountLabel: 'HASTA CON EL 40% DTO.',
     gradient: 'linear-gradient(180deg, #330009 0%, #120006 70%, #040003 100%)',
