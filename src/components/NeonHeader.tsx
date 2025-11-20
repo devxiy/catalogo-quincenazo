@@ -14,10 +14,9 @@ const NeonHeader = () => {
       }}
     >
       <div className="flex items-center gap-3">
-        <div className="bg-white rounded-xl px-4 py-2 shadow-[0_10px_30px_rgba(0,0,0,0.4)]">
+        <div className="">
           <Image src="/assets/logo-aki.png" alt="AKÍ" width={120} height={40} priority />
         </div>
-        <div className="uppercase text-[10px] tracking-[0.45em] text-white/70">Supermercados</div>
       </div>
 
       <nav className="flex flex-wrap gap-4 justify-center flex-1">

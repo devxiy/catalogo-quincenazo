@@ -109,7 +109,7 @@ const placeholderProducts = (prefix: string): Product[] => [
 export const categories: CategoryBlock[] = [
   {
     id: 'alimentos',
-    title: 'Alimentos y Despensa',
+    title: 'Alimentos',
     accent: '#FF70C4',
     discountLabel: 'HASTA CON EL 40% DTO.',
     gradient: 'linear-gradient(180deg, #52004F 0%, #1a001b 60%, #090009 100%)',
@@ -134,7 +134,7 @@ export const categories: CategoryBlock[] = [
   },
   {
     id: 'bebidas',
-    title: 'Variedad de Bebidas',
+    title: 'Bebidas',
     accent: '#5DECFF',
     discountLabel: 'HASTA CON EL 40% DTO.',
     gradient: 'linear-gradient(180deg, #0b3351 0%, #081326 60%, #05000d 100%)',
@@ -159,7 +159,7 @@ export const categories: CategoryBlock[] = [
   },
   {
     id: 'higiene',
-    title: 'Productos de Higiene',
+    title: 'Higiene',
     accent: '#FFB23E',
     discountLabel: 'HASTA CON EL 40% DTO.',
     gradient: 'linear-gradient(180deg, #613000 0%, #2c1200 70%, #090100 100%)',
@@ -183,7 +183,7 @@ export const categories: CategoryBlock[] = [
   },
   {
     id: 'limpieza',
-    title: 'Productos de Limpieza',
+    title: 'Limpieza',
     accent: '#25FF87',
     discountLabel: 'HASTA CON EL 40% DTO.',
     gradient: 'linear-gradient(180deg, #0b4024 0%, #042015 70%, #010805 100%)',
