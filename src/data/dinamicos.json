@@ -1,0 +1,1531 @@
+{
+  "Alimentos": [
+    {
+      "codigo": "8003540206101",
+      "nombre": "Zucchi Aceite Girasol 1.000 ml",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-11-13",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/8003540206101.png",
+      "descuento": "25",
+      "precio_normal": "4.99",
+      "precio_oferta": "3.74"
+    },
+    {
+      "codigo": "8719200257139",
+      "nombre": "Bonella Margarina Vital 490 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/8719200257139.png",
+      "descuento": "35",
+      "precio_normal": "2.69",
+      "precio_oferta": "1.75"
+    },
+    {
+      "codigo": "8004092000124",
+      "nombre": "Arbolito Aceite 250 ml",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/8004092000124.png",
+      "descuento": "12",
+      "precio_normal": "6.56",
+      "precio_oferta": "5.79"
+    },
+    {
+      "codigo": "705424000116",
+      "nombre": "Olé Hot’n Fruity Maracuyá 185 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/705424000116.png",
+      "descuento": "25",
+      "precio_normal": "2.09",
+      "precio_oferta": "1.57"
+    },
+    {
+      "codigo": "38000184932",
+      "nombre": "Pringles Original 124 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/38000184932.png",
+      "descuento": "20",
+      "precio_normal": "3.60",
+      "precio_oferta": "2.88"
+    },
+    {
+      "codigo": "7861018590692",
+      "nombre": "De Todito Picante 186 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7861018590692.png",
+      "descuento": "25",
+      "precio_normal": "2.24",
+      "precio_oferta": "1.68"
+    },
+    {
+      "codigo": "7862104123909",
+      "nombre": "Crokitos Copos de Chocolate 180 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7862104123909.png",
+      "descuento": "40",
+      "precio_normal": "1.67",
+      "precio_oferta": "1.00"
+    },
+    {
+      "codigo": "7862104122681",
+      "nombre": "Cereal Aritos de Colores 180 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7862104122681.png",
+      "descuento": "50",
+      "precio_normal": "1.75",
+      "precio_oferta": "0.88"
+    },
+    {
+      "codigo": "7861007801235",
+      "nombre": "El Sabor Canela 60 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7861007801235.png",
+      "descuento": "18",
+      "precio_normal": "2.43",
+      "precio_oferta": "1.99"
+    },
+    {
+      "codigo": "7750168000581",
+      "nombre": "Oreo Galleta de Chocolate 432 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-11-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7750168000581.png",
+      "descuento": "51",
+      "precio_normal": "4.27",
+      "precio_oferta": "2.09"
+    },
+    {
+      "codigo": "7861015103796",
+      "nombre": "Gustadina Mayonesa Doy Pack 400 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7861015103796.png",
+      "descuento": "27",
+      "precio_normal": "2.92",
+      "precio_oferta": "2.13"
+    },
+    {
+      "codigo": "7861015107664",
+      "nombre": "Gustadina Mostaza 200 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7861015107664.png",
+      "descuento": "20",
+      "precio_normal": "1.09",
+      "precio_oferta": "0.87"
+    },
+    {
+      "codigo": "8445291182745",
+      "nombre": "La Lechera Leche Condensada 393 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/8445291182745.png",
+      "descuento": "12",
+      "precio_normal": "2.27",
+      "precio_oferta": "2.00"
+    },
+    {
+      "codigo": "7861007800757",
+      "nombre": "El Sabor Esencia de Vainilla 500 ml",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7861007800757.png",
+      "descuento": "22",
+      "precio_normal": "1.74",
+      "precio_oferta": "1.36"
+    },
+    {
+      "codigo": "7862112520455",
+      "nombre": "Olé Salsa Dip Chipotle 235 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7862112520455.png",
+      "descuento": "25",
+      "precio_normal": "2.40",
+      "precio_oferta": "1.79"
+    },
+    {
+      "codigo": "7861018290035",
+      "nombre": "Los Andes Salsa de Tomate 550 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7861018290035.png",
+      "descuento": "20",
+      "precio_normal": "2.24",
+      "precio_oferta": "1.79"
+    },
+    {
+      "codigo": "7861015109682",
+      "nombre": "Gustadina Bbq Squeeze 200 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7861015109682.png",
+      "descuento": "25",
+      "precio_normal": "1.22",
+      "precio_oferta": "0.92"
+    },
+    {
+      "codigo": "7862112520509",
+      "nombre": "Olé Jalapeños Agridulces 250 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7862112520509.png",
+      "descuento": "25",
+      "precio_normal": "2.58",
+      "precio_oferta": "1.94"
+    },
+    {
+      "codigo": "7861007805929",
+      "nombre": "El Sabor Vinagre de Manzana 470 ml",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7861007805929.png",
+      "descuento": "19",
+      "precio_normal": "1.35",
+      "precio_oferta": "1.09"
+    },
+    {
+      "codigo": "7861009310094",
+      "nombre": "Doña Petra Vinagre Blanco 1.000 ml",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7861009310094.png",
+      "descuento": "25",
+      "precio_normal": "2.23",
+      "precio_oferta": "1.67"
+    },
+    {
+      "codigo": "7502252480669",
+      "nombre": "Nature's Heart Bebida de Almendra 946 ml",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7502252480669.png",
+      "descuento": "25",
+      "precio_normal": "3.84",
+      "precio_oferta": "2.88"
+    },
+    {
+      "codigo": "7861005204489",
+      "nombre": "Minerva Café Clásico Tostado y Molido 1.000 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7861005204489.png",
+      "descuento": "20",
+      "precio_normal": "12.17",
+      "precio_oferta": "9.69"
+    },
+    {
+      "codigo": "7862122703664",
+      "nombre": "La Universal Cocoa Vitaminas Doypack 400 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7862122703664.png",
+      "descuento": "25",
+      "precio_normal": "3.15",
+      "precio_oferta": "2.36"
+    },
+    {
+      "codigo": "8423453909584",
+      "nombre": "Brizo Bebida de Naranja 330 ml",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/8423453909584.png",
+      "descuento": "20",
+      "precio_normal": "0.81",
+      "precio_oferta": "0.65"
+    },
+    {
+      "codigo": "8413481040014",
+      "nombre": "May Gold Sparkling Uva Blanca 750 ml",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/8413481040014.png",
+      "descuento": "20",
+      "precio_normal": "4.09",
+      "precio_oferta": "3.27"
+    },
+    {
+      "codigo": "7862107781601",
+      "nombre": "Nature's Heart Manzanilla con Miel 20 x 1.30 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7862107781601.png",
+      "descuento": "29",
+      "precio_normal": "1.39",
+      "precio_oferta": "0.99"
+    },
+    {
+      "codigo": "7861122302945",
+      "nombre": "6 Pack Amstel Botella 6 X 330 ml",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7861122302945.png",
+      "descuento": "26",
+      "precio_normal": "8.10",
+      "precio_oferta": "5.99"
+    },
+    {
+      "codigo": "7861009946743",
+      "nombre": "Grile Panetón Mocca/Macadamias 450 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-11-26"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7861009946743.png",
+      "descuento": "15",
+      "precio_normal": "6.60",
+      "precio_oferta": "5.61"
+    },
+    {
+      "codigo": "7861009945562",
+      "nombre": "Grile Panettone Chocoavellana 470 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-11-26"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7861009945562.png",
+      "descuento": "15",
+      "precio_normal": "8.18",
+      "precio_oferta": "6.95"
+    },
+    {
+      "codigo": "7861153907768",
+      "nombre": "La Italiana Salchicha Hot Dog 380 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-11-13",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7861153907768.png",
+      "descuento": "15",
+      "precio_normal": "3.18",
+      "precio_oferta": "2.70"
+    },
+    {
+      "codigo": "7861153902107",
+      "nombre": "La Italiana Salchicha Ranchera 200 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-11-13",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7861153902107.png",
+      "descuento": "15",
+      "precio_normal": "2.38",
+      "precio_oferta": "2.02"
+    },
+    {
+      "codigo": "7861153905535",
+      "nombre": "La Italiana Chorizo Argentino 400 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-11-13",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7861153905535.png",
+      "descuento": "15",
+      "precio_normal": "4.54",
+      "precio_oferta": "3.86"
+    },
+    {
+      "codigo": "7861153908611",
+      "nombre": "La Italiana Chorizo Italiana 400 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-11-13",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7861153908611.png",
+      "descuento": "15",
+      "precio_normal": "3.61",
+      "precio_oferta": "3.07"
+    },
+    {
+      "codigo": "7861153901070",
+      "nombre": "La Italiana Chorizo Cuencano 450 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-11-13",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7861153901070.png",
+      "descuento": "15",
+      "precio_normal": "4.25",
+      "precio_oferta": "3.61"
+    },
+    {
+      "codigo": "7861000110112",
+      "nombre": "Greenlab Lechuga Crispada 200 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-11-13",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7861000110112.png",
+      "descuento": "20",
+      "precio_normal": "0.89",
+      "precio_oferta": "0.71"
+    },
+    {
+      "codigo": "7862127350450",
+      "nombre": "Dicorne Cevichocho 120 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-11-13",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7862127350450.png",
+      "descuento": "25",
+      "precio_normal": "0.99",
+      "precio_oferta": "0.74"
+    },
+    {
+      "codigo": "7868000748963",
+      "nombre": "Ecuarándano Arándano Hidropónico 125 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-11-13",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7868000748963.png",
+      "descuento": "25",
+      "precio_normal": "2.70",
+      "precio_oferta": "2.03"
+    },
+    {
+      "codigo": "7868000748925",
+      "nombre": "Ecuarándano Pulpa Líquida de Arándano 450 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-11-13",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7868000748925.png",
+      "descuento": "25",
+      "precio_normal": "4.48",
+      "precio_oferta": "3.36"
+    },
+    {
+      "codigo": "7861025806007",
+      "nombre": "Chiveria Bebida Yogurt de Mora 900 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7861025806007.png",
+      "descuento": "15",
+      "precio_normal": "1.26",
+      "precio_oferta": "1.07"
+    },
+    {
+      "codigo": "7861025804713",
+      "nombre": "Chiveria Yogurt de Durazno 950 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7861025804713.png",
+      "descuento": "20",
+      "precio_normal": "3.31",
+      "precio_oferta": "2.65"
+    },
+    {
+      "codigo": "7862122922300",
+      "nombre": "Krash Granola Crocante Fit 340 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7862122922300.png",
+      "descuento": "10",
+      "precio_normal": "1.53",
+      "precio_oferta": "1.38"
+    },
+    {
+      "codigo": "7862122922317",
+      "nombre": "Krash Galletas Brownie/Avellanas 126 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7862122922317.png",
+      "descuento": "10",
+      "precio_normal": "1.68",
+      "precio_oferta": "1.51"
+    },
+    {
+      "codigo": "7861042588412",
+      "nombre": "Krash Maní Dulce 90 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7861042588412.png",
+      "descuento": "10",
+      "precio_normal": "0.99",
+      "precio_oferta": "0.89"
+    },
+    {
+      "codigo": "7861042568858",
+      "nombre": "Akí Duraznos en Mitades 420 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7861042568858.png",
+      "descuento": "12",
+      "precio_normal": "1.81",
+      "precio_oferta": "1.59"
+    },
+    {
+      "codigo": "7861042577355",
+      "nombre": "Akí Lasaña Precocida 400 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7861042577355.png",
+      "descuento": "15",
+      "precio_normal": "4.19",
+      "precio_oferta": "3.56"
+    },
+    {
+      "codigo": "7861042507871",
+      "nombre": "Akí Fideos Broca 400 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7861042507871.png",
+      "descuento": "15",
+      "precio_normal": "1.03",
+      "precio_oferta": "0.88"
+    },
+    {
+      "codigo": "7861042564218",
+      "nombre": "Akí Harina de Maíz Precocida Amarilla 1.000 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7861042564218.png",
+      "descuento": "18",
+      "precio_normal": "1.69",
+      "precio_oferta": "1.39"
+    },
+    {
+      "codigo": "7861042564195",
+      "nombre": "Akí Harina de Maíz Amarillo 500 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7861042564195.png",
+      "descuento": "22",
+      "precio_normal": "0.89",
+      "precio_oferta": "0.69"
+    },
+    {
+      "codigo": "7861042557371",
+      "nombre": "Akí Papas Fritas Artesanales 200 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7861042557371.png",
+      "descuento": "25",
+      "precio_normal": "2.50",
+      "precio_oferta": "1.88"
+    },
+    {
+      "codigo": "7861042557388",
+      "nombre": "Akí Papas Fritas Palito 200 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7861042557388.png",
+      "descuento": "25",
+      "precio_normal": "2.51",
+      "precio_oferta": "1.88"
+    },
+    {
+      "codigo": "7861042574965",
+      "nombre": "Akí Papas Bbq 200 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7861042574965.png",
+      "descuento": "25",
+      "precio_normal": "2.47",
+      "precio_oferta": "1.85"
+    },
+    {
+      "codigo": "7401065628179",
+      "nombre": "Esy Lava Twisters Hot Chili Lime 50 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7401065628179.png",
+      "descuento": "87",
+      "precio_normal": "0.67",
+      "precio_oferta": "0.09"
+    },
+    {
+      "codigo": "7861042541004",
+      "nombre": "Akí Champiñón Entero 220 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-11-13",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7861042541004.png",
+      "descuento": "25",
+      "precio_normal": "1.82",
+      "precio_oferta": "1.37"
+    },
+    {
+      "codigo": "7861042541028",
+      "nombre": "Akí Champiñón Rebanado 220 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-11-13",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7861042541028.png",
+      "descuento": "25",
+      "precio_normal": "1.82",
+      "precio_oferta": "1.37"
+    }
+  ],
+  "Higiene": [
+    {
+      "codigo": "7702006404006",
+      "nombre": "Sedal Shampoo Células Madre Regeneración Intensa/fuerza 650 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-11-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7702006404006.png",
+      "descuento": "50",
+      "precio_normal": "8.42",
+      "precio_oferta": "4.19"
+    },
+    {
+      "codigo": "7702006300087",
+      "nombre": "Ego Cera Para Peinar 160 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-11-26"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7702006300087.png",
+      "descuento": "15",
+      "precio_normal": "3.50",
+      "precio_oferta": "2.98"
+    },
+    {
+      "codigo": "7891150099920",
+      "nombre": "Sedal Máscara Tratamiento Luminoso Uv 300 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-11-26"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7891150099920.png",
+      "descuento": "20",
+      "precio_normal": "5.50",
+      "precio_oferta": "4.39"
+    },
+    {
+      "codigo": "7501086453955",
+      "nombre": "Oral-b Cepillo Pro Salud Indicator Plus 2 Pack 2 u",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-11-26"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7501086453955.png",
+      "descuento": "21",
+      "precio_normal": "3.28",
+      "precio_oferta": "2.59"
+    },
+    {
+      "codigo": "7506306249998",
+      "nombre": "Axe Deo Aer Green Geranium 150 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-11-26"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7506306249998.png",
+      "descuento": "25",
+      "precio_normal": "6.12",
+      "precio_oferta": "4.59"
+    },
+    {
+      "codigo": "7702277931720",
+      "nombre": "Shampoo Nutrit Anticaspa 600 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-11-13",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7702277931720.png",
+      "descuento": "25",
+      "precio_normal": "5.99",
+      "precio_oferta": "4.49"
+    },
+    {
+      "codigo": "7506306214989",
+      "nombre": "Rexona Deo Spray Clinical Expert Women 150 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-11-26"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7506306214989.png",
+      "descuento": "25",
+      "precio_normal": "6.14",
+      "precio_oferta": "4.59"
+    },
+    {
+      "codigo": "7702006654210",
+      "nombre": "Sedal Crema de Peinar Luminoso Uv 300 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-11-26"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7702006654210.png",
+      "descuento": "26",
+      "precio_normal": "5.90",
+      "precio_oferta": "4.39"
+    },
+    {
+      "codigo": "7501056340131",
+      "nombre": "Sedal Crema de Peinar Rizos Obedientes 300 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-11-26"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7501056340131.png",
+      "descuento": "26",
+      "precio_normal": "5.90",
+      "precio_oferta": "4.39"
+    },
+    {
+      "codigo": "7509546666969",
+      "nombre": "Colgate Total 12 Gum 250 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7509546666969.png",
+      "descuento": "33",
+      "precio_normal": "4.46",
+      "precio_oferta": "2.99"
+    },
+    {
+      "codigo": "7702010920660",
+      "nombre": "Protex Jabón Herbal 330 g",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7702010920660.png",
+      "descuento": "33",
+      "precio_normal": "2.97",
+      "precio_oferta": "1.99"
+    },
+    {
+      "codigo": "7702560041761",
+      "nombre": "Fluocardent Crema Dental Triple Acción Max 75 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-11-13",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7702560041761.png",
+      "descuento": "30",
+      "precio_normal": "1.48",
+      "precio_oferta": "1.04"
+    },
+    {
+      "codigo": "7702277519003",
+      "nombre": "Aromasense Jabón Líquido Frutos Rojos Doypack 800 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-11-13",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7702277519003.png",
+      "descuento": "25",
+      "precio_normal": "4.79",
+      "precio_oferta": "3.59"
+    },
+    {
+      "codigo": "7702277621980",
+      "nombre": "Aromasense Splash Intense Love 230 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-11-13",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7702277621980.png",
+      "descuento": "25",
+      "precio_normal": "4.97",
+      "precio_oferta": "3.73"
+    },
+    {
+      "codigo": "7861223825268",
+      "nombre": "Gama Splash Woman Luminous 236 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-11-13",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7861223825268.png",
+      "descuento": "25",
+      "precio_normal": "2.99",
+      "precio_oferta": "2.24"
+    },
+    {
+      "codigo": "7702277977872",
+      "nombre": "Aromasense Splash Pure Diamonds 230 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-11-13",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7702277977872.png",
+      "descuento": "25",
+      "precio_normal": "4.97",
+      "precio_oferta": "3.73"
+    },
+    {
+      "codigo": "7702560035838",
+      "nombre": "Fluocardent Crema Dental Multiacción 225 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-11-13",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7702560035838.png",
+      "descuento": "30",
+      "precio_normal": "3.99",
+      "precio_oferta": "2.79"
+    },
+    {
+      "codigo": "7861223815412",
+      "nombre": "Gama Bálsamo Pies Cansados Manzanilla Y Miel 200 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-11-13",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7861223815412.png",
+      "descuento": "35",
+      "precio_normal": "1.99",
+      "precio_oferta": "1.29"
+    }
+  ],
+  "Limpieza": [
+    {
+      "codigo": "7702027440946",
+      "nombre": "Nosotras Protectores Largos 50 u",
+      "categoria": "Limpieza",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7702027440946.png",
+      "descuento": "16",
+      "precio_normal": "5.33",
+      "precio_oferta": "4.49"
+    },
+    {
+      "codigo": "7751493009720",
+      "nombre": "Kotex Nocturna Tela 8 u",
+      "categoria": "Limpieza",
+      "vigencia": {
+        "inicio": "2025-11-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7751493009720.png",
+      "descuento": "50",
+      "precio_normal": "2.20",
+      "precio_oferta": "1.09"
+    },
+    {
+      "codigo": "7702425633629",
+      "nombre": "Pack Huggies Toallitas Húmedas 224 u",
+      "categoria": "Limpieza",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-11-26"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7702425633629.png",
+      "descuento": "26",
+      "precio_normal": "5.12",
+      "precio_oferta": "3.79"
+    },
+    {
+      "codigo": "7702026153274",
+      "nombre": "Familia Servilleta Acolchamax Mediana 300 u",
+      "categoria": "Limpieza",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7702026153274.png",
+      "descuento": "11",
+      "precio_normal": "1.99",
+      "precio_oferta": "1.77"
+    },
+    {
+      "codigo": "7861048631853",
+      "nombre": "Perla Suavizante Serenidad Doy Pack 1300 ml",
+      "categoria": "Limpieza",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-11-26"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7861048631853.png",
+      "descuento": "21",
+      "precio_normal": "4.15",
+      "precio_oferta": "3.29"
+    },
+    {
+      "codigo": "7702010382000",
+      "nombre": "Axion Lavavajilla Aloe 850 g",
+      "categoria": "Limpieza",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7702010382000.png",
+      "descuento": "23",
+      "precio_normal": "2.98",
+      "precio_oferta": "2.29"
+    },
+    {
+      "codigo": "7861175503580",
+      "nombre": "Elite Papel Higiénico Manzanilla XG Doble Hoja 12 X 32 m",
+      "categoria": "Limpieza",
+      "vigencia": {
+        "inicio": "2025-11-14",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7861175503580.png",
+      "descuento": "24",
+      "precio_normal": "6.57",
+      "precio_oferta": "4.99"
+    },
+    {
+      "codigo": "7702026155056",
+      "nombre": "Pequeñín Paños Húmedos Almendra 100 u",
+      "categoria": "Limpieza",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-11-26"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7702026155056.png",
+      "descuento": "25",
+      "precio_normal": "4.34",
+      "precio_oferta": "3.26"
+    },
+    {
+      "codigo": "7861038005381",
+      "nombre": "Tips Lavanda 1.000 ml",
+      "categoria": "Limpieza",
+      "vigencia": {
+        "inicio": "2025-11-13",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7861038005381.png",
+      "descuento": "25",
+      "precio_normal": "2.21",
+      "precio_oferta": "1.66"
+    },
+    {
+      "codigo": "7702425804760",
+      "nombre": "Huggies Toallas Húmedas Active Fresh 96 u",
+      "categoria": "Limpieza",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7702425804760.png",
+      "descuento": "25",
+      "precio_normal": "4.55",
+      "precio_oferta": "3.39"
+    },
+    {
+      "codigo": "7861001300970",
+      "nombre": "Aromatel Suavizante Floral Doypack 1.900 ml",
+      "categoria": "Limpieza",
+      "vigencia": {
+        "inicio": "2025-11-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7861001300970.png",
+      "descuento": "50",
+      "precio_normal": "5.23",
+      "precio_oferta": "2.59"
+    },
+    {
+      "codigo": "7861048614467",
+      "nombre": "Ciclón Detergente Líquido Quitamancha 1.80 l",
+      "categoria": "Limpieza",
+      "vigencia": {
+        "inicio": "2025-11-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7861048614467.png",
+      "descuento": "50",
+      "precio_normal": "6.44",
+      "precio_oferta": "3.19"
+    },
+    {
+      "codigo": "7702425993730",
+      "nombre": "Scott Toalla de Cocina Reusable Duramax 52 u",
+      "categoria": "Limpieza",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-11-26"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7702425993730.png",
+      "descuento": "26",
+      "precio_normal": "3.90",
+      "precio_oferta": "2.89"
+    },
+    {
+      "codigo": "7702425320178",
+      "nombre": "Scott Duramax Toalla de Cocina Reusable 30 u",
+      "categoria": "Limpieza",
+      "vigencia": {
+        "inicio": "2025-11-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7702425320178.png",
+      "descuento": "53",
+      "precio_normal": "1.88",
+      "precio_oferta": "0.89"
+    },
+    {
+      "codigo": "7702191000076",
+      "nombre": "Deja Doypack Líquido Floral 1.800 ml",
+      "categoria": "Limpieza",
+      "vigencia": {
+        "inicio": "2025-11-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7702191000076.png",
+      "descuento": "50",
+      "precio_normal": "6.44",
+      "precio_oferta": "3.19"
+    },
+    {
+      "codigo": "18718258002",
+      "nombre": "Romeo Detergente 400 g",
+      "categoria": "Limpieza",
+      "vigencia": {
+        "inicio": "2025-11-13",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/18718258002.png",
+      "descuento": "15",
+      "precio_normal": "0.99",
+      "precio_oferta": "0.84"
+    },
+    {
+      "codigo": "18718258040",
+      "nombre": "Romeo Detergente 3 kg",
+      "categoria": "Limpieza",
+      "vigencia": {
+        "inicio": "2025-11-13",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/18718258040.png",
+      "descuento": "15",
+      "precio_normal": "5.79",
+      "precio_oferta": "4.92"
+    },
+    {
+      "codigo": "7861042541226",
+      "nombre": "Akí Cónica Verde 1 u",
+      "categoria": "Limpieza",
+      "vigencia": {
+        "inicio": "2025-11-13",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7861042541226.png",
+      "descuento": "25",
+      "precio_normal": "0.56",
+      "precio_oferta": "0.42"
+    },
+    {
+      "codigo": "7861042573128",
+      "nombre": "Akí Esponja en Ocho 2 u",
+      "categoria": "Limpieza",
+      "vigencia": {
+        "inicio": "2025-11-13",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7861042573128.png",
+      "descuento": "25",
+      "precio_normal": "1.01",
+      "precio_oferta": "0.76"
+    },
+    {
+      "codigo": "18718405062",
+      "nombre": "Spum Suavizante Fresca Primavera 1.000 ml",
+      "categoria": "Limpieza",
+      "vigencia": {
+        "inicio": "2025-11-13",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/18718405062.png",
+      "descuento": "25",
+      "precio_normal": "2.59",
+      "precio_oferta": "1.94"
+    },
+    {
+      "codigo": "7861223825343",
+      "nombre": "Gama Eliminador de Olores para Baño Brisa Marina 100 ml",
+      "categoria": "Limpieza",
+      "vigencia": {
+        "inicio": "2025-11-13",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7861223825343.png",
+      "descuento": "30",
+      "precio_normal": "1.99",
+      "precio_oferta": "1.39"
+    }
+  ],
+  "Hogar": [
+    {
+      "codigo": "5011435624582",
+      "nombre": "Encendedores de Bolsillo/Fosforera/Piedra Semi corto",
+      "categoria": "Hogar",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/5011435624582.png",
+      "descuento": "22",
+      "precio_normal": "0.89",
+      "precio_oferta": "0.69"
+    },
+    {
+      "codigo": "7861026910987",
+      "nombre": "Jarro Lechero 1/2 lt",
+      "categoria": "Hogar",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7861026910987.png",
+      "descuento": "22",
+      "precio_normal": "8.76",
+      "precio_oferta": "6.79"
+    },
+    {
+      "codigo": "197639196003",
+      "nombre": "Toalla de Cocina Beige Líneas 45x65 cm",
+      "categoria": "Hogar",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/197639196003.png",
+      "descuento": "24",
+      "precio_normal": "3.26",
+      "precio_oferta": "2.49"
+    },
+    {
+      "codigo": "197639195969",
+      "nombre": "Delantal de Cocina Beige Líneas 65x73 cm",
+      "categoria": "Hogar",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/197639195969.png",
+      "descuento": "25",
+      "precio_normal": "7.54",
+      "precio_oferta": "5.69"
+    },
+    {
+      "codigo": "7861026976310",
+      "nombre": "Perol Blackstone 16 cm",
+      "categoria": "Hogar",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7861026976310.png",
+      "descuento": "25",
+      "precio_normal": "16.33",
+      "precio_oferta": "12.29"
+    },
+    {
+      "codigo": "7861026923260",
+      "nombre": "Sartén Milano 24 cm",
+      "categoria": "Hogar",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7861026923260.png",
+      "descuento": "25",
+      "precio_normal": "8.91",
+      "precio_oferta": "6.69"
+    },
+    {
+      "codigo": "7861026920696",
+      "nombre": "Molde de Pizza 30 cm",
+      "categoria": "Hogar",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7861026920696.png",
+      "descuento": "25",
+      "precio_normal": "5.46",
+      "precio_oferta": "4.09"
+    },
+    {
+      "codigo": "7861026924632",
+      "nombre": "Jarro Hervidor Blackstone Gris 1.2 l",
+      "categoria": "Hogar",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7861026924632.png",
+      "descuento": "25",
+      "precio_normal": "9.48",
+      "precio_oferta": "7.09"
+    },
+    {
+      "codigo": "7861026914176",
+      "nombre": "Sartén Milano 16 cm",
+      "categoria": "Hogar",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7861026914176.png",
+      "descuento": "25",
+      "precio_normal": "5.74",
+      "precio_oferta": "4.29"
+    },
+    {
+      "codigo": "7861026966113",
+      "nombre": "Set Jarra Plástica + 4 Vasos 5 pz",
+      "categoria": "Hogar",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7861026966113.png",
+      "descuento": "25",
+      "precio_normal": "4.27",
+      "precio_oferta": "3.19"
+    },
+    {
+      "codigo": "7861026972275",
+      "nombre": "Sartén Milano 20 cm",
+      "categoria": "Hogar",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7861026972275.png",
+      "descuento": "25",
+      "precio_normal": "8.56",
+      "precio_oferta": "6.39"
+    },
+    {
+      "codigo": "7861026911359",
+      "nombre": "Molde Alto 24 cm",
+      "categoria": "Hogar",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7861026911359.png",
+      "descuento": "25",
+      "precio_normal": "6.02",
+      "precio_oferta": "4.49"
+    },
+    {
+      "codigo": "197639195891",
+      "nombre": "Set Guante + Coge Olla Cocina Gris Líneas 2 pz",
+      "categoria": "Hogar",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/197639195891.png",
+      "descuento": "26",
+      "precio_normal": "4.69",
+      "precio_oferta": "3.49"
+    },
+    {
+      "codigo": "7861026972534",
+      "nombre": "Combo Ollas de Presión 2-4 lt",
+      "categoria": "Hogar",
+      "vigencia": {
+        "inicio": "2025-11-12",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/7861026972534.png",
+      "descuento": "30",
+      "precio_normal": "74.58",
+      "precio_oferta": "52.19"
+    },
+    {
+      "codigo": "810072405722",
+      "nombre": "Sanduchera Negro Unidad",
+      "categoria": "Hogar",
+      "vigencia": {
+        "inicio": "2025-11-13",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/810072405722.png",
+      "descuento": "32",
+      "precio_normal": "18.99",
+      "precio_oferta": "12.99"
+    },
+    {
+      "codigo": "810072403254",
+      "nombre": "Batidora Inmersión 3 en 1 Negro Unidad",
+      "categoria": "Hogar",
+      "vigencia": {
+        "inicio": "2025-11-13",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/810072403254.png",
+      "descuento": "44",
+      "precio_normal": "22.99",
+      "precio_oferta": "12.99"
+    },
+    {
+      "codigo": "813966024689",
+      "nombre": "Cafetera 5 Tazas",
+      "categoria": "Hogar",
+      "vigencia": {
+        "inicio": "2025-11-13",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/813966024689.png",
+      "descuento": "39",
+      "precio_normal": "22.99",
+      "precio_oferta": "13.99"
+    },
+    {
+      "codigo": "813966022548",
+      "nombre": "Tetera Eléctrica 1.8 Lt Rojo Metal Unidad",
+      "categoria": "Hogar",
+      "vigencia": {
+        "inicio": "2025-11-13",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/813966022548.png",
+      "descuento": "32",
+      "precio_normal": "21.99",
+      "precio_oferta": "14.99"
+    },
+    {
+      "codigo": "810072402226",
+      "nombre": "Exprimidor de Cítricos 27 Oz Unidad",
+      "categoria": "Hogar",
+      "vigencia": {
+        "inicio": "2025-11-13",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/810072402226.png",
+      "descuento": "37",
+      "precio_normal": "26.99",
+      "precio_oferta": "16.99"
+    },
+    {
+      "codigo": "810072403544",
+      "nombre": "Tostadora 2 Rebanadas Rojo Unidad",
+      "categoria": "Hogar",
+      "vigencia": {
+        "inicio": "2025-11-13",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/810072403544.png",
+      "descuento": "39",
+      "precio_normal": "27.99",
+      "precio_oferta": "16.99"
+    },
+    {
+      "codigo": "810072404442",
+      "nombre": "Picatodo Eléctrico 1.8 L 8 Tazas Negro Unidad",
+      "categoria": "Hogar",
+      "vigencia": {
+        "inicio": "2025-11-13",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/810072404442.png",
+      "descuento": "33",
+      "precio_normal": "26.99",
+      "precio_oferta": "17.99"
+    },
+    {
+      "codigo": "813966024207",
+      "nombre": "Licuadora de Mano 2 Velocidades Unidad",
+      "categoria": "Hogar",
+      "vigencia": {
+        "inicio": "2025-11-13",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/813966024207.png",
+      "descuento": "53",
+      "precio_normal": "39.99",
+      "precio_oferta": "18.99"
+    },
+    {
+      "codigo": "813966025655",
+      "nombre": "Hornilla Doble Unidad",
+      "categoria": "Hogar",
+      "vigencia": {
+        "inicio": "2025-11-13",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/813966025655.png",
+      "descuento": "32",
+      "precio_normal": "30.99",
+      "precio_oferta": "20.99"
+    },
+    {
+      "codigo": "810072405111",
+      "nombre": "Wafflera Personal 6 Placas Unidad",
+      "categoria": "Hogar",
+      "vigencia": {
+        "inicio": "2025-11-13",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/aki/2024/akipreciazo/810072405111.png",
+      "descuento": "38",
+      "precio_normal": "36.99",
+      "precio_oferta": "22.99"
+    }
+  ]
+}

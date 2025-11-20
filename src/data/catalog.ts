@@ -1,3 +1,5 @@
+import dinamicosRaw from './dinamicos.json';
+
 export type HeroPromo = {
   id: string;
   title: string;
@@ -14,6 +16,9 @@ export type Product = {
   price: number;
   regularPrice: number;
   image: string;
+  validFrom?: string;
+  validTo?: string;
+  discount?: number;
 };
 
 export type CategoryBlock = {
@@ -36,6 +41,46 @@ export type CategoryBlock = {
   products: Product[];
 };
 
+type DinamicosCategory = 'Alimentos' | 'Higiene' | 'Limpieza' | 'Hogar';
+
+type RawProduct = {
+  codigo: string;
+  nombre: string;
+  categoria: string;
+  vigencia: { inicio: string; fin: string };
+  imagen: string;
+  descuento: string;
+  precio_normal: string;
+  precio_oferta: string;
+};
+
+type DinamicosData = Record<DinamicosCategory, RawProduct[]>;
+
+const dinamicos = dinamicosRaw as DinamicosData;
+
+const FALLBACK_IMAGE = '/assets/producto.png';
+
+const fallbackProduct: Product = {
+  id: 'placeholder',
+  name: 'Producto próximamente',
+  code: 'Cod. 0000000000000',
+  price: 0,
+  regularPrice: 0,
+  image: FALLBACK_IMAGE,
+};
+
+const toProduct = (item: RawProduct): Product => ({
+  id: item.codigo,
+  name: item.nombre,
+  code: `Cod. ${item.codigo}`,
+  price: parseFloat(item.precio_oferta) || 0,
+  regularPrice: parseFloat(item.precio_normal) || 0,
+  image: item.imagen || FALLBACK_IMAGE,
+  validFrom: item.vigencia?.inicio,
+  validTo: item.vigencia?.fin,
+  discount: parseFloat(item.descuento) || undefined,
+});
+
 export const heroPromos: HeroPromo[] = [
   {
     id: 'hero-40',
@@ -55,181 +100,103 @@ export const heroPromos: HeroPromo[] = [
   },
 ];
 
-const placeholderProducts = (prefix: string): Product[] => [
-  {
-    id: `${prefix}-1`,
-    name: `${prefix} Producto 1`,
-    code: 'Cod. 7861001300932',
-    price: 1.29,
-    regularPrice: 2.59,
-    image: '/assets/producto.png',
-  },
-  {
-    id: `${prefix}-2`,
-    name: `${prefix} Producto 2`,
-    code: 'Cod. 7861001300932',
-    price: 0.99,
-    regularPrice: 1.89,
-    image: '/assets/producto.png',
-  },
-  {
-    id: `${prefix}-3`,
-    name: `${prefix} Producto 3`,
-    code: 'Cod. 7861001300932',
-    price: 2.49,
-    regularPrice: 3.99,
-    image: '/assets/producto.png',
-  },
-  {
-    id: `${prefix}-4`,
-    name: `${prefix} Producto 4`,
-    code: 'Cod. 7861001300932',
-    price: 3.19,
-    regularPrice: 4.29,
-    image: '/assets/producto.png',
-  },
-  {
-    id: `${prefix}-5`,
-    name: `${prefix} Producto 5`,
-    code: 'Cod. 7861001300932',
-    price: 1.49,
-    regularPrice: 2.49,
-    image: '/assets/producto.png',
-  },
-  {
-    id: `${prefix}-6`,
-    name: `${prefix} Producto 6`,
-    code: 'Cod. 7861001300932',
-    price: 2.19,
-    regularPrice: 3.39,
-    image: '/assets/producto.png',
-  },
-];
+type CategoryConfig = Omit<CategoryBlock, 'featured' | 'products'> & {
+  sourceKey: DinamicosCategory;
+};
 
-export const categories: CategoryBlock[] = [
+const categoryConfig: CategoryConfig[] = [
   {
     id: 'alimentos',
-    title: 'Alimentos',
+    title: 'Alimentos y Bebidas',
     accent: '#FF70C4',
     discountLabel: 'HASTA CON EL 40% DTO.',
     gradient: 'linear-gradient(180deg, #52004F 0%, #1a001b 60%, #090009 100%)',
-    image: '/assets/producto.png',
+    image: '/assets/producto-big.png',
+    sourceKey: 'Alimentos',
     highlight: {
       image: '/assets/producto-big.png',
-      product: 'Doritos Mega Queso 500 g.',
+      product: 'Alimentos destacados',
       description: 'Sabor intenso para compartir durante tus Black Days.',
-      price: 1.29,
-      regularPrice: 4.08,
+      price: 0,
+      regularPrice: 0,
       badge: 'NUEVO',
     },
-    featured: {
-      id: 'bonella',
-      name: 'Bonella Margarina 320 g',
-      code: 'Cod. 7861001300932',
-      price: 1.29,
-      regularPrice: 4.08,
-      image: '/assets/producto.png',
-    },
-    products: placeholderProducts('Alimentos'),
-  },
-  {
-    id: 'bebidas',
-    title: 'Bebidas',
-    accent: '#5DECFF',
-    discountLabel: 'HASTA CON EL 40% DTO.',
-    gradient: 'linear-gradient(180deg, #0b3351 0%, #081326 60%, #05000d 100%)',
-    image: '/assets/producto.png',
-    reverseLayout: true,
-    highlight: {
-      image: '/assets/producto-big.png',
-      product: 'Pack refrescante cítrico',
-      description: 'Combos familiares 3x2 para cada celebración.',
-      price: 12.9,
-      regularPrice: 18.5,
-    },
-    featured: {
-      id: 'cola-mega',
-      name: 'Cola Mega 3 L x2',
-      code: 'Cod. 7861001300932',
-      price: 5.49,
-      regularPrice: 8.5,
-      image: '/assets/producto.png',
-    },
-    products: placeholderProducts('Bebidas'),
   },
   {
     id: 'higiene',
-    title: 'Higiene',
+    title: 'Productos de Higiene',
     accent: '#FFB23E',
     discountLabel: 'HASTA CON EL 40% DTO.',
     gradient: 'linear-gradient(180deg, #613000 0%, #2c1200 70%, #090100 100%)',
-    image: '/assets/producto.png',
+    image: '/assets/producto-big.png',
+    sourceKey: 'Higiene',
     highlight: {
       image: '/assets/producto-big.png',
       product: 'Set cuidado personal diario',
       description: 'Refuerza tu rutina con productos premium a precio AKÍ.',
-      price: 1.29,
-      regularPrice: 3.2,
+      price: 0,
+      regularPrice: 0,
     },
-    featured: {
-      id: 'deodorante',
-      name: 'Deodorante en barra 70 g',
-      code: 'Cod. 7861001300932',
-      price: 1.29,
-      regularPrice: 2.95,
-      image: '/assets/producto.png',
-    },
-    products: placeholderProducts('Higiene'),
   },
   {
     id: 'limpieza',
-    title: 'Limpieza',
+    title: 'Productos de Limpieza',
     accent: '#25FF87',
     discountLabel: 'HASTA CON EL 40% DTO.',
     gradient: 'linear-gradient(180deg, #0b4024 0%, #042015 70%, #010805 100%)',
-    image: '/assets/producto.png',
-    reverseLayout: true,
+    image: '/assets/producto-big.png',
+    sourceKey: 'Limpieza',
     highlight: {
       image: '/assets/producto-big.png',
       product: 'Combo limpieza profunda',
       description: 'Mantén cada rincón impecable con descuentos 4x3.',
-      price: 1.29,
-      regularPrice: 3.9,
+      price: 0,
+      regularPrice: 0,
     },
-    featured: {
-      id: 'ultra-clean',
-      name: 'Jabón Ultra Clean 3 kg',
-      code: 'Cod. 7861001300932',
-      price: 1.29,
-      regularPrice: 4.08,
-      image: '/assets/producto.png',
-    },
-    products: placeholderProducts('Limpieza'),
+    reverseLayout: true,
   },
   {
     id: 'hogar',
-    title: 'Hogar',
+    title: 'Hogar y Electrodomésticos',
     accent: '#F22921',
     discountLabel: 'HASTA CON EL 40% DTO.',
-    gradient: 'linear-gradient(180deg, #0b4024 0%, #042015 70%, #010805 100%)',
-    image: '/assets/producto.png',
-    reverseLayout: true,
+    gradient: 'linear-gradient(180deg, #330009 0%, #120006 70%, #040003 100%)',
+    image: '/assets/producto-big.png',
+    sourceKey: 'Hogar',
     highlight: {
       image: '/assets/producto-big.png',
-      product: 'Combo limpieza profunda',
-      description: 'Mantén cada rincón impecable con descuentos 4x3.',
-      price: 1.29,
-      regularPrice: 3.9,
+      product: 'Electrodomésticos destacados',
+      description: 'Renueva tu hogar con precios de Black Days.',
+      price: 0,
+      regularPrice: 0,
     },
-    featured: {
-      id: 'ultra-clean',
-      name: 'Jabón Ultra Clean 3 kg',
-      code: 'Cod. 7861001300932',
-      price: 1.29,
-      regularPrice: 4.08,
-      image: '/assets/producto.png',
-    },
-    products: placeholderProducts('Limpieza'),
+    reverseLayout: true,
   },
 ];
+
+export const categories: CategoryBlock[] = categoryConfig.map((category) => {
+  const rawItems = dinamicos[category.sourceKey] ?? [];
+  const mappedProducts = rawItems.map(toProduct);
+  const featured = mappedProducts[0] ?? fallbackProduct;
+  const highlightSource = mappedProducts[1] ?? featured;
+
+  return {
+    id: category.id,
+    title: category.title,
+    accent: category.accent,
+    discountLabel: category.discountLabel,
+    gradient: category.gradient,
+    image: category.image,
+    reverseLayout: category.reverseLayout,
+    products: mappedProducts,
+    featured,
+    highlight: {
+      ...category.highlight,
+      product: highlightSource.name,
+      price: highlightSource.price,
+      regularPrice: highlightSource.regularPrice,
+      image: highlightSource.image || category.highlight.image,
+    },
+  };
+});
 
