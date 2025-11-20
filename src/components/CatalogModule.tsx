@@ -7,6 +7,7 @@ import CategorySection, { CategorySectionProps } from './CategorySection';
 
 const sections: CategorySectionProps[] = [
   {
+    id: 'alimentos',
     title: 'Alimentos y Despensa',
     accent: '#FF70C4',
     discountLabel: 'HASTA CON EL 40% DTO.',
@@ -95,6 +96,7 @@ const sections: CategorySectionProps[] = [
     ],
   },
   {
+    id: 'bebidas',
     title: 'Variedad de Bebidas',
     accent: '#5DECFF',
     discountLabel: 'HASTA CON EL 40% DTO.',
@@ -166,6 +168,7 @@ const sections: CategorySectionProps[] = [
     ],
   },
   {
+    id: 'higiene',
     title: 'Productos de Higiene',
     accent: '#FFB23E',
     discountLabel: 'HASTA CON EL 40% DTO.',
@@ -237,6 +240,7 @@ const sections: CategorySectionProps[] = [
     ],
   },
   {
+    id: 'limpieza',
     title: 'Productos de Limpieza',
     accent: '#25FF87',
     discountLabel: 'HASTA CON EL 40% DTO.',

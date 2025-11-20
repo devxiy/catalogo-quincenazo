@@ -12,6 +12,7 @@ export type SectionProduct = {
 };
 
 export type CategorySectionProps = {
+  id: string;
   title: string;
   accent: string;
   discountLabel: string;
@@ -116,6 +117,7 @@ const HighlightCard = ({ info, accent }: { info: CategorySectionProps['highlight
 );
 
 const CategorySection = ({
+  id,
   title,
   accent,
   discountLabel,
@@ -129,6 +131,7 @@ const CategorySection = ({
 
   return (
     <section
+      id={id}
       className="relative rounded-[48px] border-[6px] p-10 lg:p-12 overflow-hidden space-y-8 shadow-[0_25px_60px_rgba(0,0,0,0.45)]"
       style={{ borderColor: accent, background: gradient }}
     >

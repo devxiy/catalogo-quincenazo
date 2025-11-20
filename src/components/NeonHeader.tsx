@@ -3,13 +3,14 @@
 interface Category {
   label: string;
   color: string;
+  anchor: string;
 }
 
 const categories: Category[] = [
-  { label: 'Alimentos', color: '#FF70C4' },
-  { label: 'Bebidas', color: '#25FF87' },
-  { label: 'Higiene', color: '#FFB23E' },
-  { label: 'Limpieza', color: '#5DECFF' },
+  { label: 'Alimentos', color: '#FF70C4', anchor: '#alimentos' },
+  { label: 'Bebidas', color: '#25FF87', anchor: '#bebidas' },
+  { label: 'Higiene', color: '#FFB23E', anchor: '#higiene' },
+  { label: 'Limpieza', color: '#5DECFF', anchor: '#limpieza' },
 ];
 
 const NeonHeader = () => {
@@ -31,8 +32,9 @@ const NeonHeader = () => {
 
       <nav className="flex flex-wrap gap-4 justify-center flex-1">
         {categories.map((category) => (
-          <button
+          <a
             key={category.label}
+            href={category.anchor}
             className="relative px-8 py-2 rounded-full text-sm font-semibold text-white tracking-wide transition hover:scale-105 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
             style={{
               border: `1px solid ${category.color}`,
@@ -44,7 +46,7 @@ const NeonHeader = () => {
               style={{ background: category.color }}
             />
             <span className="relative z-10">{category.label}</span>
-          </button>
+          </a>
         ))}
       </nav>
     </header>
