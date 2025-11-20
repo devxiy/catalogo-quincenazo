@@ -24,7 +24,7 @@ export type CategoryGridProps = {
 
 const ProductCard = ({ product, accentColor, className = '' }: { product: GridProduct; accentColor: string; className?: string }) => (
   <div 
-    className={`relative rounded-[24px] overflow-hidden bg-white shadow-[0_8px_24px_rgba(0,0,0,0.4)] ${className}`}
+    className={`relative rounded-[24px] overflow-hidden bg-white shadow-[0_8px_24px_rgba(0,0,0,0.4)] flex flex-col ${className}`}
     style={{ 
       border: `2px solid ${accentColor}`
     }}
@@ -40,18 +40,17 @@ const ProductCard = ({ product, accentColor, className = '' }: { product: GridPr
       />
     </div>
 
-    <div className="rounded-[22px] bg-white overflow-hidden flex flex-col h-full">
-      {/* Imagen del producto */}
-      <div className="relative h-[260px] bg-white flex items-center justify-center px-6 pt-10 pb-6">
-        <Image
-          src={product.imagen}
-          alt={product.nombre}
-          width={320}
-          height={320}
-          className="object-contain max-h-[260px] w-full drop-shadow-[0_8px_16px_rgba(0,0,0,0.15)]"
-        />
-        {/* Botón Tipti - posición absoluta abajo derecha */}
-        <div className="absolute bottom-6 right-6">
+    {/* Imagen del producto */}
+    <div className="relative h-[260px] bg-white flex items-center justify-center px-6 pt-10 pb-6">
+      <Image
+        src={product.imagen}
+        alt={product.nombre}
+        width={320}
+        height={320}
+        className="object-contain max-h-[260px] w-full drop-shadow-[0_8px_16px_rgba(0,0,0,0.15)]"
+      />
+      {/* Botón Tipti - posición absoluta abajo derecha */}
+      <div className="absolute bottom-6 right-6">
         <Image
           src="/assets/btn-tipti.png"
           alt="Pídelo por Tipti"
@@ -60,38 +59,34 @@ const ProductCard = ({ product, accentColor, className = '' }: { product: GridPr
           className="object-contain drop-shadow-lg"
         />
       </div>
+    </div>
+
+    {/* Info del producto - 2 columnas */}
+    <div className="bg-black rounded-t-[20px] px-5 py-5 flex gap-3">
+      {/* Columna izquierda: nombre y código */}
+      <div className="flex-1 pr-2 justify-center">
+        <p className="text-white font-bold text-base leading-tight line-clamp-3">
+          {product.nombre}
+        </p>
+        <p className="text-[10px] text-gray-400 uppercase tracking-wider mt-2">
+          CÓD. {product.codigo}
+        </p>
       </div>
 
-      
-      
-
-      {/* Info del producto - 2 columnas */}
-      <div className="bg-black rounded-t-[20px] px-5 py-5 flex-1 flex gap-3">
-        {/* Columna izquierda: nombre y código */}
-        <div className="flex-1 pr-2 justify-center">
-          <p className="text-white font-bold text-base leading-tight line-clamp-3">
-            {product.nombre}
-          </p>
-          <p className="text-[10px] text-gray-400 uppercase tracking-wider mt-2">
-            CÓD. {product.codigo}
-          </p>
-        </div>
-
-        {/* Columna derecha: precios */}
-        <div className="flex-2 flex-col items-end justify-center text-right">
-          <p className="text-[14px] text-gray-400 tracking-wider text-[#FFFFFF]">
-            Precio Akí
-          </p>
-          <span className="text-[#FFDE00] text-3xl font-black whitespace-nowrap">
-            ${parseFloat(product.precio_oferta).toFixed(2)}
-          </span>
-          <p className="text-[10px] text-gray-400 tracking-wider text-[#FFFFFF]">
-            Precio normal unitario
-          </p>
-          <p className="text-base text-gray-300 line-through">
-            ${parseFloat(product.precio_normal).toFixed(2)}
-          </p>
-        </div>
+      {/* Columna derecha: precios */}
+      <div className="flex-2 flex-col items-end justify-center text-right">
+        <p className="text-[14px] text-gray-400 tracking-wider text-[#FFFFFF]">
+          Precio Akí
+        </p>
+        <span className="text-[#FFDE00] text-3xl font-black whitespace-nowrap">
+          ${parseFloat(product.precio_oferta).toFixed(2)}
+        </span>
+        <p className="text-[10px] text-gray-400 tracking-wider text-[#FFFFFF]">
+          Precio normal unitario
+        </p>
+        <p className="text-base text-gray-300 line-through">
+          ${parseFloat(product.precio_normal).toFixed(2)}
+        </p>
       </div>
     </div>
   </div>
