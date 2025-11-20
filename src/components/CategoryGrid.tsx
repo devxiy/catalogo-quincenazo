@@ -36,21 +36,21 @@ const ProductCard = ({ product, className = '' }: { product: GridProduct; classN
 
     <div className="rounded-[23px] bg-white overflow-hidden flex flex-col h-full">
       {/* Imagen del producto */}
-      <div className="relative h-[220px] bg-white flex items-center justify-center px-4 pt-8 pb-4">
+      <div className="relative h-[280px] bg-white flex items-center justify-center px-6 pt-10 pb-6">
         <Image
           src={product.imagen}
           alt={product.nombre}
-          width={280}
-          height={280}
-          className="object-contain max-h-[200px] drop-shadow-[0_8px_16px_rgba(0,0,0,0.15)]"
+          width={320}
+          height={320}
+          className="object-contain max-h-[260px] w-full drop-shadow-[0_8px_16px_rgba(0,0,0,0.15)]"
         />
         {/* Botón Tipti - posición absoluta abajo derecha */}
-        <div className="absolute bottom-4 right-4">
+        <div className="absolute bottom-6 right-6">
         <Image
           src="/assets/btn-tipti.png"
           alt="Pídelo por Tipti"
-          width={60}
-          height={79}
+          width={70}
+          height={92}
           className="object-contain drop-shadow-lg"
         />
       </div>
@@ -60,13 +60,13 @@ const ProductCard = ({ product, className = '' }: { product: GridProduct; classN
       
 
       {/* Info del producto - 2 columnas */}
-      <div className="bg-black rounded-t-[20px] px-4 py-4 flex-1 flex">
+      <div className="bg-black rounded-t-[20px] px-5 py-5 flex-1 flex gap-3">
         {/* Columna izquierda: nombre y código */}
         <div className="flex-1 pr-2">
-          <p className="text-white font-bold text-sm leading-tight line-clamp-3">
+          <p className="text-white font-bold text-base leading-tight line-clamp-3">
             {product.nombre}
           </p>
-          <p className="text-[9px] text-gray-400 uppercase tracking-wider mt-1">
+          <p className="text-[10px] text-gray-400 uppercase tracking-wider mt-2">
             CÓD. {product.codigo}
           </p>
         </div>
@@ -76,13 +76,13 @@ const ProductCard = ({ product, className = '' }: { product: GridProduct; classN
           <p className="text-[16px] text-gray-400 uppercase tracking-wider mt-1 text-[#FFFFFF]">
             Precio Akí
           </p>
-          <span className="text-[#FFDE00] text-2xl font-black whitespace-nowrap">
+          <span className="text-[#FFDE00] text-3xl font-black whitespace-nowrap">
             ${parseFloat(product.precio_oferta).toFixed(2)}
           </span>
           <p className="text-[12px] text-gray-400 uppercase tracking-wider mt-1 text-[#FFFFFF]">
             Precio normal unitario
           </p>
-          <p className="text-sm text-gray-300 line-through mt-1">
+          <p className="text-base text-gray-300 line-through mt-1">
             ${parseFloat(product.precio_normal).toFixed(2)}
           </p>
         </div>
