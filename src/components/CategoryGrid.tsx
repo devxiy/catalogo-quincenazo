@@ -172,7 +172,7 @@ const CategoryGrid = ({ categoryId, categoryName, accentColor, products }: Categ
   return (
     <section id={categoryId} className="space-y-6 scroll-mt-20">
       {/* Grid de 4 columnas base */}
-      <div className="grid grid-cols-4 gap-5 auto-rows-fr">
+      <div className="grid grid-cols-4 gap-5">
         {/* FILA 1-2: Banner titular (2 cols x 1 fila) */}
         <div className="col-span-2 row-span-1 rounded-[32px] overflow-hidden shadow-[0_15px_45px_rgba(0,0,0,0.5)]">
           <Image
