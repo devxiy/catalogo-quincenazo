@@ -36,13 +36,13 @@ const ProductCard = ({ product, className = '' }: { product: GridProduct; classN
 
     <div className="rounded-[23px] bg-white overflow-hidden flex flex-col h-full">
       {/* Imagen del producto */}
-      <div className="relative h-[180px] bg-white flex items-center justify-center px-4 pt-8 pb-4">
+      <div className="relative h-[220px] bg-white flex items-center justify-center px-4 pt-8 pb-4">
         <Image
           src={product.imagen}
           alt={product.nombre}
-          width={240}
-          height={240}
-          className="object-contain max-h-[140px] drop-shadow-[0_8px_16px_rgba(0,0,0,0.15)]"
+          width={280}
+          height={280}
+          className="object-contain max-h-[200px] drop-shadow-[0_8px_16px_rgba(0,0,0,0.15)]"
         />
         {/* Botón Tipti - posición absoluta abajo derecha */}
         <div className="absolute bottom-4 right-4">
