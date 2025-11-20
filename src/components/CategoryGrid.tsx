@@ -170,7 +170,7 @@ const CategoryGrid = ({ categoryId, categoryName, products }: CategoryGridProps)
         {/* FILA 1-2: Banner titular (2 cols x 1 fila) */}
         <div className="col-span-2 row-span-1 rounded-[32px] overflow-hidden shadow-[0_15px_45px_rgba(0,0,0,0.5)]">
           <Image
-            src={`/assets/categoria-${categoryId}.png`}
+            src={`/assets/categoria-big-${categoryId}.png`}
             alt={categoryName}
             width={800}
             height={400}
