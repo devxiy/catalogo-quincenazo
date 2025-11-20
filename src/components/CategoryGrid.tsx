@@ -24,9 +24,9 @@ export type CategoryGridProps = {
 
 const ProductCard = ({ product, accentColor, className = '' }: { product: GridProduct; accentColor: string; className?: string }) => (
   <div 
-    className={`relative rounded-[24px] overflow-hidden p-[3px] shadow-[0_8px_24px_rgba(0,0,0,0.4)] ${className}`}
+    className={`relative rounded-[24px] overflow-hidden bg-white shadow-[0_8px_24px_rgba(0,0,0,0.4)] ${className}`}
     style={{ 
-      background: `linear-gradient(135deg, ${accentColor}40 0%, ${accentColor}20 100%)`
+      border: `2px solid ${accentColor}`
     }}
   >
     {/* Badge Días Negros - arriba derecha */}
@@ -40,7 +40,7 @@ const ProductCard = ({ product, accentColor, className = '' }: { product: GridPr
       />
     </div>
 
-    <div className="rounded-[23px] bg-white overflow-hidden flex flex-col h-full">
+    <div className="rounded-[22px] bg-white overflow-hidden flex flex-col h-full">
       {/* Imagen del producto */}
       <div className="relative h-[260px] bg-white flex items-center justify-center px-6 pt-10 pb-6">
         <Image
@@ -99,9 +99,9 @@ const ProductCard = ({ product, accentColor, className = '' }: { product: GridPr
 
 const FeaturedBigProduct = ({ product, categoryId, accentColor }: { product: GridProduct; categoryId: string; accentColor: string }) => (
   <div 
-    className="relative rounded-[32px] overflow-hidden p-[4px] shadow-[0_15px_45px_rgba(0,0,0,0.5)] col-span-2 row-span-2"
+    className="relative rounded-[32px] overflow-hidden shadow-[0_15px_45px_rgba(0,0,0,0.5)] col-span-2 row-span-2"
     style={{
-      background: `linear-gradient(135deg, ${accentColor}60 0%, ${accentColor}30 100%)`
+      border: `2px solid ${accentColor}`
     }}
   >
     {/* Badge Días Negros - arriba derecha */}
