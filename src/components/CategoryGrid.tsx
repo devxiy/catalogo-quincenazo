@@ -36,7 +36,7 @@ const ProductCard = ({ product, className = '' }: { product: GridProduct; classN
 
     <div className="rounded-[23px] bg-white overflow-hidden flex flex-col h-full">
       {/* Imagen del producto */}
-      <div className="relative h-[280px] bg-white flex items-center justify-center px-6 pt-10 pb-6">
+      <div className="relative h-[260px] bg-white flex items-center justify-center px-6 pt-10 pb-6">
         <Image
           src={product.imagen}
           alt={product.nombre}
