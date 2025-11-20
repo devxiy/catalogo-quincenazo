@@ -7,7 +7,12 @@
 body {
   margin: 0;
   font-family: 'Gabarito', 'Inter', sans-serif;
-  background: #05000d;
+  background-color: #05000d;
+  background-image: url('/assets/fondo-blackdays.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
   color: #ffffff;
 }
 

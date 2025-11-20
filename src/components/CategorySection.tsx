@@ -6,11 +6,13 @@ import { CategoryBlock, Product } from '../data/catalog';
 export type CategorySectionProps = CategoryBlock;
 
 const BadgeIcon = () => (
-  <div className="absolute -top-10 left-4 w-16 h-16 rounded-full bg-gradient-to-br from-[#FF008C] to-[#FFDE00] text-[9px] font-black text-black flex items-center justify-center text-center leading-tight shadow-[0_10px_25px_rgba(0,0,0,0.35)]">
-    DÍAS
-    <br />
-    NEGROS
-  </div>
+  <Image
+    src="/assets/icono-diasnegros.png"
+    alt="Días Negros"
+    width={70}
+    height={70}
+    className="absolute -top-10 left-4 drop-shadow-[0_10px_25px_rgba(0,0,0,0.45)]"
+  />
 );
 
 const TiptiSeal = () => (
@@ -69,30 +71,34 @@ const FeaturedCard = ({ data, accent }: { data: Product; accent: string }) => (
 
 const HighlightCard = ({ info, accent }: { info: CategorySectionProps['highlight']; accent: string }) => (
   <div
-    className="relative rounded-[38px] border-[4px] min-h-[420px] overflow-hidden"
+    className="relative rounded-[38px] border-[4px] overflow-hidden"
     style={{ borderColor: accent }}
   >
-    <Image
-      src={info.image}
-      alt={info.product}
-      fill
-      className="object-cover"
-      sizes="(max-width: 1024px) 100vw, 640px"
-    />
-    <div className="absolute inset-0 bg-gradient-to-t from-black via-black/70 to-transparent" />
-    <div className="relative p-10 space-y-4 max-w-lg">
-      <div className="inline-flex items-center gap-3 bg-white/10 px-4 py-2 rounded-full text-xs tracking-[0.4em] uppercase">
-        <span>Quincenazo</span>
-        <span>Días Negros</span>
-      </div>
-      <h3 className="text-3xl font-black">{info.product}</h3>
-      <p className="text-sm text-white/80">{info.description}</p>
-      <div className="flex items-center gap-4">
-        <PriceTag value={info.price} />
-        <div>
-          <p className="text-xs text-white/60">Precio normal unitario</p>
-          <p className="text-sm text-[#FFDE00] font-semibold">${info.regularPrice.toFixed(2)}</p>
+    <div className="absolute inset-0 bg-gradient-to-br from-[#140014] via-[#050005] to-[#010101]" />
+    <div className="relative grid md:grid-cols-2 gap-6 p-10 items-center">
+      <div className="space-y-4">
+        <div className="inline-flex items-center gap-3 bg-white/10 px-4 py-2 rounded-full text-xs tracking-[0.4em] uppercase">
+          <span>Quincenazo</span>
+          <span>Días Negros</span>
         </div>
+        <h3 className="text-3xl font-black">{info.product}</h3>
+        <p className="text-sm text-white/80">{info.description}</p>
+        <div className="flex items-center gap-4">
+          <PriceTag value={info.price} />
+          <div>
+            <p className="text-xs text-white/60">Precio normal unitario</p>
+            <p className="text-sm text-[#FFDE00] font-semibold">${info.regularPrice.toFixed(2)}</p>
+          </div>
+        </div>
+      </div>
+      <div className="flex items-center justify-center">
+        <Image
+          src={info.image}
+          alt={info.product}
+          width={320}
+          height={320}
+          className="object-contain drop-shadow-[0_25px_60px_rgba(0,0,0,0.7)]"
+        />
       </div>
     </div>
     {info.badge && (
@@ -110,12 +116,14 @@ const CategorySection = ({
   discountLabel,
   gradient,
   image,
+  reverseLayout,
   highlight,
   featured,
   products,
 }: CategorySectionProps) => {
   const smallGrid = products.slice(0, 2);
   const extraProducts = products.slice(2, 6);
+  const isReversed = Boolean(reverseLayout);
 
   return (
     <section
@@ -142,8 +150,12 @@ const CategorySection = ({
           </div>
         </div>
 
-        <div className="grid gap-8 lg:grid-cols-[1.1fr_0.9fr] items-start">
-          <div className="space-y-6">
+        <div
+          className={`grid gap-8 items-start ${
+            isReversed ? 'lg:grid-cols-[0.9fr_1.1fr]' : 'lg:grid-cols-[1.1fr_0.9fr]'
+          }`}
+        >
+          <div className={`space-y-6 ${isReversed ? 'lg:order-2' : 'lg:order-1'}`}>
             <div className="rounded-[32px] overflow-hidden border-[4px]" style={{ borderColor: accent }}>
               <Image src={image} alt={title} width={800} height={480} className="w-full h-64 object-cover" />
             </div>
@@ -153,7 +165,7 @@ const CategorySection = ({
               ))}
             </div>
           </div>
-          <div className="space-y-6">
+          <div className={`space-y-6 ${isReversed ? 'lg:order-1' : 'lg:order-2'}`}>
             <FeaturedCard data={featured} accent={accent} />
             <HighlightCard info={highlight} accent={accent} />
           </div>

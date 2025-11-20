@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { categories as categoryData } from '../data/catalog';
 
 const NeonHeader = () => {
@@ -14,7 +15,7 @@ const NeonHeader = () => {
     >
       <div className="flex items-center gap-3">
         <div className="bg-white rounded-xl px-4 py-2 shadow-[0_10px_30px_rgba(0,0,0,0.4)]">
-          <span className="text-3xl font-black text-[#FF0057] tracking-tight">AKÍ</span>
+          <Image src="/assets/logo-aki.png" alt="AKÍ" width={120} height={40} priority />
         </div>
         <div className="uppercase text-[10px] tracking-[0.45em] text-white/70">Supermercados</div>
       </div>

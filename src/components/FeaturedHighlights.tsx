@@ -4,11 +4,13 @@ import Image from 'next/image';
 import { CategoryBlock, Product } from '../data/catalog';
 
 const BadgeIcon = () => (
-  <div className="absolute -top-10 left-4 w-16 h-16 rounded-full bg-gradient-to-br from-[#FF008C] to-[#FFDE00] text-[9px] font-black text-black flex items-center justify-center text-center leading-tight shadow-[0_10px_25px_rgba(0,0,0,0.35)]">
-    DÍAS
-    <br />
-    NEGROS
-  </div>
+  <Image
+    src="/assets/icono-diasnegros.png"
+    alt="Días Negros"
+    width={70}
+    height={70}
+    className="absolute -top-10 left-4 drop-shadow-[0_10px_25px_rgba(0,0,0,0.45)]"
+  />
 );
 
 const TiptiSeal = () => (
