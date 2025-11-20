@@ -46,12 +46,15 @@ const ProductCard = ({ product, className = '' }: { product: GridProduct; classN
         />
       </div>
 
-      {/* Ícono Tipti */}
-      <div className="flex flex-col items-center gap-1 pb-3">
-        <div className="w-9 h-9 rounded-full bg-[#FFDE00] flex items-center justify-center shadow-md">
-          <span className="text-[8px] font-black text-black">TIPTI</span>
-        </div>
-        <span className="text-[9px] text-gray-600 font-semibold">Pídelo por</span>
+      {/* Botón Tipti - posición absoluta abajo derecha */}
+      <div className="absolute bottom-4 right-4">
+        <Image
+          src="/assets/btn-tipti.png"
+          alt="Pídelo por Tipti"
+          width={80}
+          height={80}
+          className="object-contain drop-shadow-lg"
+        />
       </div>
 
       {/* Info del producto - 2 columnas */}
@@ -128,14 +131,15 @@ const FeaturedBigProduct = ({ product, categoryId }: { product: GridProduct; cat
         </div>
       </div>
 
-      {/* Ícono Tipti en la esquina inferior */}
-      <div className="absolute bottom-4 left-4 flex flex-col items-center gap-1">
-        <div className="w-12 h-12 rounded-full bg-[#FFDE00] flex items-center justify-center shadow-lg">
-          <span className="text-[10px] font-black text-black">TIPTI</span>
-        </div>
-        <span className="text-xs text-gray-800 font-semibold bg-white/90 px-2 py-0.5 rounded-full">
-          Pídelo por
-        </span>
+      {/* Botón Tipti - esquina inferior derecha */}
+      <div className="absolute bottom-4 right-4 z-10">
+        <Image
+          src="/assets/btn-tipti.png"
+          alt="Pídelo por Tipti"
+          width={100}
+          height={100}
+          className="object-contain drop-shadow-2xl"
+        />
       </div>
     </div>
   </div>
