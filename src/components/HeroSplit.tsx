@@ -1,39 +1,12 @@
 'use client';
 
 import Image from 'next/image';
+import { HeroPromo } from '../data/catalog';
 
-type HeroCard = {
-  id: string;
-  title: string;
-  description: string;
-  period: string;
-  image: string;
-  border: string;
-};
-
-const heroCards: HeroCard[] = [
-  {
-    id: 'hero-40',
-    title: 'AKÍ BLACK DAYS',
-    description: 'APROVECHA HASTA EL 40% DTO.',
-    period: 'DEL 13 DE NOVIEMBRE AL 3 DE DICIEMBRE 2025',
-    image: '/blackdays/imgBannerBlackdays1.png',
-    border: '#FF70C4',
-  },
-  {
-    id: 'hero-75',
-    title: 'AKÍ BLACK DAYS',
-    description: 'APROVECHA HASTA EL 75% DTO.',
-    period: 'DEL 27 DE NOVIEMBRE AL 3 DE DICIEMBRE 2025',
-    image: '/blackdays/imgBannerBlackdays2.png',
-    border: '#FFDE00',
-  },
-];
-
-const HeroSplit = () => {
+const HeroSplit = ({ items }: { items: HeroPromo[] }) => {
   return (
     <section className="grid md:grid-cols-2 gap-6">
-      {heroCards.map((card) => (
+      {items.map((card) => (
         <article
           key={card.id}
           className="rounded-[32px] border-[4px] overflow-hidden relative"

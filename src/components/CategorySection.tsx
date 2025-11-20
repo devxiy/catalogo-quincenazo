@@ -1,55 +1,42 @@
 'use client';
 
 import Image from 'next/image';
+import { CategoryBlock, Product } from '../data/catalog';
 
-export type SectionProduct = {
-  id: string;
-  name: string;
-  code: string;
-  price: number;
-  regularPrice: number;
-  image: string;
-};
+export type CategorySectionProps = CategoryBlock;
 
-export type CategorySectionProps = {
-  id: string;
-  title: string;
-  accent: string;
-  discountLabel: string;
-  gradient: string;
-  highlight: {
-    image: string;
-    product: string;
-    description: string;
-    price: number;
-    regularPrice: number;
-    badge?: string;
-  };
-  featured: SectionProduct;
-  products: SectionProduct[];
-};
+const BadgeIcon = () => (
+  <div className="absolute -top-10 left-4 w-16 h-16 rounded-full bg-gradient-to-br from-[#FF008C] to-[#FFDE00] text-[9px] font-black text-black flex items-center justify-center text-center leading-tight shadow-[0_10px_25px_rgba(0,0,0,0.35)]">
+    DÍAS
+    <br />
+    NEGROS
+  </div>
+);
 
-const tiptiIcon = '/blackdays/imgTipti1.png';
-const badgeIcon = '/blackdays/imgIconDiasNegros1.png';
+const TiptiSeal = () => (
+  <div className="mt-4 flex flex-col items-center gap-1 text-xs text-[#828282]">
+    <div className="w-10 h-10 rounded-full bg-white text-black font-black text-[10px] flex items-center justify-center shadow-[0_10px_20px_rgba(0,0,0,0.35)]">
+      TIPTI
+    </div>
+    <span className="text-white font-semibold">Pídelo por</span>
+  </div>
+);
 
 const PriceTag = ({ value }: { value: number }) => (
   <span className="text-[#FFDE00] font-black text-3xl">${value.toFixed(2)}</span>
 );
 
-const SmallCard = ({ product }: { product: SectionProduct }) => (
+const SmallCard = ({ product }: { product: Product }) => (
   <div className="rounded-[26px] bg-gradient-to-b from-[#1B001B] to-[#050105] p-[1px] shadow-[0_15px_35px_rgba(0,0,0,0.4)]">
     <div className="rounded-[26px] bg-black flex flex-col h-full">
       <div className="relative px-5 pt-10 pb-5 text-center">
-        <Image src={badgeIcon} alt="Días Negros" width={70} height={70} className="absolute -top-10 left-4" />
+        <BadgeIcon />
         <div className="h-[160px] flex items-center justify-center">
           <Image src={product.image} alt={product.name} width={160} height={160} className="object-contain" />
         </div>
         <p className="text-xs text-[#B3B3B3] uppercase tracking-[0.35em]">{product.code}</p>
         <p className="font-black text-white leading-tight mt-3">{product.name}</p>
-        <div className="mt-4 flex flex-col items-center gap-1 text-xs text-[#828282]">
-          <Image src={tiptiIcon} alt="Tipti" width={40} height={40} />
-          <span className="text-white font-semibold">Pídelo por</span>
-        </div>
+        <TiptiSeal />
       </div>
       <div className="bg-black px-5 py-4 rounded-b-[24px] space-y-1 text-left">
         <PriceTag value={product.price} />
@@ -60,7 +47,7 @@ const SmallCard = ({ product }: { product: SectionProduct }) => (
   </div>
 );
 
-const FeaturedCard = ({ data, accent }: { data: SectionProduct; accent: string }) => (
+const FeaturedCard = ({ data, accent }: { data: Product; accent: string }) => (
   <div
     className="rounded-[32px] bg-white border-[4px] p-6 grid lg:grid-cols-[1fr_auto] gap-6 items-center"
     style={{ borderColor: accent }}
@@ -122,12 +109,13 @@ const CategorySection = ({
   accent,
   discountLabel,
   gradient,
+  image,
   highlight,
   featured,
   products,
 }: CategorySectionProps) => {
-  const firstRow = products.slice(0, 4);
-  const remaining = products.slice(4);
+  const smallGrid = products.slice(0, 2);
+  const extraProducts = products.slice(2, 6);
 
   return (
     <section
@@ -154,21 +142,26 @@ const CategorySection = ({
           </div>
         </div>
 
-        <div className="grid gap-8 lg:grid-cols-[1.2fr_0.9fr]">
+        <div className="grid gap-8 lg:grid-cols-[1.1fr_0.9fr] items-start">
           <div className="space-y-6">
+            <div className="rounded-[32px] overflow-hidden border-[4px]" style={{ borderColor: accent }}>
+              <Image src={image} alt={title} width={800} height={480} className="w-full h-64 object-cover" />
+            </div>
             <div className="grid sm:grid-cols-2 gap-6">
-              {firstRow.map((product) => (
+              {smallGrid.map((product) => (
                 <SmallCard key={product.id} product={product} />
               ))}
             </div>
-            <FeaturedCard data={featured} accent={accent} />
           </div>
-          <HighlightCard info={highlight} accent={accent} />
+          <div className="space-y-6">
+            <FeaturedCard data={featured} accent={accent} />
+            <HighlightCard info={highlight} accent={accent} />
+          </div>
         </div>
 
-        {remaining.length > 0 && (
+        {extraProducts.length > 0 && (
           <div className="grid gap-6 sm:grid-cols-2 xl:grid-cols-4">
-            {remaining.map((product) => (
+            {extraProducts.map((product) => (
               <SmallCard key={product.id} product={product} />
             ))}
           </div>
