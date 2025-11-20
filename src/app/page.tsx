@@ -2,13 +2,7 @@
 
 import Image from 'next/image';
 import CategoryModule, { CategoryModuleProps } from '../components/CategoryModule';
-
-const navFilters = [
-  { label: 'Alimentos', color: '#FF70C4' },
-  { label: 'Bebidas', color: '#25FF87' },
-  { label: 'Higiene', color: '#FFB23E' },
-  { label: 'Limpieza', color: '#5DECFF' }
-];
+import Header from '../components/Header';
 
 const heroBanners = [
   {
@@ -401,28 +395,7 @@ export default function BlackDaysCatalogPage() {
     <main className="bg-[#05000D] text-white font-gabarito">
       <div className="bg-[radial-gradient(circle_at_top,_rgba(247,28,197,0.12),_rgba(5,0,13,0.95))]">
         <div className="max-w-[1512px] mx-auto px-4 lg:px-10 py-10 space-y-16">
-          <header className="flex flex-wrap items-center justify-between gap-4">
-            <div className="flex items-center gap-3">
-              <div className="bg-white rounded-xl px-4 py-2">
-                <Image src="/blackdays/imgLogoAki.png" alt="AKÍ" width={90} height={36} priority />
-              </div>
-              <div>
-                <p className="text-xs uppercase tracking-[0.4em] text-white/60">AKÍ BLACK DAYS</p>
-                <p className="text-lg font-black">Tus productos favoritos al precio más bajo</p>
-              </div>
-            </div>
-            <nav className="flex flex-wrap gap-3">
-              {navFilters.map((filter) => (
-                <button
-                  key={filter.label}
-                  className="px-6 py-3 rounded-2xl border text-sm font-bold bg-black/50 hover:bg-white/10 transition"
-                  style={{ borderColor: filter.color }}
-                >
-                  {filter.label}
-                </button>
-              ))}
-            </nav>
-          </header>
+          <Header />
 
           <section className="grid md:grid-cols-2 gap-6">
             {heroBanners.map((banner) => (
