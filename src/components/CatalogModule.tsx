@@ -7,35 +7,23 @@ import SiteFooter from './SiteFooter';
 import { heroPromos } from '../data/catalog';
 import dinamicos from '../data/dinamicos.json';
 
-// Mapeo de categorías del CSV a configuración visual
+// Mapeo de categorías del CSV a IDs
 const categoryConfig = {
   Alimentos: {
     id: 'alimentos',
     name: 'Alimentos y Bebidas',
-    accent: '#FF70C4',
-    bannerImage: '/assets/categoria-alimentos.png',
-    featuredPosition: 'start' as const,
   },
   Higiene: {
     id: 'higiene',
     name: 'Productos de Higiene',
-    accent: '#5DECFF',
-    bannerImage: '/assets/categoria-higiene.png',
-    featuredPosition: 'middle' as const,
   },
   Limpieza: {
     id: 'limpieza',
     name: 'Productos de Limpieza',
-    accent: '#25FF87',
-    bannerImage: '/assets/categoria-limpieza.png',
-    featuredPosition: 'start' as const,
   },
   Hogar: {
     id: 'hogar',
     name: 'Hogar y Electrodomésticos',
-    accent: '#FFB23E',
-    bannerImage: '/assets/categoria-hogar.png',
-    featuredPosition: 'middle' as const,
   },
 };
 
@@ -78,10 +66,7 @@ const CatalogModule = () => {
               key={config.id}
               categoryId={config.id}
               categoryName={config.name}
-              bannerImage={config.bannerImage}
-              featuredPosition={config.featuredPosition}
               products={products}
-              accentColor={config.accent}
             />
           );
         })}

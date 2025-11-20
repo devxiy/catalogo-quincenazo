@@ -9,25 +9,29 @@ export type GridProduct = {
   precio_normal: string;
   descuento: string;
   imagen: string;
+  vigencia: {
+    inicio: string;
+    fin: string;
+  };
 };
 
 export type CategoryGridProps = {
   categoryId: string;
   categoryName: string;
-  bannerImage: string;
-  featuredImage?: string;
-  featuredPosition?: 'start' | 'middle' | 'end';
   products: GridProduct[];
-  accentColor: string;
 };
 
-const ProductCard = ({ product }: { product: GridProduct }) => (
-  <div className="relative rounded-[24px] overflow-hidden bg-gradient-to-b from-[#1B001B] to-[#050105] p-[2px] shadow-[0_8px_24px_rgba(0,0,0,0.4)]">
+const ProductCard = ({ product, className = '' }: { product: GridProduct; className?: string }) => (
+  <div className={`relative rounded-[24px] overflow-hidden bg-gradient-to-b from-[#1B001B] to-[#050105] p-[2px] shadow-[0_8px_24px_rgba(0,0,0,0.4)] ${className}`}>
     {/* Badge Días Negros */}
-    <div className="absolute top-2 left-2 z-10 w-14 h-14 rounded-full bg-gradient-to-br from-[#FF008C] to-[#FFDE00] flex items-center justify-center shadow-lg">
-      <span className="text-[7px] font-black text-black text-center leading-tight px-1">
-        DÍAS<br/>NEGROS
-      </span>
+    <div className="absolute top-2 left-2 z-10 w-14 h-14">
+      <Image
+        src="/assets/icono-diasnegros.png"
+        alt="Días Negros"
+        width={56}
+        height={56}
+        className="object-contain"
+      />
     </div>
 
     <div className="rounded-[23px] bg-white overflow-hidden flex flex-col h-full">
@@ -75,68 +79,8 @@ const ProductCard = ({ product }: { product: GridProduct }) => (
           <p className="text-sm text-gray-300 line-through">
             ${parseFloat(product.precio_normal).toFixed(2)}
           </p>
-        </div>
-      </div>
-    </div>
-  </div>
-);
-
-const FeaturedProduct = ({ product, accent }: { product: GridProduct; accent: string }) => (
-  <div
-    className="relative rounded-[32px] overflow-hidden p-[3px] shadow-[0_15px_45px_rgba(0,0,0,0.5)]"
-    style={{
-      background: `linear-gradient(135deg, ${accent}40 0%, ${accent}20 100%)`,
-    }}
-  >
-    {/* Badge Días Negros */}
-    <div className="absolute top-4 left-4 z-10 w-20 h-20 rounded-full bg-gradient-to-br from-[#FF008C] to-[#FFDE00] flex items-center justify-center shadow-xl">
-      <span className="text-[10px] font-black text-black text-center leading-tight">
-        DÍAS<br/>NEGROS
-      </span>
-    </div>
-
-    <div className="rounded-[30px] bg-gradient-to-br from-gray-100 to-white overflow-hidden h-full min-h-[420px] flex flex-col">
-      {/* Imagen grande */}
-      <div className="relative flex-1 flex items-center justify-center p-8 pt-16">
-        <Image
-          src={product.imagen}
-          alt={product.nombre}
-          width={320}
-          height={320}
-          className="object-contain max-h-[280px] drop-shadow-[0_20px_40px_rgba(0,0,0,0.25)]"
-        />
-      </div>
-
-      {/* Ícono Tipti */}
-      <div className="flex flex-col items-center gap-2 pb-4">
-        <div className="w-12 h-12 rounded-full bg-[#FFDE00] flex items-center justify-center shadow-lg">
-          <span className="text-[10px] font-black text-black">TIPTI</span>
-        </div>
-        <span className="text-xs text-gray-600 font-semibold">Pídelo por</span>
-      </div>
-
-      {/* Info destacada */}
-      <div className="bg-black rounded-t-[28px] px-6 py-6 space-y-2">
-        <p className="text-white font-black text-lg leading-tight line-clamp-2">
-          {product.nombre}
-        </p>
-        <p className="text-xs text-gray-400 uppercase tracking-wider">
-          CÓD. {product.codigo}
-        </p>
-        <div className="pt-2 space-y-1">
-          <div className="flex items-baseline gap-3">
-            <span className="text-[#FFDE00] text-4xl font-black">
-              ${parseFloat(product.precio_oferta).toFixed(2)}
-            </span>
-            {product.descuento && (
-              <span className="text-[#FF008C] text-base font-bold">
-                {product.descuento}% DTO
-              </span>
-            )}
-          </div>
-          <p className="text-xs text-gray-400">Precio normal unitario</p>
-          <p className="text-base text-gray-300 line-through">
-            ${parseFloat(product.precio_normal).toFixed(2)}
+          <p className="text-[8px] text-gray-500 mt-1">
+            Vigencia: {product.vigencia.inicio} - {product.vigencia.fin}
           </p>
         </div>
       </div>
@@ -144,68 +88,120 @@ const FeaturedProduct = ({ product, accent }: { product: GridProduct; accent: st
   </div>
 );
 
-const CategoryBanner = ({ image, categoryName, accent }: { image: string; categoryName: string; accent: string }) => (
-  <div
-    className="relative rounded-[32px] overflow-hidden border-[4px] shadow-[0_15px_45px_rgba(0,0,0,0.5)]"
-    style={{ borderColor: accent }}
-  >
-    <div className="relative h-[200px]">
+const FeaturedBigProduct = ({ product, categoryId }: { product: GridProduct; categoryId: string }) => (
+  <div className="relative rounded-[32px] overflow-hidden bg-gradient-to-b from-[#1B001B] to-[#050105] p-[3px] shadow-[0_15px_45px_rgba(0,0,0,0.5)] col-span-2 row-span-2">
+    {/* Badge Días Negros - Posición superior */}
+    <div className="absolute top-4 left-4 z-10 w-20 h-20">
       <Image
-        src={image}
-        alt={categoryName}
-        fill
-        className="object-cover"
-        sizes="(max-width: 1536px) 100vw, 1536px"
+        src="/assets/icono-diasnegros.png"
+        alt="Días Negros"
+        width={80}
+        height={80}
+        className="object-contain"
       />
+    </div>
+
+    <div className="rounded-[30px] bg-gradient-to-br from-gray-100 to-white overflow-hidden h-full flex flex-col relative">
+      {/* Textos encima de la imagen */}
+      <div className="absolute top-6 right-6 z-10 bg-black/80 backdrop-blur-sm rounded-2xl px-6 py-4 max-w-[280px]">
+        <p className="text-white font-black text-lg leading-tight line-clamp-2 mb-2">
+          {product.nombre}
+        </p>
+        <p className="text-xs text-gray-300 uppercase tracking-wider mb-3">
+          CÓD. {product.codigo}
+        </p>
+        <div className="space-y-1">
+          <div className="flex items-baseline gap-2">
+            <span className="text-[#FFDE00] text-3xl font-black">
+              ${parseFloat(product.precio_oferta).toFixed(2)}
+            </span>
+            {product.descuento && (
+              <span className="text-[#FF008C] text-sm font-bold">
+                {product.descuento}% DTO
+              </span>
+            )}
+          </div>
+          <p className="text-[10px] text-gray-300">Precio normal unitario</p>
+          <p className="text-sm text-gray-400 line-through">
+            ${parseFloat(product.precio_normal).toFixed(2)}
+          </p>
+        </div>
+      </div>
+
+      {/* Imagen grande de fondo */}
+      <div className="relative w-full h-full">
+        <Image
+          src={`/assets/producto-big-${categoryId}.png`}
+          alt={product.nombre}
+          fill
+          className="object-cover"
+          sizes="(max-width: 768px) 100vw, 50vw"
+        />
+      </div>
+
+      {/* Ícono Tipti en la esquina inferior */}
+      <div className="absolute bottom-4 left-4 flex flex-col items-center gap-1">
+        <div className="w-12 h-12 rounded-full bg-[#FFDE00] flex items-center justify-center shadow-lg">
+          <span className="text-[10px] font-black text-black">TIPTI</span>
+        </div>
+        <span className="text-xs text-gray-800 font-semibold bg-white/90 px-2 py-0.5 rounded-full">
+          Pídelo por
+        </span>
+      </div>
     </div>
   </div>
 );
 
-const CategoryGrid = ({
-  categoryId,
-  categoryName,
-  bannerImage,
-  featuredImage,
-  featuredPosition = 'start',
-  products,
-  accentColor,
-}: CategoryGridProps) => {
-  // Determinar dónde insertar el producto destacado
-  const shouldShowFeatured = featuredImage && products.length > 0;
-  let featuredIndex = 0;
-
-  if (featuredPosition === 'middle') {
-    featuredIndex = Math.floor(products.length / 2);
-  } else if (featuredPosition === 'end') {
-    featuredIndex = Math.max(0, products.length - 6);
-  }
+const CategoryGrid = ({ categoryId, categoryName, products }: CategoryGridProps) => {
+  // Dividir productos según la estructura
+  const producto1 = products[0]; // Debajo del banner izquierdo (fila 1)
+  const producto2 = products[1]; // Debajo del banner izquierdo (fila 2)
+  const productoBig = products[2]; // Producto grande derecho (2x2)
+  const producto3 = products[3]; // Fila 3 izquierda (2 columnas)
+  const producto4 = products[4]; // Fila 3 derecha superior
+  const producto5 = products[5]; // Fila 3 derecha inferior
+  const productosRestantes = products.slice(6); // A partir de fila 4 (4 columnas)
 
   return (
     <section id={categoryId} className="space-y-6 scroll-mt-20">
-      {/* Banner de categoría */}
-      <CategoryBanner image={bannerImage} categoryName={categoryName} accent={accentColor} />
+      {/* Grid de 4 columnas base */}
+      <div className="grid grid-cols-4 gap-5 auto-rows-fr">
+        {/* FILA 1-2: Banner titular (2 cols x 1 fila) */}
+        <div className="col-span-2 row-span-1 rounded-[32px] overflow-hidden shadow-[0_15px_45px_rgba(0,0,0,0.5)]">
+          <Image
+            src={`/assets/categoria-titular-${categoryId}.png`}
+            alt={categoryName}
+            width={800}
+            height={400}
+            className="w-full h-full object-cover"
+          />
+        </div>
 
-      {/* Grid de productos */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 auto-rows-fr">
-        {products.map((product, index) => {
-          // Insertar producto destacado en la posición correcta
-          if (shouldShowFeatured && index === featuredIndex) {
-            return (
-              <>
-                <div key={`featured-${categoryId}`} className="lg:col-span-2 lg:row-span-2">
-                  <FeaturedProduct product={products[0]} accent={accentColor} />
-                </div>
-                <ProductCard key={product.codigo} product={product} />
-              </>
-            );
-          }
+        {/* FILA 1-2: Producto grande derecho (2 cols x 2 filas) */}
+        {productoBig && <FeaturedBigProduct product={productoBig} categoryId={categoryId} />}
 
-          return <ProductCard key={product.codigo} product={product} />;
-        })}
+        {/* FILA 2: Producto 1 debajo del banner (1 col) */}
+        {producto1 && <ProductCard product={producto1} />}
+
+        {/* FILA 2: Producto 2 debajo del banner (1 col) */}
+        {producto2 && <ProductCard product={producto2} />}
+
+        {/* FILA 3: Producto destacado izquierda (2 cols) */}
+        {producto3 && <ProductCard product={producto3} className="col-span-2" />}
+
+        {/* FILA 3: Producto 4 derecha superior (1 col) */}
+        {producto4 && <ProductCard product={producto4} />}
+
+        {/* FILA 3: Producto 5 derecha inferior (1 col) */}
+        {producto5 && <ProductCard product={producto5} />}
+
+        {/* FILA 4+: Productos restantes (4 columnas normales) */}
+        {productosRestantes.map((product) => (
+          <ProductCard key={product.codigo} product={product} />
+        ))}
       </div>
     </section>
   );
 };
 
 export default CategoryGrid;
-
