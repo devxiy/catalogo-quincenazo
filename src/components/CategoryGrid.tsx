@@ -24,12 +24,12 @@ export type CategoryGridProps = {
 const ProductCard = ({ product, className = '' }: { product: GridProduct; className?: string }) => (
   <div className={`relative rounded-[24px] overflow-hidden bg-gradient-to-b from-[#1B001B] to-[#050105] p-[2px] shadow-[0_8px_24px_rgba(0,0,0,0.4)] ${className}`}>
     {/* Badge Días Negros - arriba derecha */}
-    <div className="absolute top-2 right-2 z-10 w-14 h-14">
+    <div className="absolute top-0 right-0 z-10 w-14 h-14">
       <Image
         src="/assets/icono-diasnegros.png"
         alt="Días Negros"
-        width={56}
-        height={56}
+        width={64}
+        height={64}
         className="object-contain"
       />
     </div>
@@ -44,10 +44,8 @@ const ProductCard = ({ product, className = '' }: { product: GridProduct; classN
           height={160}
           className="object-contain max-h-[140px] drop-shadow-[0_8px_16px_rgba(0,0,0,0.15)]"
         />
-      </div>
-
-      {/* Botón Tipti - posición absoluta abajo derecha */}
-      <div className="absolute bottom-4 right-4">
+        {/* Botón Tipti - posición absoluta abajo derecha */}
+        <div className="absolute bottom-4 right-4">
         <Image
           src="/assets/btn-tipti.png"
           alt="Pídelo por Tipti"
@@ -56,6 +54,10 @@ const ProductCard = ({ product, className = '' }: { product: GridProduct; classN
           className="object-contain drop-shadow-lg"
         />
       </div>
+      </div>
+
+      
+      
 
       {/* Info del producto - 2 columnas */}
       <div className="bg-black rounded-t-[20px] px-4 py-4 flex-1 flex">
