@@ -41,21 +41,21 @@ const ProductCard = ({ product, accentColor, className = '' }: { product: GridPr
     </div>
 
     {/* Imagen del producto */}
-    <div className="relative h-[260px] bg-white flex items-center justify-center px-6 pt-10 pb-6">
+    <div className="relative h-[240px] bg-white flex items-center justify-center px-6 pt-10 pb-6">
       <Image
         src={product.imagen}
         alt={product.nombre}
         width={320}
         height={320}
-        className="object-contain max-h-[260px] w-full drop-shadow-[0_8px_16px_rgba(0,0,0,0.15)]"
+        className="object-contain max-h-[240px] w-full drop-shadow-[0_8px_16px_rgba(0,0,0,0.15)]"
       />
       {/* Botón Tipti - posición absoluta abajo derecha */}
       <div className="absolute bottom-6 right-6">
         <Image
           src="/assets/btn-tipti.png"
           alt="Pídelo por Tipti"
-          width={70}
-          height={92}
+          width={60}
+          height={79}
           className="object-contain drop-shadow-lg"
         />
       </div>
@@ -150,8 +150,8 @@ const FeaturedBigProduct = ({ product, categoryId, accentColor }: { product: Gri
         <Image
           src="/assets/btn-tipti.png"
           alt="Pídelo por Tipti"
-          width={100}
-          height={100}
+          width={60}
+          height={79}
           className="object-contain drop-shadow-2xl"
         />
       </div>
