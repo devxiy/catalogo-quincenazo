@@ -156,6 +156,23 @@ const categoryConfig: CategoryConfig[] = [
     reverseLayout: true,
   },
   {
+    id: 'bebidas',
+    title: 'Bebidas',
+    accent: '#5DECFF',
+    discountLabel: 'HASTA CON EL 40% DTO.',
+    gradient: 'linear-gradient(180deg, #0b4024 0%, #042015 70%, #010805 100%)',
+    image: '/assets/producto-big.png',
+    sourceKey: 'Limpieza',
+    highlight: {
+      image: '/assets/producto-big.png',
+      product: 'Combo limpieza profunda',
+      description: 'Mantén cada rincón impecable con descuentos 4x3.',
+      price: 0,
+      regularPrice: 0,
+    },
+    reverseLayout: true,
+  },
+  /*{
     id: 'hogar',
     title: 'Hogar',
     accent: '#F22921',
@@ -171,7 +188,7 @@ const categoryConfig: CategoryConfig[] = [
       regularPrice: 0,
     },
     reverseLayout: true,
-  },
+  },*/
 ];
 
 export const categories: CategoryBlock[] = categoryConfig.map((category) => {
