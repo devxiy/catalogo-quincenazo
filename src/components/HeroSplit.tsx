@@ -12,7 +12,7 @@ const HeroSplit = ({ items }: { items: HeroPromo[] }) => {
           className="rounded-[32px] border-[4px] overflow-hidden relative"
           style={{ borderColor: card.border }}
         >
-          <div className="relative h-[320px]">
+          <div className="">
             <Image src={card.image} alt={card.title} fill className="" sizes="(max-width: 768px) 100vw, 720px" />
           </div>
         </article>
