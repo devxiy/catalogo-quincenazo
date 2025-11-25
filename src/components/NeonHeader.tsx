@@ -6,10 +6,10 @@ import { categories as categoryData } from '../data/catalog';
 const NeonHeader = () => {
   return (
     <header
-      className="rounded-[32px] px-6 py-4 flex flex-wrap items-center justify-between gap-6"
+      className=" px-6 py-4 flex flex-wrap items-center justify-between gap-2"
       style={{
         background:
-          'linear-gradient(90deg, rgba(87,0,75,0.85) 0%, rgba(24,0,28,0.9) 45%, rgba(8,0,12,0.95) 100%)',
+          '#000000',
         boxShadow: 'inset 0 0 30px rgba(0,0,0,0.55)',
       }}
     >
