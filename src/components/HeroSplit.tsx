@@ -13,7 +13,7 @@ const HeroSplit = ({ items }: { items: HeroPromo[] }) => {
           style={{ borderColor: card.border }}
         >
           <div className="">
-            <Image src={card.image} alt={card.title} fill className="" sizes="(max-width: 768px) 100vw, 720px" />
+            <Image src={card.image} alt={card.title} fill className="relative" sizes="(max-width: 768px) 100vw, 720px" />
           </div>
         </article>
       ))}
