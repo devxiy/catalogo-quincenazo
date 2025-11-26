@@ -161,9 +161,9 @@ const FeaturedBigProduct = ({ product, categoryId, accentColor }: { product: Gri
 
 const CategoryGrid = ({ categoryId, categoryName, accentColor, products }: CategoryGridProps) => {
   // Dividir productos según la estructura
-  const producto1 = products[0]; // Debajo del banner izquierdo (fila 1)
-  const producto2 = products[1]; // Debajo del banner izquierdo (fila 2)
-  const productoBig = products[2]; // Producto grande derecho (2x2)
+  const productoBig = products[0]; // Producto grande derecho (2x2) - PRIMER ITEM DEL CSV
+  const producto1 = products[1]; // Debajo del banner izquierdo (fila 1)
+  const producto2 = products[2]; // Debajo del banner izquierdo (fila 2)
   const producto3 = products[3]; // Fila 3 izquierda (2 columnas)
   const producto4 = products[4]; // Fila 3 derecha superior
   const producto5 = products[5]; // Fila 3 derecha inferior
