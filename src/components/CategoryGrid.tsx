@@ -162,12 +162,8 @@ const FeaturedBigProduct = ({ product, categoryId, accentColor }: { product: Gri
 const CategoryGrid = ({ categoryId, categoryName, accentColor, products }: CategoryGridProps) => {
   // Dividir productos según la estructura
   const productoBig = products[0]; // Producto grande derecho (2x2) - PRIMER ITEM DEL CSV
-  const producto1 = products[1]; // Debajo del banner izquierdo (fila 1)
-  const producto2 = products[2]; // Debajo del banner izquierdo (fila 2)
-  const producto3 = products[3]; // Fila 3 izquierda (2 columnas)
-  const producto4 = products[4]; // Fila 3 derecha superior
-  const producto5 = products[5]; // Fila 3 derecha inferior
-  const productosRestantes = products.slice(6); // A partir de fila 4 (4 columnas)
+  const productosBanner = products.slice(1, 3); // Debajo del banner (fila 2)
+  const productosRestantes = products.slice(3); // A partir de la fila 3 en adelante
 
   return (
     <section id={categoryId} className="space-y-6 scroll-mt-20">
@@ -187,22 +183,12 @@ const CategoryGrid = ({ categoryId, categoryName, accentColor, products }: Categ
         {/* FILA 1-2: Producto grande derecho (2 cols x 2 filas) */}
         {productoBig && <FeaturedBigProduct product={productoBig} categoryId={categoryId} accentColor={accentColor} />}
 
-        {/* FILA 2: Producto 1 debajo del banner (1 col) */}
-        {producto1 && <ProductCard product={producto1} accentColor={accentColor} />}
+        {/* FILA 2: Productos debajo del banner (1 col cada uno) */}
+        {productosBanner.map((product) => (
+          <ProductCard key={`banner-${product.codigo}`} product={product} accentColor={accentColor} />
+        ))}
 
-        {/* FILA 2: Producto 2 debajo del banner (1 col) */}
-        {producto2 && <ProductCard product={producto2} accentColor={accentColor} />}
-
-        {/* FILA 3: Producto destacado izquierda (2 cols) */}
-        {producto3 && <ProductCard product={producto3} accentColor={accentColor} className="col-span-2" />}
-
-        {/* FILA 3: Producto 4 derecha superior (1 col) */}
-        {producto4 && <ProductCard product={producto4} accentColor={accentColor} />}
-
-        {/* FILA 3: Producto 5 derecha inferior (1 col) */}
-        {producto5 && <ProductCard product={producto5} accentColor={accentColor} />}
-
-        {/* FILA 4+: Productos restantes (4 columnas normales) */}
+        {/* FILA 3 en adelante: grilla normal de 4 columnas */}
         {productosRestantes.map((product) => (
           <ProductCard key={product.codigo} product={product} accentColor={accentColor} />
         ))}
