@@ -1403,6 +1403,58 @@
       "descuento": "50",
       "precio_normal": "17.92",
       "precio_oferta": "8.96"
+    },
+    {
+      "codigo": "7702026032951",
+      "nombre": "Familia Pañuelo Cuidado Gripal 4 u",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702026032951.png",
+      "descuento": "50",
+      "precio_normal": "2.30",
+      "precio_oferta": "1.15"
+    },
+    {
+      "codigo": "7702026032036",
+      "nombre": "Familia Caja Pequeña 50 u",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702026032036.png",
+      "descuento": "50",
+      "precio_normal": "2.37",
+      "precio_oferta": "1.19"
+    },
+    {
+      "codigo": "7861223815504",
+      "nombre": "Gama Loción Refrescante Lavanda 160 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7861223815504.png",
+      "descuento": "50",
+      "precio_normal": "1.99",
+      "precio_oferta": "1.00"
+    },
+    {
+      "codigo": "7861223815429",
+      "nombre": "Gama Loción Refrescante Menta 160 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7861223815429.png",
+      "descuento": "50",
+      "precio_normal": "1.99",
+      "precio_oferta": "1.00"
     }
   ],
   "Limpieza": [
@@ -1470,6 +1522,32 @@
       "descuento": "50",
       "precio_normal": "4.15",
       "precio_oferta": "2.08"
+    },
+    {
+      "codigo": "7861048613538",
+      "nombre": "Ciclón Detergente Poder Limón 4.50 kg",
+      "categoria": "Limpieza",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7861048613538.png",
+      "descuento": "50",
+      "precio_normal": "15.94",
+      "precio_oferta": "7.97"
+    },
+    {
+      "codigo": "7702425993730",
+      "nombre": "Scott Toalla Cocina Reusable Duramax 52 u",
+      "categoria": "Limpieza",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702425993730.png",
+      "descuento": "50",
+      "precio_normal": "3.90",
+      "precio_oferta": "1.95"
     }
   ],
   "Alimentos": [
@@ -1979,86 +2057,6 @@
       "descuento": "50",
       "precio_normal": "4.99",
       "precio_oferta": "2.50"
-    }
-  ],
-  "Hogar": [
-    {
-      "codigo": "7861048613538",
-      "nombre": "Ciclón Detergente Poder Limón 4.50 kg",
-      "categoria": "Hogar",
-      "vigencia": {
-        "inicio": "2025-10-27",
-        "fin": "2025-12-03"
-      },
-      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7861048613538.png",
-      "descuento": "50",
-      "precio_normal": "15.94",
-      "precio_oferta": "7.97"
-    },
-    {
-      "codigo": "7702026032951",
-      "nombre": "Familia Pañuelo Cuidado Gripal 4 u",
-      "categoria": "Hogar",
-      "vigencia": {
-        "inicio": "2025-10-27",
-        "fin": "2025-12-03"
-      },
-      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702026032951.png",
-      "descuento": "50",
-      "precio_normal": "2.30",
-      "precio_oferta": "1.15"
-    },
-    {
-      "codigo": "7702026032036",
-      "nombre": "Familia Caja Pequeña 50 u",
-      "categoria": "Hogar",
-      "vigencia": {
-        "inicio": "2025-10-27",
-        "fin": "2025-12-03"
-      },
-      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702026032036.png",
-      "descuento": "50",
-      "precio_normal": "2.37",
-      "precio_oferta": "1.19"
-    },
-    {
-      "codigo": "7861223815504",
-      "nombre": "Gama Loción Refrescante Lavanda 160 ml",
-      "categoria": "Hogar",
-      "vigencia": {
-        "inicio": "2025-10-27",
-        "fin": "2025-12-03"
-      },
-      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7861223815504.png",
-      "descuento": "50",
-      "precio_normal": "1.99",
-      "precio_oferta": "1.00"
-    },
-    {
-      "codigo": "7861223815429",
-      "nombre": "Gama Loción Refrescante Menta 160 ml",
-      "categoria": "Hogar",
-      "vigencia": {
-        "inicio": "2025-10-27",
-        "fin": "2025-12-03"
-      },
-      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7861223815429.png",
-      "descuento": "50",
-      "precio_normal": "1.99",
-      "precio_oferta": "1.00"
-    },
-    {
-      "codigo": "7702425993730",
-      "nombre": "Scott Toalla Cocina Reusable Duramax 52 u",
-      "categoria": "Hogar",
-      "vigencia": {
-        "inicio": "2025-10-27",
-        "fin": "2025-12-03"
-      },
-      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702425993730.png",
-      "descuento": "50",
-      "precio_normal": "3.90",
-      "precio_oferta": "1.95"
     }
   ],
   "Bebidas": [

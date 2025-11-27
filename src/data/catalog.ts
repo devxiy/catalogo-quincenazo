@@ -172,7 +172,7 @@ const categoryConfig: CategoryConfig[] = [
     },
     reverseLayout: true,
   },
-  {
+  /*{
     id: 'hogar',
     title: 'Hogar',
     accent: '#F22921',
@@ -188,7 +188,7 @@ const categoryConfig: CategoryConfig[] = [
       regularPrice: 0,
     },
     reverseLayout: true,
-  },
+  },*/
 ];
 
 export const categories: CategoryBlock[] = categoryConfig.map((category) => {
