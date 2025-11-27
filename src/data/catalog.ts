@@ -88,9 +88,9 @@ export const heroPromos: HeroPromo[] = [
     title: 'AKÍ BLACK DAYS',
     description: 'APROVECHA HASTA EL 40% DTO.',
     period: 'DEL 13 DE NOVIEMBRE AL 3 DE DICIEMBRE 2025',
-    image: '/assets/banner-blackdays.png',
-    imageMobile: '/assets/banner-blackdays-mobile.png',
-    border: '#FF70C4',
+    image: '/assets/banner-ultra-negros.png',
+    imageMobile: '/assets/banner-ultra-negros-mobile.png',
+    border: '#FDF5A4',
   },
   {
     id: 'hero-75',
