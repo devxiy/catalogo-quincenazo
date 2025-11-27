@@ -69,7 +69,7 @@ const ProductCard = ({ product, accentColor, className = '' }: { product: GridPr
     </div>
 
     {/* Info del producto - 2 columnas */}
-    <div className="bg-black rounded-t-[20px] px-5 py-5 flex gap-3">
+    <div className="bg-black rounded-t-none rounded-b-[24px] px-5 py-5 flex gap-3">
       {/* Columna izquierda: nombre y código */}
       <div className="flex-1 pr-2 justify-center">
         <p className="text-white font-bold text-base leading-tight line-clamp-3">
@@ -101,7 +101,7 @@ const ProductCard = ({ product, accentColor, className = '' }: { product: GridPr
 
 const FeaturedBigProduct = ({ product, categoryId, accentColor }: { product: GridProduct; categoryId: string; accentColor: string }) => (
   <div 
-    className="relative rounded-[32px] overflow-hidden shadow-[0_15px_45px_rgba(0,0,0,0.5)] col-span-1 xs:col-span-2 xs:row-span-2"
+    className="relative rounded-[32px] overflow-hidden shadow-[0_15px_45px_rgba(0,0,0,0.5)] col-span-1 xs:col-span-2 xs:row-span-2 min-h-[380px] xs:min-h-[520px]"
     style={{
       border: `3px solid ${accentColor}`
     }}
@@ -119,7 +119,7 @@ const FeaturedBigProduct = ({ product, categoryId, accentColor }: { product: Gri
 
     <div className="rounded-[30px] bg-gradient-to-br from-gray-100 to-white overflow-hidden h-full flex flex-col relative">
       {/* Imagen grande de fondo */}
-      <div className="relative w-full h-full">
+      <div className="relative w-full h-full min-h-[320px]">
         <Image
           src={`/assets/categoria-big-${categoryId}.png`}
           alt={product.nombre}

@@ -61,14 +61,14 @@ const NeonHeader = () => {
       </nav>
 
       {isMenuOpen && (
-        <div className="md:hidden absolute left-0 top-full w-full border-t border-white/10 bg-black/95 shadow-[0_18px_40px_rgba(0,0,0,0.65)]">
-          <nav className="flex flex-col gap-3 p-4">
+        <div className="md:hidden absolute left-0 top-full w-full border-t border-white/10 bg-black/95 shadow-[0_18px_40px_rgba(0,0,0,0.65)] max-h-[60vh] overflow-y-auto">
+          <nav className="flex flex-col gap-2 p-3">
             {categoryData.map((category) => (
               <a
                 key={`mobile-${category.id}`}
                 href={`#${category.id}`}
                 onClick={handleLinkClick}
-                className="relative px-5 py-3 rounded-2xl text-base font-semibold text-white tracking-wide focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
+                className="relative px-4 py-2 rounded-xl text-sm font-semibold text-white tracking-wide focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
                 style={{
                   border: `1px solid ${category.accent}`,
                   boxShadow: `0 0 14px ${category.accent}80`,
