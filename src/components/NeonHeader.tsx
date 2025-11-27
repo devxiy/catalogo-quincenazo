@@ -4,6 +4,8 @@ import { useState } from 'react';
 import Image from 'next/image';
 import { categories as categoryData } from '../data/catalog';
 
+const PDF_URL = '/api/catalog-pdf';
+
 const NeonHeader = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -40,25 +42,35 @@ const NeonHeader = () => {
         <span className="w-6 h-0.5 bg-white transition" />
       </button>
 
-      <nav className="hidden md:flex flex-wrap gap-4 justify-center flex-1">
-        {categoryData.map((category) => (
-          <a
-            key={category.id}
-            href={`#${category.id}`}
-            className="relative px-8 py-2 rounded-full text-sm font-semibold text-white tracking-wide transition hover:scale-105 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
-            style={{
-              border: `1px solid ${category.accent}`,
-              boxShadow: `0 0 18px ${category.accent}80`,
-            }}
-          >
-            <span
-              className="absolute inset-0 rounded-full opacity-60 blur-2xl"
-              style={{ background: category.accent }}
-            />
-            <span className="relative z-10">{category.title}</span>
-          </a>
-        ))}
-      </nav>
+      <div className="hidden md:flex flex-1 items-center gap-4">
+        <nav className="flex flex-wrap gap-4 justify-center flex-1">
+          {categoryData.map((category) => (
+            <a
+              key={category.id}
+              href={`#${category.id}`}
+              className="relative px-8 py-2 rounded-full text-sm font-semibold text-white tracking-wide transition hover:scale-105 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
+              style={{
+                border: `1px solid ${category.accent}`,
+                boxShadow: `0 0 18px ${category.accent}80`,
+              }}
+            >
+              <span
+                className="absolute inset-0 rounded-full opacity-60 blur-2xl"
+                style={{ background: category.accent }}
+              />
+              <span className="relative z-10">{category.title}</span>
+            </a>
+          ))}
+        </nav>
+        <a
+          href={PDF_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 rounded-full border border-white/30 bg-white/5 px-5 py-2 text-sm font-semibold uppercase tracking-wide text-white transition hover:bg-white/15 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white/70"
+        >
+          Descargar PDF
+        </a>
+      </div>
 
       {isMenuOpen && (
         <div className="md:hidden absolute left-0 top-full w-full border-t border-white/10 bg-black/95 shadow-[0_18px_40px_rgba(0,0,0,0.65)] max-h-[60vh] overflow-y-auto">
@@ -81,6 +93,15 @@ const NeonHeader = () => {
                 <span className="relative z-10">{category.title}</span>
               </a>
             ))}
+            <a
+              href={PDF_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={handleLinkClick}
+              className="mt-2 inline-flex items-center justify-center rounded-xl border border-white/30 bg-white/5 px-4 py-3 text-sm font-semibold uppercase tracking-wide text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white/70"
+            >
+              Descargar PDF
+            </a>
           </nav>
         </div>
       )}
