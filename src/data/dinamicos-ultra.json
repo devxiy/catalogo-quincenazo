@@ -1565,58 +1565,6 @@
       "precio_oferta": "1.48"
     },
     {
-      "codigo": "8423453909584",
-      "nombre": "Brizo Bebida Naranja 330 ml",
-      "categoria": "Alimentos",
-      "vigencia": {
-        "inicio": "2025-10-27",
-        "fin": "2025-12-03"
-      },
-      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/8423453909584.png",
-      "descuento": "50",
-      "precio_normal": "0.81",
-      "precio_oferta": "0.41"
-    },
-    {
-      "codigo": "8423453909607",
-      "nombre": "Brizo Bebida Cola 330 ml",
-      "categoria": "Alimentos",
-      "vigencia": {
-        "inicio": "2025-10-27",
-        "fin": "2025-12-03"
-      },
-      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/8423453909607.png",
-      "descuento": "50",
-      "precio_normal": "0.81",
-      "precio_oferta": "0.41"
-    },
-    {
-      "codigo": "8423453909614",
-      "nombre": "Brizo Bebida Lima Limón 330 ml",
-      "categoria": "Alimentos",
-      "vigencia": {
-        "inicio": "2025-10-27",
-        "fin": "2025-12-03"
-      },
-      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/8423453909614.png",
-      "descuento": "50",
-      "precio_normal": "0.81",
-      "precio_oferta": "0.41"
-    },
-    {
-      "codigo": "8421735002312",
-      "nombre": "Caballero De Castilla Vino Rosado 750 ml",
-      "categoria": "Alimentos",
-      "vigencia": {
-        "inicio": "2025-10-27",
-        "fin": "2025-12-03"
-      },
-      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/8421735002312.png",
-      "descuento": "40",
-      "precio_normal": "5.80",
-      "precio_oferta": "3.48"
-    },
-    {
       "codigo": "7622210872975",
       "nombre": "Club Social Galleta Integral Multicereales 216 g",
       "categoria": "Alimentos",
@@ -1903,58 +1851,6 @@
       "precio_oferta": "1.48"
     },
     {
-      "codigo": "8413481040021",
-      "nombre": "May Gold Sparkling Uva Roja 750 ml",
-      "categoria": "Alimentos",
-      "vigencia": {
-        "inicio": "2025-10-27",
-        "fin": "2025-12-03"
-      },
-      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/8413481040021.png",
-      "descuento": "40",
-      "precio_normal": "4.09",
-      "precio_oferta": "2.45"
-    },
-    {
-      "codigo": "8413481040014",
-      "nombre": "May Gold Sparkling Uva Blanca 750 ml",
-      "categoria": "Alimentos",
-      "vigencia": {
-        "inicio": "2025-10-27",
-        "fin": "2025-12-03"
-      },
-      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/8413481040014.png",
-      "descuento": "40",
-      "precio_normal": "4.09",
-      "precio_oferta": "2.45"
-    },
-    {
-      "codigo": "8413481012097",
-      "nombre": "Mayador Sidra Rosada 750 ml",
-      "categoria": "Alimentos",
-      "vigencia": {
-        "inicio": "2025-10-27",
-        "fin": "2025-12-03"
-      },
-      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/8413481012097.png",
-      "descuento": "40",
-      "precio_normal": "5.12",
-      "precio_oferta": "3.07"
-    },
-    {
-      "codigo": "8413481012004",
-      "nombre": "Mayador Sidra Asturiana 750 ml",
-      "categoria": "Alimentos",
-      "vigencia": {
-        "inicio": "2025-10-27",
-        "fin": "2025-12-03"
-      },
-      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/8413481012004.png",
-      "descuento": "40",
-      "precio_normal": "5.12",
-      "precio_oferta": "3.07"
-    },
-    {
       "codigo": "7861018591910",
       "nombre": "Natuchips Plátano Frito Picante 135 g",
       "categoria": "Alimentos",
@@ -2124,6 +2020,110 @@
       "descuento": "50",
       "precio_normal": "5.50",
       "precio_oferta": "2.75"
+    },
+    {
+      "codigo": "8423453909584",
+      "nombre": "Brizo Bebida Naranja 330 ml",
+      "categoria": "Bebidas",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/8423453909584.png",
+      "descuento": "50",
+      "precio_normal": "0.81",
+      "precio_oferta": "0.41"
+    },
+    {
+      "codigo": "8423453909607",
+      "nombre": "Brizo Bebida Cola 330 ml",
+      "categoria": "Bebidas",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/8423453909607.png",
+      "descuento": "50",
+      "precio_normal": "0.81",
+      "precio_oferta": "0.41"
+    },
+    {
+      "codigo": "8423453909614",
+      "nombre": "Brizo Bebida Lima Limón 330 ml",
+      "categoria": "Bebidas",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/8423453909614.png",
+      "descuento": "50",
+      "precio_normal": "0.81",
+      "precio_oferta": "0.41"
+    },
+    {
+      "codigo": "8421735002312",
+      "nombre": "Caballero De Castilla Vino Rosado 750 ml",
+      "categoria": "Bebidas",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/8421735002312.png",
+      "descuento": "40",
+      "precio_normal": "5.80",
+      "precio_oferta": "3.48"
+    },
+    {
+      "codigo": "8413481040021",
+      "nombre": "May Gold Sparkling Uva Roja 750 ml",
+      "categoria": "Bebidas",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/8413481040021.png",
+      "descuento": "40",
+      "precio_normal": "4.09",
+      "precio_oferta": "2.45"
+    },
+    {
+      "codigo": "8413481040014",
+      "nombre": "May Gold Sparkling Uva Blanca 750 ml",
+      "categoria": "Bebidas",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/8413481040014.png",
+      "descuento": "40",
+      "precio_normal": "4.09",
+      "precio_oferta": "2.45"
+    },
+    {
+      "codigo": "8413481012097",
+      "nombre": "Mayador Sidra Rosada 750 ml",
+      "categoria": "Bebidas",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/8413481012097.png",
+      "descuento": "40",
+      "precio_normal": "5.12",
+      "precio_oferta": "3.07"
+    },
+    {
+      "codigo": "8413481012004",
+      "nombre": "Mayador Sidra Asturiana 750 ml",
+      "categoria": "Bebidas",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/8413481012004.png",
+      "descuento": "40",
+      "precio_normal": "5.12",
+      "precio_oferta": "3.07"
     }
   ]
 }
