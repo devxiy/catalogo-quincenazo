@@ -6,6 +6,7 @@ export type HeroPromo = {
   description: string;
   period: string;
   image: string;
+  imageMobile?: string;
   border: string;
 };
 
@@ -88,6 +89,7 @@ export const heroPromos: HeroPromo[] = [
     description: 'APROVECHA HASTA EL 40% DTO.',
     period: 'DEL 13 DE NOVIEMBRE AL 3 DE DICIEMBRE 2025',
     image: '/assets/banner-blackdays.png',
+    imageMobile: '/assets/banner-blackdays-mobile.png',
     border: '#FF70C4',
   },
   {
@@ -96,6 +98,7 @@ export const heroPromos: HeroPromo[] = [
     description: 'APROVECHA HASTA EL 75% DTO.',
     period: 'DEL 27 DE NOVIEMBRE AL 3 DE DICIEMBRE 2025',
     image: '/assets/banner-ultrablackdays.png',
+    imageMobile: '/assets/banner-ultrablackdays-mobile.png',
     border: '#FFDE00',
   },
 ];

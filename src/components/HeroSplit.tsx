@@ -4,19 +4,35 @@ import Image from 'next/image';
 import { HeroPromo } from '../data/catalog';
 
 const HeroSplit = ({ items }: { items: HeroPromo[] }) => {
+  const hero = items[0];
+  if (!hero) return null;
+
   return (
-    <section className="grid md:grid-cols-2 gap-6">
-      {items.map((card) => (
-        <article
-          key={card.id}
-          className="rounded-[32px] border-[4px] overflow-hidden relative"
-          style={{ borderColor: card.border }}
-        >
-          <div className="">
-            <Image src={card.image} alt={card.title} className="relative w-full" sizes="(max-width: 768px) 100vw, 720px" />
-          </div>
-        </article>
-      ))}
+    <section className="w-full">
+      <article
+        className="rounded-[32px] border-[4px] overflow-hidden relative shadow-[0_25px_60px_rgba(0,0,0,0.45)]"
+        style={{ borderColor: hero.border }}
+      >
+        <div className="relative w-full">
+          {/* Imagen desktop */}
+          <Image
+            src={hero.image}
+            alt={hero.title}
+            className="hidden md:block w-full"
+            priority
+            sizes="(max-width: 1200px) 100vw, 1200px"
+          />
+
+          {/* Imagen mobile */}
+          <Image
+            src={hero.imageMobile ?? hero.image}
+            alt={`${hero.title} mobile`}
+            className="md:hidden w-full"
+            priority
+            sizes="100vw"
+          />
+        </div>
+      </article>
     </section>
   );
 };
