@@ -5,7 +5,7 @@ import HeroSplit from './HeroSplit';
 import CategoryGrid from './CategoryGrid';
 import SiteFooter from './SiteFooter';
 import { heroPromos } from '../data/catalog';
-import dinamicos from '../data/dinamicos.json';
+import dinamicos from '../data/dinamicos-ultra.json';
 
 // Mapeo de categorías del CSV a IDs y colores
 const categoryConfig = {
@@ -14,10 +14,15 @@ const categoryConfig = {
     name: 'Alimentos y Bebidas',
     accentColor: '#FF70C4', // Rosa
   },
+  Bebidas: {
+    id: 'bebidas',
+    name: 'Bebidas',
+    accentColor: '#5DECFF', // Cyan
+  },
   Higiene: {
     id: 'higiene',
     name: 'Productos de Higiene',
-    accentColor: '#5DECFF', // Cyan
+    accentColor: '#FFB23E', // Naranja
   },
   Limpieza: {
     id: 'limpieza',
@@ -27,7 +32,7 @@ const categoryConfig = {
   Hogar: {
     id: 'hogar',
     name: 'Hogar y Electrodomésticos',
-    accentColor: '#FFB23E', // Naranja
+    accentColor: '#F22921', // Rojo
   },
 };
 

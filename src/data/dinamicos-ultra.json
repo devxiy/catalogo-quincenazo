@@ -1,0 +1,2131 @@
+{
+  "Higiene": [
+    {
+      "codigo": "7702277173700",
+      "nombre": "Aromasense Jabón Líquido Frutos Rojos 400 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277173700.png",
+      "descuento": "50",
+      "precio_normal": "2.69",
+      "precio_oferta": "1.35"
+    },
+    {
+      "codigo": "7702277576235",
+      "nombre": "Aromasense Jabón Cremoso Avena Doypack 400 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277576235.png",
+      "descuento": "50",
+      "precio_normal": "2.69",
+      "precio_oferta": "1.35"
+    },
+    {
+      "codigo": "7702277770091",
+      "nombre": "Aromasense Jabón Líquido Frutos Rojos Doypack 400 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277770091.png",
+      "descuento": "50",
+      "precio_normal": "2.69",
+      "precio_oferta": "1.35"
+    },
+    {
+      "codigo": "7702277485599",
+      "nombre": "Aromasense Jabón Líquido Avena 400 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277485599.png",
+      "descuento": "50",
+      "precio_normal": "2.69",
+      "precio_oferta": "1.35"
+    },
+    {
+      "codigo": "7702277097587",
+      "nombre": "Aromasense Jabón Líquido Aqua Bambu 400 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277097587.png",
+      "descuento": "50",
+      "precio_normal": "2.69",
+      "precio_oferta": "1.35"
+    },
+    {
+      "codigo": "7702277519003",
+      "nombre": "Aromasense Jabón Líquido Frutos Rojos Doypack 800 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277519003.png",
+      "descuento": "50",
+      "precio_normal": "4.79",
+      "precio_oferta": "2.40"
+    },
+    {
+      "codigo": "7702277466789",
+      "nombre": "Aromasense Jabón Líquido Avena Doypack 800 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277466789.png",
+      "descuento": "50",
+      "precio_normal": "4.79",
+      "precio_oferta": "2.40"
+    },
+    {
+      "codigo": "7702277312451",
+      "nombre": "Aromasense Jabón Líquido Aqua Bambu Doypack 800 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277312451.png",
+      "descuento": "50",
+      "precio_normal": "4.79",
+      "precio_oferta": "2.40"
+    },
+    {
+      "codigo": "7702277621980",
+      "nombre": "Aromasense Splash Intense Love 230 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277621980.png",
+      "descuento": "50",
+      "precio_normal": "4.97",
+      "precio_oferta": "2.49"
+    },
+    {
+      "codigo": "7702277385639",
+      "nombre": "Aromasense Splash Bouquet of Flowers 230 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277385639.png",
+      "descuento": "50",
+      "precio_normal": "4.97",
+      "precio_oferta": "2.49"
+    },
+    {
+      "codigo": "7702277323860",
+      "nombre": "Aromasense Splash Vanilla Sunrise 230 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277323860.png",
+      "descuento": "50",
+      "precio_normal": "4.97",
+      "precio_oferta": "2.49"
+    },
+    {
+      "codigo": "7702277324737",
+      "nombre": "Aromasense Splash Juicy Spring 230 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277324737.png",
+      "descuento": "50",
+      "precio_normal": "4.97",
+      "precio_oferta": "2.49"
+    },
+    {
+      "codigo": "7702277405658",
+      "nombre": "Aromasense Splash Wild Radiance 230 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277405658.png",
+      "descuento": "50",
+      "precio_normal": "4.97",
+      "precio_oferta": "2.49"
+    },
+    {
+      "codigo": "7702277977872",
+      "nombre": "Aromasense Splash Pure Diamonds 230 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277977872.png",
+      "descuento": "50",
+      "precio_normal": "4.97",
+      "precio_oferta": "2.49"
+    },
+    {
+      "codigo": "7702277861621",
+      "nombre": "Aromasense Splash Magic Night 230 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277861621.png",
+      "descuento": "50",
+      "precio_normal": "4.97",
+      "precio_oferta": "2.49"
+    },
+    {
+      "codigo": "7702277157526",
+      "nombre": "Aromasense Jabón Cremoso Avena 580 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277157526.png",
+      "descuento": "50",
+      "precio_normal": "6.10",
+      "precio_oferta": "3.05"
+    },
+    {
+      "codigo": "7702277157533",
+      "nombre": "Aromasense Jabón Líquido Aqua Bambu 580 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277157533.png",
+      "descuento": "50",
+      "precio_normal": "6.19",
+      "precio_oferta": "3.10"
+    },
+    {
+      "codigo": "7702277157540",
+      "nombre": "Aromasense Jabón Líquido Frutos Rojos 580 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277157540.png",
+      "descuento": "50",
+      "precio_normal": "6.19",
+      "precio_oferta": "3.10"
+    },
+    {
+      "codigo": "7702277655961",
+      "nombre": "Aromasense Splash Intense Kiss 250 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277655961.png",
+      "descuento": "50",
+      "precio_normal": "6.35",
+      "precio_oferta": "3.18"
+    },
+    {
+      "codigo": "7702277997429",
+      "nombre": "Aromasense Splash Vanilla Sky 250 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277997429.png",
+      "descuento": "50",
+      "precio_normal": "6.35",
+      "precio_oferta": "3.18"
+    },
+    {
+      "codigo": "7702277951377",
+      "nombre": "Aromasense Splash Juicy Pear 250 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277951377.png",
+      "descuento": "50",
+      "precio_normal": "6.35",
+      "precio_oferta": "3.18"
+    },
+    {
+      "codigo": "7702277600459",
+      "nombre": "Aromasense Splash Bouquet Flowers 250 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277600459.png",
+      "descuento": "50",
+      "precio_normal": "6.35",
+      "precio_oferta": "3.18"
+    },
+    {
+      "codigo": "7702277591573",
+      "nombre": "Aromasense Splash Perfect Seduction 250 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277591573.png",
+      "descuento": "50",
+      "precio_normal": "6.35",
+      "precio_oferta": "3.18"
+    },
+    {
+      "codigo": "7702277710332",
+      "nombre": "Aromasense Splash Intense Love 250 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277710332.png",
+      "descuento": "50",
+      "precio_normal": "6.35",
+      "precio_oferta": "3.18"
+    },
+    {
+      "codigo": "7702277360797",
+      "nombre": "Aromasense Splash Clear Moon 250 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277360797.png",
+      "descuento": "50",
+      "precio_normal": "6.35",
+      "precio_oferta": "3.18"
+    },
+    {
+      "codigo": "7702277495604",
+      "nombre": "Aromasense Splash Intense Night 250 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277495604.png",
+      "descuento": "50",
+      "precio_normal": "6.35",
+      "precio_oferta": "3.18"
+    },
+    {
+      "codigo": "7702277985006",
+      "nombre": "Aromasense Splash Pure Diamonds 250 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277985006.png",
+      "descuento": "50",
+      "precio_normal": "6.35",
+      "precio_oferta": "3.18"
+    },
+    {
+      "codigo": "7702277395942",
+      "nombre": "Arrurrú Shampoo & Baño Líquido 2 en 1 220 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277395942.png",
+      "descuento": "50",
+      "precio_normal": "3.29",
+      "precio_oferta": "1.65"
+    },
+    {
+      "codigo": "7702277675488",
+      "nombre": "Arrurrú Shampoo Y Baño Líquido 2 en 1 220 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277675488.png",
+      "descuento": "50",
+      "precio_normal": "3.29",
+      "precio_oferta": "1.65"
+    },
+    {
+      "codigo": "7702277880202",
+      "nombre": "Arrurrú Shampoo Cabello Oscuro 220 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277880202.png",
+      "descuento": "50",
+      "precio_normal": "3.69",
+      "precio_oferta": "1.85"
+    },
+    {
+      "codigo": "7702277960744",
+      "nombre": "Arrurrú Shampoo Suavidad y Humectación 220 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277960744.png",
+      "descuento": "50",
+      "precio_normal": "3.69",
+      "precio_oferta": "1.85"
+    },
+    {
+      "codigo": "7702277496694",
+      "nombre": "Arrurrú Shampoo Cabello Claro 220 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277496694.png",
+      "descuento": "50",
+      "precio_normal": "3.79",
+      "precio_oferta": "1.90"
+    },
+    {
+      "codigo": "7702277683834",
+      "nombre": "Arrurrú Colonia Original Rosada 220 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277683834.png",
+      "descuento": "50",
+      "precio_normal": "4.07",
+      "precio_oferta": "2.04"
+    },
+    {
+      "codigo": "7702277201564",
+      "nombre": "Arrurrú Colonia Original Azul 220 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277201564.png",
+      "descuento": "50",
+      "precio_normal": "4.07",
+      "precio_oferta": "2.04"
+    },
+    {
+      "codigo": "7702277876465",
+      "nombre": "Arrurrú Crema Suavidad & Humectación 220 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277876465.png",
+      "descuento": "50",
+      "precio_normal": "4.24",
+      "precio_oferta": "2.12"
+    },
+    {
+      "codigo": "7702277777991",
+      "nombre": "Arrurrú Baño Líquido Suavidad & Humectación 220 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277777991.png",
+      "descuento": "50",
+      "precio_normal": "4.27",
+      "precio_oferta": "2.14"
+    },
+    {
+      "codigo": "7702277701408",
+      "nombre": "Arrurrú Baño Líquido Suavidad & Humectación 400 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277701408.png",
+      "descuento": "50",
+      "precio_normal": "4.43",
+      "precio_oferta": "2.22"
+    },
+    {
+      "codigo": "7702277197201",
+      "nombre": "Arrurrú Crema Original 220 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277197201.png",
+      "descuento": "50",
+      "precio_normal": "4.91",
+      "precio_oferta": "2.46"
+    },
+    {
+      "codigo": "7702277337126",
+      "nombre": "Arrurrú Shampoo Cabello Oscuro 400 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277337126.png",
+      "descuento": "50",
+      "precio_normal": "4.99",
+      "precio_oferta": "2.50"
+    },
+    {
+      "codigo": "7702277474944",
+      "nombre": "Arrurrú Shampoo Cabello Claro 400 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277474944.png",
+      "descuento": "50",
+      "precio_normal": "5.09",
+      "precio_oferta": "2.55"
+    },
+    {
+      "codigo": "7702277551621",
+      "nombre": "Arrurrú Shampoo & Baño Líquido 2 en 1 Original 400 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277551621.png",
+      "descuento": "50",
+      "precio_normal": "5.69",
+      "precio_oferta": "2.85"
+    },
+    {
+      "codigo": "7702277490159",
+      "nombre": "Arrurrú Shampoo & Baño Líquido 2 en 1 Delicada Nutrición 400 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277490159.png",
+      "descuento": "50",
+      "precio_normal": "5.69",
+      "precio_oferta": "2.85"
+    },
+    {
+      "codigo": "7702277793069",
+      "nombre": "Arrurrú Crema Original 400 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277793069.png",
+      "descuento": "50",
+      "precio_normal": "6.15",
+      "precio_oferta": "3.08"
+    },
+    {
+      "codigo": "7702277298786",
+      "nombre": "Arrurrú Crema Suavidad & Humectación 400 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277298786.png",
+      "descuento": "50",
+      "precio_normal": "6.15",
+      "precio_oferta": "3.08"
+    },
+    {
+      "codigo": "7702277827818",
+      "nombre": "Arrurrú Shampoo Cabello Claro 750 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277827818.png",
+      "descuento": "50",
+      "precio_normal": "7.59",
+      "precio_oferta": "3.80"
+    },
+    {
+      "codigo": "7702277233015",
+      "nombre": "Arrurrú Shampoo Cabello Oscuro 750 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277233015.png",
+      "descuento": "50",
+      "precio_normal": "7.59",
+      "precio_oferta": "3.80"
+    },
+    {
+      "codigo": "7506306249998",
+      "nombre": "Axe Deo Aer Green Geranium 150 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7506306249998.png",
+      "descuento": "50",
+      "precio_normal": "6.12",
+      "precio_oferta": "3.06"
+    },
+    {
+      "codigo": "7506306249981",
+      "nombre": "Axe Deo Aer Blue Lavender 150 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7506306249981.png",
+      "descuento": "50",
+      "precio_normal": "6.12",
+      "precio_oferta": "3.06"
+    },
+    {
+      "codigo": "7702277081982",
+      "nombre": "Tratamiento Capilar Bioherbal Nocturno Reparación 250 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277081982.png",
+      "descuento": "50",
+      "precio_normal": "6.99",
+      "precio_oferta": "3.50"
+    },
+    {
+      "codigo": "7702277569343",
+      "nombre": "Acondicionador Bioherbal Reparación 400 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277569343.png",
+      "descuento": "50",
+      "precio_normal": "9.99",
+      "precio_oferta": "5.00"
+    },
+    {
+      "codigo": "7702277213055",
+      "nombre": "Shampoo Bioherbal Reparación 400 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277213055.png",
+      "descuento": "50",
+      "precio_normal": "9.99",
+      "precio_oferta": "5.00"
+    },
+    {
+      "codigo": "7509546061863",
+      "nombre": "Econopack Colgate Luminous White 2 x 75 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7509546061863.png",
+      "descuento": "50",
+      "precio_normal": "6.92",
+      "precio_oferta": "3.46"
+    },
+    {
+      "codigo": "7891024028018",
+      "nombre": "Colgate Total Clean Mint 500 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7891024028018.png",
+      "descuento": "50",
+      "precio_normal": "8.36",
+      "precio_oferta": "4.18"
+    },
+    {
+      "codigo": "7509546683782",
+      "nombre": "Pack Colgate Pasta Dental Total 12 Charcoal 3 x 75 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7509546683782.png",
+      "descuento": "50",
+      "precio_normal": "9.32",
+      "precio_oferta": "4.66"
+    },
+    {
+      "codigo": "7702277144267",
+      "nombre": "Depilex Crema Depilatoria Corporal Bikini y Axilas 100 g",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277144267.png",
+      "descuento": "50",
+      "precio_normal": "4.69",
+      "precio_oferta": "2.35"
+    },
+    {
+      "codigo": "7702277109228",
+      "nombre": "Depilex Crema Depilatoria Vello Grueso 100 g",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277109228.png",
+      "descuento": "50",
+      "precio_normal": "4.69",
+      "precio_oferta": "2.35"
+    },
+    {
+      "codigo": "7702277109297",
+      "nombre": "Depilex Bandas Depilatorias Corporales Todo Tipo de Piel 12 u",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277109297.png",
+      "descuento": "50",
+      "precio_normal": "10.99",
+      "precio_oferta": "5.50"
+    },
+    {
+      "codigo": "7891150095984",
+      "nombre": "Dove Serum Hidratación 110 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7891150095984.png",
+      "descuento": "50",
+      "precio_normal": "7.69",
+      "precio_oferta": "3.85"
+    },
+    {
+      "codigo": "7891150096684",
+      "nombre": "Dove Multiprotector Reconstrucción 175 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7891150096684.png",
+      "descuento": "50",
+      "precio_normal": "7.71",
+      "precio_oferta": "3.86"
+    },
+    {
+      "codigo": "75062828",
+      "nombre": "Dove Deo Stick Caléndula 50 g",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/75062828.png",
+      "descuento": "40",
+      "precio_normal": "5.73",
+      "precio_oferta": "3.44"
+    },
+    {
+      "codigo": "7702006300087",
+      "nombre": "Ego Cera para Peinar 160 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702006300087.png",
+      "descuento": "50",
+      "precio_normal": "3.50",
+      "precio_oferta": "1.75"
+    },
+    {
+      "codigo": "7861001362015",
+      "nombre": "Ego Gel Attraction 500 g",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7861001362015.png",
+      "descuento": "50",
+      "precio_normal": "6.10",
+      "precio_oferta": "3.05"
+    },
+    {
+      "codigo": "7702560041761",
+      "nombre": "Fluocardent Crema Dental Triple Acción Max 75 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702560041761.png",
+      "descuento": "50",
+      "precio_normal": "1.48",
+      "precio_oferta": "0.74"
+    },
+    {
+      "codigo": "7702560043840",
+      "nombre": "Fluocardent Crema Dental Kids Ratón Sin Flúor 96 g",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702560043840.png",
+      "descuento": "50",
+      "precio_normal": "2.19",
+      "precio_oferta": "1.10"
+    },
+    {
+      "codigo": "7702560041785",
+      "nombre": "Fluocardent Crema Dental Triple Acción Max 150 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702560041785.png",
+      "descuento": "50",
+      "precio_normal": "2.31",
+      "precio_oferta": "1.16"
+    },
+    {
+      "codigo": "7702560035838",
+      "nombre": "Fluocardent Crema Dental Multiacción Blanqueadora Pack 225 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702560035838.png",
+      "descuento": "50",
+      "precio_normal": "3.99",
+      "precio_oferta": "2.00"
+    },
+    {
+      "codigo": "7500435249348",
+      "nombre": "Head & Shoulders Shampoo Nutrihoney 375 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7500435249348.png",
+      "descuento": "40",
+      "precio_normal": "10.27",
+      "precio_oferta": "6.16"
+    },
+    {
+      "codigo": "7702425633629",
+      "nombre": "Pack Huggies Toallas Húmedas 224 u",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702425633629.png",
+      "descuento": "50",
+      "precio_normal": "5.12",
+      "precio_oferta": "2.56"
+    },
+    {
+      "codigo": "7702277628200",
+      "nombre": "Jabón Íntimo Intibon Cero 210 g",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277628200.png",
+      "descuento": "50",
+      "precio_normal": "5.49",
+      "precio_oferta": "2.75"
+    },
+    {
+      "codigo": "7702277658115",
+      "nombre": "Jabón Íntimo Intibon Avena y Caléndula 210 g",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277658115.png",
+      "descuento": "50",
+      "precio_normal": "5.49",
+      "precio_oferta": "2.75"
+    },
+    {
+      "codigo": "7702277846680",
+      "nombre": "Jabón Íntimo Intibon Caléndula Niña 210 g",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277846680.png",
+      "descuento": "50",
+      "precio_normal": "5.49",
+      "precio_oferta": "2.75"
+    },
+    {
+      "codigo": "7702035432339",
+      "nombre": "Listerine Cool Mint 500 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702035432339.png",
+      "descuento": "50",
+      "precio_normal": "7.41",
+      "precio_oferta": "3.71"
+    },
+    {
+      "codigo": "7702031244523",
+      "nombre": "Lubriderm Humectación Diaria 946 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702031244523.png",
+      "descuento": "40",
+      "precio_normal": "17.14",
+      "precio_oferta": "10.28"
+    },
+    {
+      "codigo": "7702277770428",
+      "nombre": "Shampoo Nutrit Reparamax 600 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277770428.png",
+      "descuento": "50",
+      "precio_normal": "5.49",
+      "precio_oferta": "2.75"
+    },
+    {
+      "codigo": "7702277866770",
+      "nombre": "Shampoo Nutrit Restauramax 600 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277866770.png",
+      "descuento": "50",
+      "precio_normal": "5.49",
+      "precio_oferta": "2.75"
+    },
+    {
+      "codigo": "7702277155188",
+      "nombre": "Acondicionador Nutrit Kerat 550 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277155188.png",
+      "descuento": "50",
+      "precio_normal": "5.49",
+      "precio_oferta": "2.75"
+    },
+    {
+      "codigo": "7702277155201",
+      "nombre": "Acondicionador Nutrit Repara 550 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277155201.png",
+      "descuento": "50",
+      "precio_normal": "5.49",
+      "precio_oferta": "2.75"
+    },
+    {
+      "codigo": "7702277575764",
+      "nombre": "Shampoo Nutrit Keratinmax 600 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277575764.png",
+      "descuento": "50",
+      "precio_normal": "5.49",
+      "precio_oferta": "2.75"
+    },
+    {
+      "codigo": "7702277495222",
+      "nombre": "Acondicionador Nutrit Anticaspa 550 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277495222.png",
+      "descuento": "50",
+      "precio_normal": "5.99",
+      "precio_oferta": "3.00"
+    },
+    {
+      "codigo": "7702277931720",
+      "nombre": "Shampoo Nutrit Anticaspa 600 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277931720.png",
+      "descuento": "50",
+      "precio_normal": "5.99",
+      "precio_oferta": "3.00"
+    },
+    {
+      "codigo": "7501086453955",
+      "nombre": "Oral-b Cepillo Pro Salud Indicator Plus Pack 2 u",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7501086453955.png",
+      "descuento": "40",
+      "precio_normal": "3.28",
+      "precio_oferta": "1.97"
+    },
+    {
+      "codigo": "7509546698977",
+      "nombre": "Palmolive Mandarina & Romero 6 x 110 g",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7509546698977.png",
+      "descuento": "50",
+      "precio_normal": "5.31",
+      "precio_oferta": "2.66"
+    },
+    {
+      "codigo": "7702026155056",
+      "nombre": "Pequeñín Paños Húmedos Almendra 100 u",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702026155056.png",
+      "descuento": "50",
+      "precio_normal": "4.34",
+      "precio_oferta": "2.17"
+    },
+    {
+      "codigo": "7509546651729",
+      "nombre": "Protex Jabón Limpieza Profunda Original Pack X6 660 g",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7509546651729.png",
+      "descuento": "50",
+      "precio_normal": "5.74",
+      "precio_oferta": "2.87"
+    },
+    {
+      "codigo": "7702010921681",
+      "nombre": "Protex Jabón Avena Antibacterial Pack X6 660 g",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702010921681.png",
+      "descuento": "50",
+      "precio_normal": "5.74",
+      "precio_oferta": "2.87"
+    },
+    {
+      "codigo": "7506306214989",
+      "nombre": "Rexona Deo Spray Clinical Expert Women 150 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7506306214989.png",
+      "descuento": "50",
+      "precio_normal": "6.14",
+      "precio_oferta": "3.07"
+    },
+    {
+      "codigo": "75076818",
+      "nombre": "Rexona Men Clinical Classic 58 g",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/75076818.png",
+      "descuento": "50",
+      "precio_normal": "8.71",
+      "precio_oferta": "4.36"
+    },
+    {
+      "codigo": "75076825",
+      "nombre": "Rexona Hombre Clinical Clean 58 g",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/75076825.png",
+      "descuento": "50",
+      "precio_normal": "8.71",
+      "precio_oferta": "4.36"
+    },
+    {
+      "codigo": "75078836",
+      "nombre": "Rexona Woman Clinical Cream Refresh Sensitive 58 g",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/75078836.png",
+      "descuento": "50",
+      "precio_normal": "8.74",
+      "precio_oferta": "4.37"
+    },
+    {
+      "codigo": "7702120012989",
+      "nombre": "Rosal Papel Higiénico Pack 6 x 30 m",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702120012989.png",
+      "descuento": "50",
+      "precio_normal": "4.78",
+      "precio_oferta": "2.39"
+    },
+    {
+      "codigo": "7702120013924",
+      "nombre": "Rosal Toalla Desechable 80h Pack 2 u",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702120013924.png",
+      "descuento": "50",
+      "precio_normal": "5.12",
+      "precio_oferta": "2.56"
+    },
+    {
+      "codigo": "7891150099920",
+      "nombre": "Sedal Máscara Tratamiento Luminoso Uv 300 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7891150099920.png",
+      "descuento": "50",
+      "precio_normal": "5.50",
+      "precio_oferta": "2.75"
+    },
+    {
+      "codigo": "7891150099456",
+      "nombre": "Sedal Masc Trat Rizos Definidos 300 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7891150099456.png",
+      "descuento": "50",
+      "precio_normal": "5.50",
+      "precio_oferta": "2.75"
+    },
+    {
+      "codigo": "7501056340131",
+      "nombre": "Sedal Crema De Peinar Rizos Obedientes 300 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7501056340131.png",
+      "descuento": "50",
+      "precio_normal": "5.90",
+      "precio_oferta": "2.95"
+    },
+    {
+      "codigo": "7501056340124",
+      "nombre": "Sedal Crema De Peinar Ceramidas 300 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7501056340124.png",
+      "descuento": "50",
+      "precio_normal": "5.90",
+      "precio_oferta": "2.95"
+    },
+    {
+      "codigo": "7702006654210",
+      "nombre": "Sedal Crema De Peinar Luminoso Uv 300 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702006654210.png",
+      "descuento": "50",
+      "precio_normal": "5.90",
+      "precio_oferta": "2.95"
+    },
+    {
+      "codigo": "7702277140757",
+      "nombre": "Sunpro Bronceador Protector Spf20 Gel 200 gr",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277140757.png",
+      "descuento": "50",
+      "precio_normal": "8.75",
+      "precio_oferta": "4.38"
+    },
+    {
+      "codigo": "7702277157434",
+      "nombre": "Sunpro Protector Solar Spf50 120 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277157434.png",
+      "descuento": "50",
+      "precio_normal": "9.45",
+      "precio_oferta": "4.73"
+    },
+    {
+      "codigo": "7702277459408",
+      "nombre": "Sunpro Facial Uva Azul Spf90 50 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277459408.png",
+      "descuento": "50",
+      "precio_normal": "9.98",
+      "precio_oferta": "4.99"
+    },
+    {
+      "codigo": "7702277140764",
+      "nombre": "Sunpro Bronceador Protector Aceite Spf30 220 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277140764.png",
+      "descuento": "50",
+      "precio_normal": "10.03",
+      "precio_oferta": "5.02"
+    },
+    {
+      "codigo": "7702277140641",
+      "nombre": "Sunpro Protector Solar Spf15 Familiar 120 g",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277140641.png",
+      "descuento": "50",
+      "precio_normal": "13.39",
+      "precio_oferta": "6.70"
+    },
+    {
+      "codigo": "7702277140689",
+      "nombre": "Sunpro Protector Solar Spf105 Babies & Kids 140 g",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277140689.png",
+      "descuento": "50",
+      "precio_normal": "13.51",
+      "precio_oferta": "6.76"
+    },
+    {
+      "codigo": "7702277258315",
+      "nombre": "Sunpro Facial Azul Spf50 50 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277258315.png",
+      "descuento": "50",
+      "precio_normal": "13.70",
+      "precio_oferta": "6.85"
+    },
+    {
+      "codigo": "7702277149323",
+      "nombre": "Sunpro Protector Solar Continuous Spray Spf110 180 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277149323.png",
+      "descuento": "50",
+      "precio_normal": "13.94",
+      "precio_oferta": "6.97"
+    },
+    {
+      "codigo": "7702277149316",
+      "nombre": "Sunpro Protector Solar Cont Spray Spf110 180 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277149316.png",
+      "descuento": "50",
+      "precio_normal": "14.90",
+      "precio_oferta": "7.45"
+    },
+    {
+      "codigo": "7702277140627",
+      "nombre": "Sunpro Protector Solar Spf50 220 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277140627.png",
+      "descuento": "50",
+      "precio_normal": "15.01",
+      "precio_oferta": "7.51"
+    },
+    {
+      "codigo": "7702277140634",
+      "nombre": "Sunpro Protector Solar Spf80 220 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277140634.png",
+      "descuento": "50",
+      "precio_normal": "16.20",
+      "precio_oferta": "8.10"
+    },
+    {
+      "codigo": "7702277525196",
+      "nombre": "Sunpro Protector Solar Facial Color Spf50 50 ml",
+      "categoria": "Higiene",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702277525196.png",
+      "descuento": "50",
+      "precio_normal": "17.92",
+      "precio_oferta": "8.96"
+    }
+  ],
+  "Limpieza": [
+    {
+      "codigo": "7702010382147",
+      "nombre": "Axion Lavavajillas Limón 850 g",
+      "categoria": "Limpieza",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702010382147.png",
+      "descuento": "50",
+      "precio_normal": "2.98",
+      "precio_oferta": "1.49"
+    },
+    {
+      "codigo": "7791290791855",
+      "nombre": "Deja Detergente Líquido Floral 500 ml",
+      "categoria": "Limpieza",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7791290791855.png",
+      "descuento": "50",
+      "precio_normal": "7.69",
+      "precio_oferta": "3.85"
+    },
+    {
+      "codigo": "7509546688763",
+      "nombre": "Fabuloso Energía Naranja 2 l",
+      "categoria": "Limpieza",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7509546688763.png",
+      "descuento": "50",
+      "precio_normal": "4.30",
+      "precio_oferta": "2.15"
+    },
+    {
+      "codigo": "7702010225109",
+      "nombre": "Fabuloso Antibacterial Lavanda 2.000 ml",
+      "categoria": "Limpieza",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702010225109.png",
+      "descuento": "50",
+      "precio_normal": "4.30",
+      "precio_oferta": "2.15"
+    },
+    {
+      "codigo": "7861048631853",
+      "nombre": "Perla Suavizante Serenidad Doypack 1.300 ml",
+      "categoria": "Limpieza",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7861048631853.png",
+      "descuento": "50",
+      "precio_normal": "4.15",
+      "precio_oferta": "2.08"
+    }
+  ],
+  "Alimentos": [
+    {
+      "codigo": "8719200257139",
+      "nombre": "Bonella Margarina Vital 490 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-10-26",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/8719200257139.png",
+      "descuento": "45",
+      "precio_normal": "2.69",
+      "precio_oferta": "1.48"
+    },
+    {
+      "codigo": "8423453909584",
+      "nombre": "Brizo Bebida Naranja 330 ml",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/8423453909584.png",
+      "descuento": "50",
+      "precio_normal": "0.81",
+      "precio_oferta": "0.41"
+    },
+    {
+      "codigo": "8423453909607",
+      "nombre": "Brizo Bebida Cola 330 ml",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/8423453909607.png",
+      "descuento": "50",
+      "precio_normal": "0.81",
+      "precio_oferta": "0.41"
+    },
+    {
+      "codigo": "8423453909614",
+      "nombre": "Brizo Bebida Lima Limón 330 ml",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/8423453909614.png",
+      "descuento": "50",
+      "precio_normal": "0.81",
+      "precio_oferta": "0.41"
+    },
+    {
+      "codigo": "8421735002312",
+      "nombre": "Caballero De Castilla Vino Rosado 750 ml",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/8421735002312.png",
+      "descuento": "40",
+      "precio_normal": "5.80",
+      "precio_oferta": "3.48"
+    },
+    {
+      "codigo": "7622210872975",
+      "nombre": "Club Social Galleta Integral Multicereales 216 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7622210872975.png",
+      "descuento": "50",
+      "precio_normal": "2.34",
+      "precio_oferta": "1.17"
+    },
+    {
+      "codigo": "7862126580452",
+      "nombre": "Cocolón Arroz Envejecido 1.810 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-10-26",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7862126580452.png",
+      "descuento": "40",
+      "precio_normal": "2.59",
+      "precio_oferta": "1.55"
+    },
+    {
+      "codigo": "7862126580506",
+      "nombre": "Cocolón Arroz Envejecido 1.1340 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-10-26",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7862126580506.png",
+      "descuento": "40",
+      "precio_normal": "15.49",
+      "precio_oferta": "9.29"
+    },
+    {
+      "codigo": "7862104123480",
+      "nombre": "Crokitos Bolitas Sabor Chocolate 180 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7862104123480.png",
+      "descuento": "50",
+      "precio_normal": "1.67",
+      "precio_oferta": "0.84"
+    },
+    {
+      "codigo": "7862104123909",
+      "nombre": "Crokitos Copos de Chocolate 180 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7862104123909.png",
+      "descuento": "50",
+      "precio_normal": "1.67",
+      "precio_oferta": "0.84"
+    },
+    {
+      "codigo": "7862104123459",
+      "nombre": "Crokitos Almohaditas Sabor Chocolate 330 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7862104123459.png",
+      "descuento": "50",
+      "precio_normal": "4.07",
+      "precio_oferta": "2.04"
+    },
+    {
+      "codigo": "7750243286145",
+      "nombre": "Don Vittorio Spaghetti 400 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-10-26",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7750243286145.png",
+      "descuento": "33",
+      "precio_normal": "1.62",
+      "precio_oferta": "1.09"
+    },
+    {
+      "codigo": "7750243286152",
+      "nombre": "Don Vittorio Tallarín 400 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-10-26",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7750243286152.png",
+      "descuento": "33",
+      "precio_normal": "1.62",
+      "precio_oferta": "1.09"
+    },
+    {
+      "codigo": "7861007805929",
+      "nombre": "El Sabor Vinagre de Manzana 470 ml",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7861007805929.png",
+      "descuento": "50",
+      "precio_normal": "1.35",
+      "precio_oferta": "0.68"
+    },
+    {
+      "codigo": "7861008915306",
+      "nombre": "Gelhada Gelatina Sorpresa 400 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7861008915306.png",
+      "descuento": "50",
+      "precio_normal": "3.01",
+      "precio_oferta": "1.51"
+    },
+    {
+      "codigo": "7861048610209",
+      "nombre": "Girasol Aceite 2.000 ml",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-10-26",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7861048610209.png",
+      "descuento": "40",
+      "precio_normal": "6.59",
+      "precio_oferta": "3.95"
+    },
+    {
+      "codigo": "7861009946743",
+      "nombre": "Grile Panettone Mocca Macadamias 450 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7861009946743.png",
+      "descuento": "30",
+      "precio_normal": "6.60",
+      "precio_oferta": "4.62"
+    },
+    {
+      "codigo": "7861009945562",
+      "nombre": "Grile Panettone Choco Avellana 470 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7861009945562.png",
+      "descuento": "30",
+      "precio_normal": "8.18",
+      "precio_oferta": "5.73"
+    },
+    {
+      "codigo": "7861015109682",
+      "nombre": "Gustadina Bbq Squeeze 200 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7861015109682.png",
+      "descuento": "50",
+      "precio_normal": "1.22",
+      "precio_oferta": "0.61"
+    },
+    {
+      "codigo": "7861015103819",
+      "nombre": "Gustadina Salsa Tomate Doypack 400 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7861015103819.png",
+      "descuento": "50",
+      "precio_normal": "1.71",
+      "precio_oferta": "0.86"
+    },
+    {
+      "codigo": "7861015103796",
+      "nombre": "Gustadina Mayonesa Doypack 400 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7861015103796.png",
+      "descuento": "50",
+      "precio_normal": "2.92",
+      "precio_oferta": "1.46"
+    },
+    {
+      "codigo": "7861048690188",
+      "nombre": "La Favorita Aceite 1.000 ml",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-10-26",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7861048690188.png",
+      "descuento": "30",
+      "precio_normal": "2.79",
+      "precio_oferta": "1.95"
+    },
+    {
+      "codigo": "7861153900981",
+      "nombre": "La Italiana Jamón Sánduche 200g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7861153900981.png",
+      "descuento": "40",
+      "precio_normal": "1.92",
+      "precio_oferta": "1.15"
+    },
+    {
+      "codigo": "7861153903036",
+      "nombre": "La Italiana Salchicha Frankfurt 250 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7861153903036.png",
+      "descuento": "40",
+      "precio_normal": "2.12",
+      "precio_oferta": "1.27"
+    },
+    {
+      "codigo": "7861153903036",
+      "nombre": "La Italiana Salchicha Frankfurt 250 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7861153903036.png",
+      "descuento": "40",
+      "precio_normal": "2.12",
+      "precio_oferta": "1.27"
+    },
+    {
+      "codigo": "7861153900981",
+      "nombre": "La Italiana Jamón Sánduche 200g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7861153900981.png",
+      "descuento": "40",
+      "precio_normal": "1.92",
+      "precio_oferta": "1.15"
+    },
+    {
+      "codigo": "8445291182745",
+      "nombre": "La Lechera Leche Condensada 393 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/8445291182745.png",
+      "descuento": "35",
+      "precio_normal": "2.27",
+      "precio_oferta": "1.48"
+    },
+    {
+      "codigo": "8413481040021",
+      "nombre": "May Gold Sparkling Uva Roja 750 ml",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/8413481040021.png",
+      "descuento": "40",
+      "precio_normal": "4.09",
+      "precio_oferta": "2.45"
+    },
+    {
+      "codigo": "8413481040014",
+      "nombre": "May Gold Sparkling Uva Blanca 750 ml",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/8413481040014.png",
+      "descuento": "40",
+      "precio_normal": "4.09",
+      "precio_oferta": "2.45"
+    },
+    {
+      "codigo": "8413481012097",
+      "nombre": "Mayador Sidra Rosada 750 ml",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/8413481012097.png",
+      "descuento": "40",
+      "precio_normal": "5.12",
+      "precio_oferta": "3.07"
+    },
+    {
+      "codigo": "8413481012004",
+      "nombre": "Mayador Sidra Asturiana 750 ml",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/8413481012004.png",
+      "descuento": "40",
+      "precio_normal": "5.12",
+      "precio_oferta": "3.07"
+    },
+    {
+      "codigo": "7861018591910",
+      "nombre": "Natuchips Plátano Frito Picante 135 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7861018591910.png",
+      "descuento": "50",
+      "precio_normal": "1.50",
+      "precio_oferta": "0.75"
+    },
+    {
+      "codigo": "705424000352",
+      "nombre": "Olé Jalapeños Rojos/Verdes 370 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/705424000352.png",
+      "descuento": "35",
+      "precio_normal": "4.39",
+      "precio_oferta": "2.85"
+    },
+    {
+      "codigo": "7702084127330",
+      "nombre": "Pan Harina De Maíz Blanco 500 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-10-26",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702084127330.png",
+      "descuento": "50",
+      "precio_normal": "1.07",
+      "precio_oferta": "0.54"
+    },
+    {
+      "codigo": "38000184949",
+      "nombre": "Pringles Crema & Cebolla 124 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/38000184949.png",
+      "descuento": "50",
+      "precio_normal": "3.60",
+      "precio_oferta": "1.80"
+    },
+    {
+      "codigo": "7861002300214",
+      "nombre": "Sumesa Lasaña 400 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-10-26",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7861002300214.png",
+      "descuento": "50",
+      "precio_normal": "5.22",
+      "precio_oferta": "2.61"
+    },
+    {
+      "codigo": "7861049300017",
+      "nombre": "Valdez Azúcar 1.000 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-10-26",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7861049300017.png",
+      "descuento": "20",
+      "precio_normal": "1.16",
+      "precio_oferta": "0.93"
+    },
+    {
+      "codigo": "7861049300024",
+      "nombre": "Valdez Azúcar 2.000 g",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-10-26",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7861049300024.png",
+      "descuento": "17",
+      "precio_normal": "2.25",
+      "precio_oferta": "1.87"
+    },
+    {
+      "codigo": "8003540206101",
+      "nombre": "Zucchi Aceite Girasol 1.000 ml",
+      "categoria": "Alimentos",
+      "vigencia": {
+        "inicio": "2025-10-26",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/8003540206101.png",
+      "descuento": "50",
+      "precio_normal": "4.99",
+      "precio_oferta": "2.50"
+    }
+  ],
+  "Hogar": [
+    {
+      "codigo": "7861048613538",
+      "nombre": "Ciclón Detergente Poder Limón 4.50 kg",
+      "categoria": "Hogar",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7861048613538.png",
+      "descuento": "50",
+      "precio_normal": "15.94",
+      "precio_oferta": "7.97"
+    },
+    {
+      "codigo": "7702026032951",
+      "nombre": "Familia Pañuelo Cuidado Gripal 4 u",
+      "categoria": "Hogar",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702026032951.png",
+      "descuento": "50",
+      "precio_normal": "2.30",
+      "precio_oferta": "1.15"
+    },
+    {
+      "codigo": "7702026032036",
+      "nombre": "Familia Caja Pequeña 50 u",
+      "categoria": "Hogar",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702026032036.png",
+      "descuento": "50",
+      "precio_normal": "2.37",
+      "precio_oferta": "1.19"
+    },
+    {
+      "codigo": "7861223815504",
+      "nombre": "Gama Loción Refrescante Lavanda 160 ml",
+      "categoria": "Hogar",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7861223815504.png",
+      "descuento": "50",
+      "precio_normal": "1.99",
+      "precio_oferta": "1.00"
+    },
+    {
+      "codigo": "7861223815429",
+      "nombre": "Gama Loción Refrescante Menta 160 ml",
+      "categoria": "Hogar",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7861223815429.png",
+      "descuento": "50",
+      "precio_normal": "1.99",
+      "precio_oferta": "1.00"
+    },
+    {
+      "codigo": "7702425993730",
+      "nombre": "Scott Toalla Cocina Reusable Duramax 52 u",
+      "categoria": "Hogar",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/7702425993730.png",
+      "descuento": "50",
+      "precio_normal": "3.90",
+      "precio_oferta": "1.95"
+    }
+  ],
+  "Bebidas": [
+    {
+      "codigo": "8423453908754",
+      "nombre": "Prima Lite Cerveza 330 ml",
+      "categoria": "Bebidas",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/8423453908754.png",
+      "descuento": "50",
+      "precio_normal": "0.98",
+      "precio_oferta": "0.49"
+    },
+    {
+      "codigo": "8423453908730",
+      "nombre": "Prima Cerveza 330 ml",
+      "categoria": "Bebidas",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/8423453908730.png",
+      "descuento": "50",
+      "precio_normal": "0.98",
+      "precio_oferta": "0.49"
+    },
+    {
+      "codigo": "8423453911716",
+      "nombre": "Prima Sangría Frizante 1.500 ml",
+      "categoria": "Bebidas",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/8423453911716.png",
+      "descuento": "50",
+      "precio_normal": "4.57",
+      "precio_oferta": "2.29"
+    },
+    {
+      "codigo": "8423453908747",
+      "nombre": "6 Pack Prima Cerveza 6 x 330 ml",
+      "categoria": "Bebidas",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/8423453908747.png",
+      "descuento": "50",
+      "precio_normal": "5.50",
+      "precio_oferta": "2.75"
+    },
+    {
+      "codigo": "8423453908761",
+      "nombre": "6 Pack Prima Lite Cerveza 6 x 330 ml",
+      "categoria": "Bebidas",
+      "vigencia": {
+        "inicio": "2025-10-27",
+        "fin": "2025-12-03"
+      },
+      "imagen": "https://storage.googleapis.com/xiyimgengine/productos_cf/8423453908761.png",
+      "descuento": "50",
+      "precio_normal": "5.50",
+      "precio_oferta": "2.75"
+    }
+  ]
+}

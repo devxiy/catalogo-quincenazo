@@ -1,4 +1,4 @@
-import dinamicosRaw from './dinamicos.json';
+import dinamicosRaw from './dinamicos-ultra.json';
 
 export type HeroPromo = {
   id: string;
@@ -41,7 +41,7 @@ export type CategoryBlock = {
   products: Product[];
 };
 
-type DinamicosCategory = 'Alimentos' | 'Higiene' | 'Limpieza' | 'Hogar';
+type DinamicosCategory = 'Alimentos' | 'Bebidas' | 'Higiene' | 'Limpieza' | 'Hogar';
 
 type RawProduct = {
   codigo: string;
@@ -107,88 +107,88 @@ type CategoryConfig = Omit<CategoryBlock, 'featured' | 'products'> & {
 const categoryConfig: CategoryConfig[] = [
   {
     id: 'alimentos',
-    title: 'Alimentos',
+    title: 'Alimentos y Despensa',
     accent: '#FF70C4',
-    discountLabel: 'HASTA CON EL 40% DTO.',
+    discountLabel: 'HASTA CON EL 50% DTO.',
     gradient: 'linear-gradient(180deg, #52004F 0%, #1a001b 60%, #090009 100%)',
-    image: '/assets/producto-big.png',
+    image: '/assets/categoria-big-alimentos.png',
     sourceKey: 'Alimentos',
     highlight: {
-      image: '/assets/producto-big.png',
-      product: 'Alimentos destacados',
-      description: 'Sabor intenso para compartir durante tus Black Days.',
+      image: '/assets/categoria-big-alimentos.png',
+      product: 'Sabor intenso para compartir',
+      description: 'Snacks, lácteos y despensa listos para tu carrito.',
       price: 0,
       regularPrice: 0,
       badge: 'NUEVO',
     },
   },
   {
+    id: 'bebidas',
+    title: 'Variedad de Bebidas',
+    accent: '#5DECFF',
+    discountLabel: 'HASTA CON EL 50% DTO.',
+    gradient: 'linear-gradient(180deg, #0b3351 0%, #081326 60%, #05000d 100%)',
+    image: '/assets/categoria-big-bebidas.png',
+    sourceKey: 'Bebidas',
+    highlight: {
+      image: '/assets/categoria-big-bebidas.png',
+      product: 'Brindis ultra negros',
+      description: 'Refrescos, cervezas y sidras con precios imbatibles.',
+      price: 0,
+      regularPrice: 0,
+    },
+    reverseLayout: true,
+  },
+  {
     id: 'higiene',
-    title: 'Higiene',
+    title: 'Productos de Higiene',
     accent: '#FFB23E',
-    discountLabel: 'HASTA CON EL 40% DTO.',
+    discountLabel: 'HASTA CON EL 50% DTO.',
     gradient: 'linear-gradient(180deg, #613000 0%, #2c1200 70%, #090100 100%)',
-    image: '/assets/producto-big.png',
+    image: '/assets/categoria-big-higiene.png',
     sourceKey: 'Higiene',
     highlight: {
-      image: '/assets/producto-big.png',
-      product: 'Set cuidado personal diario',
-      description: 'Refuerza tu rutina con productos premium a precio AKÍ.',
+      image: '/assets/categoria-big-higiene.png',
+      product: 'Rutina personal premium',
+      description: 'Fragancias, cuidado capilar y corporal para tu día.',
       price: 0,
       regularPrice: 0,
     },
   },
   {
     id: 'limpieza',
-    title: 'Limpieza',
+    title: 'Productos de Limpieza',
     accent: '#25FF87',
-    discountLabel: 'HASTA CON EL 40% DTO.',
+    discountLabel: 'HASTA CON EL 50% DTO.',
     gradient: 'linear-gradient(180deg, #0b4024 0%, #042015 70%, #010805 100%)',
-    image: '/assets/producto-big.png',
+    image: '/assets/categoria-big-limpieza.png',
     sourceKey: 'Limpieza',
     highlight: {
-      image: '/assets/producto-big.png',
+      image: '/assets/categoria-big-limpieza.png',
       product: 'Combo limpieza profunda',
-      description: 'Mantén cada rincón impecable con descuentos 4x3.',
+      description: 'Detergentes, suavizantes y multiusos para tu hogar.',
       price: 0,
       regularPrice: 0,
     },
     reverseLayout: true,
   },
   {
-    id: 'bebidas',
-    title: 'Bebidas',
-    accent: '#5DECFF',
-    discountLabel: 'HASTA CON EL 40% DTO.',
-    gradient: 'linear-gradient(180deg, #0b4024 0%, #042015 70%, #010805 100%)',
-    image: '/assets/producto-big.png',
-    sourceKey: 'Limpieza',
+    id: 'hogar',
+    title: 'Hogar y Bienestar',
+    accent: '#F22921',
+    discountLabel: 'HASTA CON EL 50% DTO.',
+    gradient: 'linear-gradient(180deg, #330009 0%, #120006 70%, #040003 100%)',
+    image: '/assets/categoria-big-hogar.png',
+    sourceKey: 'Hogar',
     highlight: {
-      image: '/assets/producto-big.png',
-      product: 'Combo limpieza profunda',
-      description: 'Mantén cada rincón impecable con descuentos 4x3.',
+      image: '/assets/categoria-big-hogar.png',
+      product: 'Todo para tu casa',
+      description: 'Fragancias, textiles y accesorios para cada ambiente.',
       price: 0,
       regularPrice: 0,
     },
     reverseLayout: true,
   },
-  /*{
-    id: 'hogar',
-    title: 'Hogar',
-    accent: '#F22921',
-    discountLabel: 'HASTA CON EL 40% DTO.',
-    gradient: 'linear-gradient(180deg, #330009 0%, #120006 70%, #040003 100%)',
-    image: '/assets/producto-big.png',
-    sourceKey: 'Hogar',
-    highlight: {
-      image: '/assets/producto-big.png',
-      product: 'Electrodomésticos destacados',
-      description: 'Renueva tu hogar con precios de Black Days.',
-      price: 0,
-      regularPrice: 0,
-    },
-    reverseLayout: true,
-  },*/
 ];
 
 export const categories: CategoryBlock[] = categoryConfig.map((category) => {
