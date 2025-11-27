@@ -22,6 +22,8 @@ export type CategoryGridProps = {
   products: GridProduct[];
 };
 
+const TIPTI_URL = 'https://www.tipti.market/tienda/gran-aki?page=1';
+
 const ProductCard = ({ product, accentColor, className = '' }: { product: GridProduct; accentColor: string; className?: string }) => (
   <div 
     className={`relative rounded-[24px] overflow-hidden bg-white shadow-[0_8px_24px_rgba(0,0,0,0.4)] flex flex-col ${className}`}
@@ -50,7 +52,12 @@ const ProductCard = ({ product, accentColor, className = '' }: { product: GridPr
         className="object-contain max-h-[240px] w-full drop-shadow-[0_8px_16px_rgba(0,0,0,0.15)]"
       />
       {/* Botón Tipti - posición absoluta abajo derecha */}
-      <div className="absolute bottom-6 right-6">
+      <a
+        href={TIPTI_URL}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="absolute bottom-6 right-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white/70 rounded-2xl"
+      >
         <Image
           src="/assets/btn-tipti.png"
           alt="Pídelo por Tipti"
@@ -58,7 +65,7 @@ const ProductCard = ({ product, accentColor, className = '' }: { product: GridPr
           height={79}
           className="object-contain drop-shadow-lg"
         />
-      </div>
+      </a>
     </div>
 
     {/* Info del producto - 2 columnas */}
@@ -146,7 +153,12 @@ const FeaturedBigProduct = ({ product, categoryId, accentColor }: { product: Gri
       </div>
 
       {/* Botón Tipti - esquina inferior derecha */}
-      <div className="absolute bottom-4 right-4 z-10">
+      <a
+        href={TIPTI_URL}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="absolute bottom-4 right-4 z-10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white/70 rounded-2xl"
+      >
         <Image
           src="/assets/btn-tipti.png"
           alt="Pídelo por Tipti"
@@ -154,7 +166,7 @@ const FeaturedBigProduct = ({ product, categoryId, accentColor }: { product: Gri
           height={79}
           className="object-contain drop-shadow-2xl"
         />
-      </div>
+      </a>
     </div>
   </div>
 );
