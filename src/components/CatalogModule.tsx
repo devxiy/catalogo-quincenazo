@@ -52,7 +52,7 @@ const CatalogModule = () => {
         background: 'linear-gradient(180deg, #10001A 0%, #05000D 50%, #05000D 100%)',
       }}
     >
-      <div className="max-w-[1400px] mx-auto px-4 lg:px-8 py-8 space-y-12">
+      <div className="max-w-[1400px] mx-auto px-4 lg:px-4 py-4 space-y-4">
         {/* Header con categorías */}
         <NeonHeader />
 
