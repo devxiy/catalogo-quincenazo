@@ -11,6 +11,10 @@ const NeonHeader = () => {
         background:
           '#000000',
         boxShadow: 'inset 0 0 30px rgba(0,0,0,0.55)',
+        position: 'sticky',
+  top: 0,
+  width: '100%',
+  zIndex: 100,
       }}
     >
       <div className="flex items-center gap-3">
