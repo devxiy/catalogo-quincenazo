@@ -36,6 +36,14 @@ const categoryConfig = {
   },
 };
 
+const categoryOrder: Array<keyof typeof categoryConfig> = [
+  'Alimentos',
+  'Bebidas',
+  'Higiene',
+  'Limpieza',
+  'Hogar',
+];
+
 const CatalogModule = () => {
   return (
     <div
@@ -66,9 +74,10 @@ const CatalogModule = () => {
         </section>
 
         {/* Grids de categorías con productos reales */}
-        {Object.entries(dinamicos).map(([categoryKey, products]) => {
-          const config = categoryConfig[categoryKey as keyof typeof categoryConfig];
-          if (!config) return null;
+        {categoryOrder.map((categoryKey) => {
+          const config = categoryConfig[categoryKey];
+          const products = dinamicos[categoryKey];
+          if (!config || !products || products.length === 0) return null;
 
           return (
             <CategoryGrid
