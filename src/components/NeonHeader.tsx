@@ -12,7 +12,7 @@ const NeonHeader = () => {
 
   return (
     <header
-      className="relative px-6 py-2 flex flex-wrap items-center justify-between gap-2"
+      className="relative px-6 py-0 flex flex-wrap items-center justify-between gap-2"
       style={{
         background: '#000000',
         boxShadow: 'inset 0 0 30px rgba(0,0,0,0.55)',
