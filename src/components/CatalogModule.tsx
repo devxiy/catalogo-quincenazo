@@ -11,28 +11,28 @@ import dinamicos from '../data/dinamicos-ultra.json';
 const categoryConfig = {
   Alimentos: {
     id: 'alimentos',
-    name: 'Alimentos y Bebidas',
-    accentColor: '#FF70C4', // Rosa
+    name: 'Alimentos',
+    accentColor: '#FF2600', // Rosa
   },
   Bebidas: {
     id: 'bebidas',
     name: 'Bebidas',
-    accentColor: '#5DECFF', // Cyan
+    accentColor: '#25FF87', // Cyan
   },
   Higiene: {
     id: 'higiene',
-    name: 'Productos de Higiene',
+    name: 'Higiene',
     accentColor: '#FFB23E', // Naranja
   },
   Limpieza: {
     id: 'limpieza',
-    name: 'Productos de Limpieza',
-    accentColor: '#25FF87', // Verde
+    name: 'Limpieza',
+    accentColor: '#41E9FF', // Verde
   },
   Hogar: {
     id: 'hogar',
-    name: 'Hogar y Electrodomésticos',
-    accentColor: '#F22921', // Rojo
+    name: 'Hogar',
+    accentColor: '#FFE95D', // Rojo
   },
 };
 

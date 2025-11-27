@@ -111,7 +111,7 @@ const categoryConfig: CategoryConfig[] = [
   {
     id: 'alimentos',
     title: 'Alimentos',
-    accent: '#FF70C4',
+    accent: '#FF2600',
     discountLabel: 'HASTA CON EL 50% DTO.',
     gradient: 'linear-gradient(180deg, #52004F 0%, #1a001b 60%, #090009 100%)',
     image: '/assets/categoria-big-alimentos.jpg',
@@ -128,7 +128,7 @@ const categoryConfig: CategoryConfig[] = [
   {
     id: 'bebidas',
     title: 'Bebidas',
-    accent: '#5DECFF',
+    accent: '#25FF87',
     discountLabel: 'HASTA CON EL 50% DTO.',
     gradient: 'linear-gradient(180deg, #0b3351 0%, #081326 60%, #05000d 100%)',
     image: '/assets/categoria-big-bebidas.jpg',
@@ -161,7 +161,7 @@ const categoryConfig: CategoryConfig[] = [
   {
     id: 'limpieza',
     title: 'Limpieza',
-    accent: '#25FF87',
+    accent: '#41E9FF',
     discountLabel: 'HASTA CON EL 50% DTO.',
     gradient: 'linear-gradient(180deg, #0b4024 0%, #042015 70%, #010805 100%)',
     image: '/assets/categoria-big-limpieza.jpg',
