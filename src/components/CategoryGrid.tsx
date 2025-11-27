@@ -101,7 +101,7 @@ const ProductCard = ({ product, accentColor, className = '' }: { product: GridPr
 
 const FeaturedBigProduct = ({ product, categoryId, accentColor }: { product: GridProduct; categoryId: string; accentColor: string }) => (
   <div 
-    className="relative rounded-[32px] overflow-hidden shadow-[0_15px_45px_rgba(0,0,0,0.5)] col-span-2 row-span-2"
+    className="relative rounded-[32px] overflow-hidden shadow-[0_15px_45px_rgba(0,0,0,0.5)] col-span-1 xs:col-span-2 xs:row-span-2"
     style={{
       border: `3px solid ${accentColor}`
     }}
@@ -180,9 +180,9 @@ const CategoryGrid = ({ categoryId, categoryName, accentColor, products }: Categ
   return (
     <section id={categoryId} className="space-y-6 scroll-mt-20">
       {/* Grid de 4 columnas base */}
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-5">
+      <div className="grid grid-cols-1 xs:grid-cols-2 lg:grid-cols-4 gap-5">
         {/* FILA 1-2: Banner titular (2 cols x 1 fila) */}
-        <div className="col-span-2 row-span-1 rounded-[32px] overflow-hidden shadow-[0_15px_45px_rgba(0,0,0,0.5)]">
+        <div className="col-span-1 xs:col-span-2 row-span-1 rounded-[32px] overflow-hidden shadow-[0_15px_45px_rgba(0,0,0,0.5)]">
           <Image
             src={`/assets/categoria-${categoryId}.png`}
             alt={categoryName}
