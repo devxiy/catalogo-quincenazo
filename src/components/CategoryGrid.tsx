@@ -26,7 +26,7 @@ const ProductCard = ({ product, accentColor, className = '' }: { product: GridPr
   <div 
     className={`relative rounded-[24px] overflow-hidden bg-white shadow-[0_8px_24px_rgba(0,0,0,0.4)] flex flex-col ${className}`}
     style={{ 
-      border: `2px solid ${accentColor}`
+      border: `3px solid ${accentColor}`
     }}
   >
     {/* Badge Días Negros - arriba derecha */}
@@ -96,7 +96,7 @@ const FeaturedBigProduct = ({ product, categoryId, accentColor }: { product: Gri
   <div 
     className="relative rounded-[32px] overflow-hidden shadow-[0_15px_45px_rgba(0,0,0,0.5)] col-span-2 row-span-2"
     style={{
-      border: `2px solid ${accentColor}`
+      border: `3px solid ${accentColor}`
     }}
   >
     {/* Badge Días Negros - arriba derecha */}
