@@ -1,30 +1,18 @@
 'use client';
 
 import Image from 'next/image';
-
-export type GridProduct = {
-  codigo: string;
-  nombre: string;
-  precio_oferta: string;
-  precio_normal: string;
-  descuento: string;
-  imagen: string;
-  vigencia: {
-    inicio: string;
-    fin: string;
-  };
-};
+import { CatalogProduct } from '../types/catalog';
 
 export type CategoryGridProps = {
   categoryId: string;
   categoryName: string;
   accentColor: string;
-  products: GridProduct[];
+  products: CatalogProduct[];
 };
 
 const TIPTI_URL = 'https://www.tipti.market/tienda/gran-aki?page=1';
 
-const ProductCard = ({ product, accentColor, className = '' }: { product: GridProduct; accentColor: string; className?: string }) => (
+const ProductCard = ({ product, accentColor, className = '' }: { product: CatalogProduct; accentColor: string; className?: string }) => (
   <div 
     className={`relative rounded-[24px] overflow-hidden bg-white shadow-[0_8px_24px_rgba(0,0,0,0.4)] flex flex-col ${className}`}
     style={{ 
@@ -99,7 +87,7 @@ const ProductCard = ({ product, accentColor, className = '' }: { product: GridPr
   </div>
 );
 
-const FeaturedBigProduct = ({ product, categoryId, accentColor }: { product: GridProduct; categoryId: string; accentColor: string }) => (
+const FeaturedBigProduct = ({ product, categoryId, accentColor }: { product: CatalogProduct; categoryId: string; accentColor: string }) => (
   <div 
     className="relative rounded-[32px] overflow-hidden shadow-[0_15px_45px_rgba(0,0,0,0.5)] col-span-1 xs:col-span-2 xs:row-span-2 min-h-[380px] xs:min-h-[520px]"
     style={{

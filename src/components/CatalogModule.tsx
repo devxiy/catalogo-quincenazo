@@ -6,43 +6,7 @@ import CategoryGrid from './CategoryGrid';
 import SiteFooter from './SiteFooter';
 import { heroPromos } from '../data/catalog';
 import dinamicos from '../data/dinamicos-ultra.json';
-
-// Mapeo de categorías del CSV a IDs y colores
-const categoryConfig = {
-  Alimentos: {
-    id: 'alimentos',
-    name: 'Alimentos',
-    accentColor: '#FF2600', // Rosa
-  },
-  Bebidas: {
-    id: 'bebidas',
-    name: 'Bebidas',
-    accentColor: '#25FF87', // Cyan
-  },
-  Higiene: {
-    id: 'higiene',
-    name: 'Higiene',
-    accentColor: '#FFB23E', // Naranja
-  },
-  Limpieza: {
-    id: 'limpieza',
-    name: 'Limpieza',
-    accentColor: '#41E9FF', // Verde
-  },
-  Hogar: {
-    id: 'hogar',
-    name: 'Hogar',
-    accentColor: '#FFE95D', // Rojo
-  },
-};
-
-const categoryOrder: Array<keyof typeof categoryConfig> = [
-  'Alimentos',
-  'Bebidas',
-  'Higiene',
-  'Limpieza',
-  'Hogar',
-];
+import { categoryLayoutConfig, categoryLayoutOrder } from '../data/categoryLayout';
 
 const CatalogModule = () => {
   return (
@@ -59,6 +23,18 @@ const CatalogModule = () => {
         {/* Hero banners */}
         <HeroSplit items={heroPromos} />
 
+        {/* PDF Download */}
+        <div className="flex justify-end">
+          <a
+            href="/api/catalog-pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 rounded-full border border-white/30 bg-white/5 px-6 py-3 text-sm font-semibold uppercase tracking-wide text-white transition hover:bg-white/15 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white/70"
+          >
+            Descargar PDF
+          </a>
+        </div>
+
         {/* Sección intro */}
         <section className="text-center space-y-4 py-8 hidden">
           <p className="text-sm uppercase tracking-[0.5em] text-white/60">
@@ -74,8 +50,8 @@ const CatalogModule = () => {
         </section>
 
         {/* Grids de categorías con productos reales */}
-        {categoryOrder.map((categoryKey) => {
-          const config = categoryConfig[categoryKey];
+        {categoryLayoutOrder.map((categoryKey) => {
+          const config = categoryLayoutConfig[categoryKey];
           const products = dinamicos[categoryKey];
           if (!config || !products || products.length === 0) return null;
 
