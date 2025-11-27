@@ -51,7 +51,7 @@ const SmallCard = ({ product }: { product: Product }) => (
 
 const FeaturedCard = ({ data, accent }: { data: Product; accent: string }) => (
   <div
-    className="rounded-[32px] bg-white border-[4px] p-6 grid lg:grid-cols-[1fr_auto] gap-6 items-center"
+    className="rounded-[32px] bg-white border-[4px] p-4 grid lg:grid-cols-[1fr_auto] gap-4 items-center"
     style={{ borderColor: accent }}
   >
     <div>
