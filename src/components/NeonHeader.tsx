@@ -4,7 +4,7 @@ import { useState } from 'react';
 import Image from 'next/image';
 import { categories as categoryData } from '../data/catalog';
 
-const PDF_URL = '/api/catalog-pdf';
+const PDF_URL = '/quincenazo-ultra-black-days.pdf';
 
 const NeonHeader = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
