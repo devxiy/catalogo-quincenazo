@@ -23,18 +23,6 @@ const CatalogModule = () => {
         {/* Hero banners */}
         <HeroSplit items={heroPromos} />
 
-        {/* PDF Download */}
-        <div className="flex justify-end">
-          <a
-            href="/api/catalog-pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 rounded-full border border-white/30 bg-white/5 px-6 py-3 text-sm font-semibold uppercase tracking-wide text-white transition hover:bg-white/15 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white/70"
-          >
-            Descargar PDF
-          </a>
-        </div>
-
         {/* Sección intro */}
         <section className="text-center space-y-4 py-8 hidden">
           <p className="text-sm uppercase tracking-[0.5em] text-white/60">
