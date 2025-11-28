@@ -47,6 +47,7 @@ const NeonHeader = () => {
           {categoryData.map((category) => (
             <a
               key={category.id}
+              id={`menu-${category.id}-desktop`}
               href={`#${category.id}`}
               className="relative px-8 py-2 rounded-full text-sm font-semibold text-white tracking-wide transition hover:scale-105 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
               style={{
@@ -63,6 +64,7 @@ const NeonHeader = () => {
           ))}
         </nav>
         <a
+          id="menu-descargar-pdf-desktop"
           href={PDF_URL}
           target="_blank"
           rel="noopener noreferrer"
@@ -78,6 +80,7 @@ const NeonHeader = () => {
             {categoryData.map((category) => (
               <a
                 key={`mobile-${category.id}`}
+                id={`menu-${category.id}-mobile`}
                 href={`#${category.id}`}
                 onClick={handleLinkClick}
                 className="relative px-4 py-2 rounded-xl text-sm font-semibold text-white tracking-wide focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
@@ -94,6 +97,7 @@ const NeonHeader = () => {
               </a>
             ))}
             <a
+              id="menu-descargar-pdf-mobile"
               href={PDF_URL}
               target="_blank"
               rel="noopener noreferrer"

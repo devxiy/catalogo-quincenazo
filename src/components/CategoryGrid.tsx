@@ -44,7 +44,7 @@ const ProductCard = ({ product, accentColor, className = '' }: { product: Catalo
         href={TIPTI_URL}
         target="_blank"
         rel="noopener noreferrer"
-        className="absolute bottom-6 right-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white/70 rounded-2xl"
+        className="tipti-cta absolute bottom-6 right-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white/70 rounded-2xl"
       >
         <Image
           src="/assets/btn-tipti.png"
@@ -145,7 +145,7 @@ const FeaturedBigProduct = ({ product, categoryId, accentColor }: { product: Cat
         href={TIPTI_URL}
         target="_blank"
         rel="noopener noreferrer"
-        className="absolute bottom-4 right-4 z-10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white/70 rounded-2xl"
+        className="tipti-cta absolute bottom-4 right-4 z-10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white/70 rounded-2xl"
       >
         <Image
           src="/assets/btn-tipti.png"
