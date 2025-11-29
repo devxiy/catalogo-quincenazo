@@ -2,8 +2,11 @@ import "../globals.css";
 import Script from "next/script";
 
 export const metadata = {
-  title: "Catálogo Quincenazo",
-  description: "Catálogo BlackDays",
+  title: "Catálogo Quincenazo Ultra Black Days",
+  description: "Aprovecha hasta el 75% de descuento en mercadería seleccionada.",
+  icons: {
+    icon: "/assets/favicon.png",
+  },
 };
 
 export default function RootLayout({ children }) {
