@@ -55,11 +55,7 @@ const NeonHeader = () => {
                 boxShadow: `0 0 18px ${category.accent}80`,
               }}
             >
-              <span
-                className="absolute inset-0 rounded-full opacity-60 blur-2xl"
-                style={{ background: category.accent }}
-              />
-              <span className="relative z-10">{category.title}</span>
+              {category.title}
             </a>
           ))}
         </nav>
@@ -88,12 +84,7 @@ const NeonHeader = () => {
                   border: `1px solid ${category.accent}`,
                   boxShadow: `0 0 14px ${category.accent}80`,
                 }}
-              >
-                <span
-                  className="absolute inset-0 rounded-2xl opacity-60 blur-2xl"
-                  style={{ background: category.accent }}
-                />
-                <span className="relative z-10">{category.title}</span>
+              >{category.title}
               </a>
             ))}
             <a
