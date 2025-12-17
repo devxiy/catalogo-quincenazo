@@ -1,7 +1,7 @@
-'use client';
+"use client";
 
-import Image from 'next/image';
-import { HeroPromo } from '../data/catalog';
+import Image from "next/image";
+import { HeroPromo } from "../data/catalog";
 
 const HeroSplit = ({ items }: { items: HeroPromo[] }) => {
   const hero = items[0];
@@ -20,6 +20,7 @@ const HeroSplit = ({ items }: { items: HeroPromo[] }) => {
             alt={hero.title}
             className="hidden md:block w-full"
             priority
+            fill
             sizes="(max-width: 1200px) 100vw, 1200px"
           />
 
@@ -29,6 +30,7 @@ const HeroSplit = ({ items }: { items: HeroPromo[] }) => {
             alt={`${hero.title} mobile`}
             className="md:hidden w-full"
             priority
+            fill
             sizes="100vw"
           />
         </div>
@@ -38,4 +40,3 @@ const HeroSplit = ({ items }: { items: HeroPromo[] }) => {
 };
 
 export default HeroSplit;
-
